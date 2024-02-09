@@ -1,0 +1,11 @@
+{
+  "dependencies": {
+    "sass": "^1.70.0",
+    "vanilla-framework": "^4.7.0"
+  },
+  "scripts": {
+    "build-css": "sass -w --load-path=node_modules assets:dist --style=compressed",
+    "watch-css":  "yarn build-css && sass --load-path=node_modules -w assets:dist --style=compressed"
+  }
+}
+

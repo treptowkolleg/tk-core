@@ -1,0 +1,40 @@
+// Import the theme
+
+
+
+
+
+
+
+
+
+
+
+@import 'vanilla-framework';
+$color-brand: #ffffff;
+$color-brand-dark: #ffffff;
+$color-pre-bg: #ffffff;
+
+$color-accent: #7cf0ee;
+@include vanilla;
+
+$theme-default-forms: 'dark';
+$theme-default-hr: 'light' !default;
+$theme-default-nav: 'light' !default;
+$theme-default-p-side-navigation: 'light' !default;
+$theme-default-p-search-box: 'light' !default;
+$theme-default-p-divider: 'light' !default;
+$theme-default-p-contextual-menu: 'light' !default;
+$theme-default-p-inline-list--middot: 'light' !default;
+$theme-default-p-button: 'light' !default;
+$theme-default-p-chip: 'light' !default;
+$theme-default-p-tabs: 'light' !default;
+
+.is-reduced{
+  font-size: .8rem;
+}
+
+.is-reduced .p-navigation__items a, .is-reduced .p-navigation__link {
+  padding-top: .25rem;
+  padding-bottom: .25rem;
+}

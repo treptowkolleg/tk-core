@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 28.2.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="svglocal3859807" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+	 y="0px" viewBox="0 0 1678.4 497.5" style="enable-background:new 0 0 1678.4 497.5;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:none;stroke:#333333;stroke-width:6.2951;stroke-miterlimit:12.5902;}
+	.st1{font-family:'Roboto-Regular';}
+	.st2{font-size:40.2885px;}
+	.st3{fill:#333333;}
+	.st4{fill:#FFFFFF;stroke:#333333;stroke-width:6.2951;stroke-miterlimit:12.5902;}
+	.st5{font-size:37.7705px;}
+</style>
+<g>
+	<g>
+		<line class="st0" x1="314.8" y1="388.6" x2="31.5" y2="388.6"/>
+		<text transform="matrix(1 0 0 1 31.4766 357.1605)" class="st1 st2">Start</text>
+		<polygon class="st3" points="220.3,388.6 173.1,365 173.1,412.2 		"/>
+	</g>
+	<g>
+		<path class="st0" d="M314.8,388.6C564.5,44.9,65,44.9,314.8,388.6"/>
+		<polygon class="st3" points="266.6,308.9 227.2,270.9 271.4,254.3 		"/>
+	</g>
+	<g>
+		<path class="st0" d="M314.8,388.6c149.5,0,448.5,0,598,0"/>
+		<polygon class="st3" points="819,388.6 770.9,412.2 770.9,365 		"/>
+	</g>
+</g>
+<g>
+	<g>
+		<path class="st0" d="M912.8,388.6C1162.5,44.9,663,44.9,912.8,388.6"/>
+		<polygon class="st3" points="864.6,308.9 825.2,270.9 869.4,254.3 		"/>
+	</g>
+	<g>
+		<path class="st0" d="M912.8,388.6c165.2,0,495.7,0,661,0"/>
+		<polygon class="st3" points="1480.1,388.6 1432.3,412.2 1432.3,365 		"/>
+	</g>
+</g>
+<g transform="translate(170,270)">
+	<circle class="st4" cx="144.8" cy="118.6" r="94.4"/>
+	<text transform="matrix(1 0 0 1 123.416 118.6351)" class="st3 st1 st5">q0</text>
+</g>
+<g transform="translate(360,270)">
+	<circle class="st4" cx="552.8" cy="118.6" r="94.4"/>
+	<text transform="matrix(1 0 0 1 531.4492 118.6351)" class="st3 st1 st5">q1</text>
+</g>
+<g transform="translate(570,270)">
+	<circle class="st4" cx="1003.8" cy="118.6" r="94.4"/>
+	<circle class="st0" cx="1003.8" cy="118.6" r="75.5"/>
+	<text transform="matrix(1 0 0 1 982.4326 118.6351)" class="st3 st1 st5">q2</text>
+</g>
+<g>
+	<g transform="translate(170,174)">
+		<text transform="matrix(1 0 0 1 81.6992 -87.527)" class="st3 st1 st5">($,a):a$</text>
+		<text transform="matrix(1 0 0 1 82.3633 -132.8531)" class="st3 st1 st5">(a,a):aa</text>
+	</g>
+	<g transform="translate(265,254.29)">
+		<text transform="matrix(1 0 0 1 296.3291 84.8979)" class="st3 st1 st5">(a,b):a</text>
+	</g>
+</g>
+<g>
+	<g transform="translate(360,174)">
+		<text transform="matrix(1 0 0 1 501.1484 -87.527)" class="st3 st1 st5">(a,c):ε</text>
+	</g>
+	<g transform="translate(465,254.29)">
+		<text transform="matrix(1 0 0 1 725.9209 84.8979)" class="st3 st1 st5">($,a):ε</text>
+	</g>
+</g>
+</svg>
