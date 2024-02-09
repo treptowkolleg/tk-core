@@ -13,12 +13,12 @@ $api = new Bridge('a38');
 $mdParser = new ParsedownExtra();
 
 if (!isset($_GET['page'])) {
-    header("Location: http://localhost:3000/?page=docs-README.md", true, 302);
+    header("Location: https://it.treptowkolleg.de/?page=docs-README.md", true, 302);
     exit;
 }
 
 if(isset($_GET['logout'])) {
-    $session->destroy("http://localhost:3000/");
+    $session->destroy("https://it.treptowkolleg.de/");
 }
 
 // Login verarbeiten
@@ -41,7 +41,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             for($p = 1; $p <= 4; $p++) {
                 if($_POST["$i-$p"] < 0 || $_POST["$i-$p"] > 15) {
                     $_SESSION['message'] = printf("Du hast im %s. Kurs im Semester Q%s mehr als 15 Punkte eingetragen!",$i,$p);
-                    header("Location: http://localhost:3000/?page=t-abirechner", true, 302);
+                    header("Location: https://it.treptowkolleg.de/?page=t-abirechner", true, 302);
                     exit;
                 }
                 if ($i <= 3) {
