@@ -1,5 +1,9 @@
 <?php
 
+ini_set('display_errors', 1);
+ini_set('display_startup_errors', 1);
+error_reporting(E_ALL);
+
 use TreptowKolleg\Api\Bridge;
 use TreptowKolleg\Api\Menu\MenuItem;
 use TreptowKolleg\Api\Menu\SidebarMenu;
@@ -92,7 +96,6 @@ $file = './';
 if (isset($_GET['page']) and str_starts_with($_GET['page'],'docs') ) {
     $path = str_replace('-','/',$_GET['page']);
     if(file_exists($file = './'. $path)) {
-        var_dump($file);
         $md = file_get_contents($file );
     }
 }
