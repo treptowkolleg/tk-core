@@ -130,9 +130,6 @@ use TreptowKolleg\Api\Session;
                     <nav class="col-3" aria-label="Footer">
                         <ul class="p-list u-no-margin--bottom">
                             <li class="p-list__item">
-                                <a class="is-dark" href="https://www.ubuntu.com/legal">Impressum</a>
-                            </li>
-                            <li class="p-list__item">
                                 <a class="is-dark" href="https://it.treptowkolleg.de/admin" target="_blank">PhpMyAdmin</a>
                             </li>
                             <li class="p-list__item">
