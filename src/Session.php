@@ -31,7 +31,7 @@ class Session
      * @param string $key Schlüssel des Elements
      * @param mixed $value Wert des Elements
      */
-    public function set(string $key, mixed $value)
+    public function set(string $key, $value)
     {
         $_SESSION[$key] = $value;
     }
@@ -41,7 +41,7 @@ class Session
      * @param mixed $value Wert des Elements
      * @param string|null $key optionaler Schlüssel des Elements
      */
-    public function add(mixed $value, string $key = null)
+    public function add($value, string $key = null)
     {
         if($key) {
             $_SESSION[$key][] = $value;
@@ -55,7 +55,7 @@ class Session
      * @param string $key Schlüssel des Elements
      * @return mixed Element
      */
-    public function get(string $key): mixed
+    public function get(string $key)
     {
         return array_key_exists($key, $_SESSION) ? $_SESSION[$key] : false;
     }
@@ -65,7 +65,7 @@ class Session
      * @param string $key Schlüssel des Elements
      * @return mixed Element
      */
-    public function shift(string $key): mixed
+    public function shift(string $key)
     {
         if(array_key_exists($key, $_SESSION) and is_array($_SESSION[$key])) {
             return array_shift($_SESSION[$key]);
@@ -78,7 +78,7 @@ class Session
      * @param string $key Schlüssel des Elements
      * @return mixed Element
      */
-    public function pop(string $key): mixed
+    public function pop(string $key)
     {
         if(array_key_exists($key, $_SESSION) and is_array($_SESSION[$key])) {
             return array_pop($_SESSION[$key]);
