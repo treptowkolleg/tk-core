@@ -8,7 +8,7 @@ class Bridge
     private string $apikey;
     private string $database;
 
-    public function __construct(string $apikey, string $database = 'tk06')
+    public function __construct(string $apikey, string $database = 'world')
     {
         $this->apikey = $apikey;
         $this->database = $database;
