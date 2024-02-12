@@ -1,3 +1,25 @@
+<?php
+
+$tableCountry = [
+    'Code',
+    'Name',
+    'Continent',
+    'Region',
+    'SurfaceArea',
+    'IndepYear',
+    'Population',
+    'LifeExpectancy',
+    'GNP',
+    'GNPOld',
+    'LocalName',
+    'GovernmentForm',
+    'HeadOfState',
+    'Capital',
+    'Code2'
+];
+
+?>
+
 <div class="l-docs__title" id="main-content">
     <div class="p-section--shallow">
         <div class="row">
@@ -28,6 +50,7 @@
 
 <main>
 
+
 <section class="p-section">
     <div class="row">
         <div class="col">
@@ -35,6 +58,18 @@
                 In diesem Beispiel können SQL-Abfragen über eine API an die angeschlossene Datenbank gestellt werden.
                 Als Rückmeldung erhält man ein Array, das in Tabellenform dargestellt wird.
             </p>
+        </div>
+        <div class="col">
+            <table>
+                <caption>SQL-Tabelle "Country"</caption>
+                <thead>
+                    <tr>
+                        <?php foreach ($tableCountry as $column): ?>
+                            <th><?=$column?></th>
+                        <?php endforeach;?>
+                    </tr>
+                </thead>
+            </table>
         </div>
     </div>
 </section>
