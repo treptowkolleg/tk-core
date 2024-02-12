@@ -24,7 +24,7 @@ class Bridge
 
         $escapedData = self::escapeChars($data);
 
-        $ch = curl_init("https://localhost:8000/test-request.php");
+        $ch = curl_init("https://www.wagnerpictures.com/test-request.php");
         curl_setopt_array($ch, array(
             CURLOPT_POST => TRUE,
             CURLOPT_RETURNTRANSFER => TRUE,
