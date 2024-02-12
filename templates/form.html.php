@@ -77,7 +77,7 @@ use TreptowKolleg\Api\Session;
                 </form>
             <?php else: ?>
                 <h2>Geschützter Login-Bereich</h2>
-                <p>Sie wurden eingeloggt. <a href="?logout">Ausloggen</a></p>
+                <p>Sie wurden eingeloggt. <a href="/?page=docs-form&logout=true">Ausloggen</a></p>
             <?php endif; ?>
         </div>
     </div>
