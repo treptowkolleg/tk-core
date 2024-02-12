@@ -64,7 +64,7 @@ use TreptowKolleg\Api\Session;
                                     </li>
                                     <?php if ($session->get('login')): ?>
                                         <li class="p-navigation__item">
-                                            <a class="p-navigation__link" href="/?logout"><?=ucfirst($session->get('user'))?> abmelden</a>
+                                            <a class="p-navigation__link" href="/?logout=true"><?=ucfirst($session->get('user'))?> abmelden</a>
                                         </li>
                                     <?php endif;?>
                                 </ul>
