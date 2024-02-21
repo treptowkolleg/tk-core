@@ -87,10 +87,7 @@ $sidebar
 ;
 
 
-$formalSidebar = new SidebarMenu('Formale Sprachen');
-$formalSidebar
-    ->addMenuItem(new MenuItem('Mealy-Automaten','mealy.html','docs-mealy'))
-;
+
 $md = null;
 $file = './';
 if (isset($_GET['page']) and str_starts_with($_GET['page'],'docs') ) {
@@ -123,7 +120,8 @@ function getName(string $file): ?string
         'class_relations' => 'Klassenbeziehungen',
         'typo' => 'Typographie',
         'control' => 'Kontrollstrukturen',
-        'README' => 'Einleitung'
+        'README' => 'Einleitung',
+        'dea' => 'DEA',
     ];
     $fileName = substr($file,0,-3);
 
@@ -158,6 +156,13 @@ asort($entries);
 foreach ($entries as $dir => $value) {
     if ($dir != "img") {
         if(is_array($value)) {
+
+            $dirArray = explode('-',$dir);
+            foreach ($dirArray as &$word) {
+                $word = ucfirst($word);
+            }
+            $dir = implode(' ', $dirArray);
+
             if(strlen($dir) <= 5) {
                 $dirTitle = strtoupper($dir);
             } else {
@@ -174,7 +179,7 @@ foreach ($entries as $dir => $value) {
     }
 }
 
-$sidebars = array_merge($sidebars,[$sidebar,$formalSidebar,$mainMenu]);
+$sidebars = array_merge($sidebars,[$sidebar,$mainMenu]);
 
 
 function checkPages(array $items, &$filePathOutput)
