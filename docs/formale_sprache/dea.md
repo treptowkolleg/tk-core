@@ -41,8 +41,11 @@ $z_1$   |   $1$   |      $z_0$      |   $1$
 
 
 
-\\[\begin{align}
-\vec c =&\, \vec a \times \vec b \\
-=& \left(\begin{array}{}a_x\\a_y\\a_z\end{array}\right) \times \left(\begin{array}{}b_x\\b_y\\b_z\end{array}\right) \\
-\left(\begin{array}{}c_x\\c_y\\c_z\end{array}\right) =& \left(\begin{array}{}a_x\\a_y\\a_z\end{array}\right) \times \left(\begin{array}{}b_x\\b_y\\b_z\end{array}\right) \\
-\end{align}\\]
+\\[
+A(m, n) =
+\begin{cases}
+n + 1 & \text{wenn } m = 0 \\
+A(m-1, 1) & \text{wenn } m > 0 \text{ und } n = 0 \\
+A(m-1, A(m, n-1)) & \text{wenn } m > 0 \text{ und } n > 0 \\
+\end{cases}
+\\]
