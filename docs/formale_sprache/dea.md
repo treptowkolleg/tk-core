@@ -10,17 +10,17 @@ Ein Mealy Automat ist ein endlicher Automat, der sich durch eine Besonderheit au
 
 $A=(Q,\Sigma,\Delta,\phi,z_0)$
 
-- $Q$ Zustandsmenge
+- $Z$ Zustandsmenge
 - $\Sigma$ Eingabealphabet
 - $\Delta$ Ausgabealphabet
-- $\phi: Q \times \Sigma \rightarrow Q \times \Delta$ Überführungs- und Ausgabefunktion
+- $\phi: Z \times \Sigma \rightarrow Q \times \Delta$ Überführungs- und Ausgabefunktion
 - $z_0$ Startzustand
 
 Zustand | Eingabe | Nächster Zustand | Ausgabe
 --------|---------|------------------|--------
-\(q_0\)  |   '0'   |      \(q_0\)      |   '0'
-\(q_0\)  |   '1'   |      \(q_1\)      |   '1'
-\(q_1\)  |   '0'   |      \(q_1\)      |   '0'
-\(q_1\)  |   '1'   |      \(q_0\)      |   '1'
+$z_0$  |   $0$   |      $z_0$      |   $0$
+$z_0$   |   $1$   |      $z_1$       |   $1$
+$z_1$   |   $0$   |      $z_1$       |   $0$
+$z_1$   |   $1$   |      $z_0$      |   $1$
 
 
