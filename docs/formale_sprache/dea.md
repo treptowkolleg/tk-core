@@ -10,7 +10,7 @@ Ein Mealy Automat ist ein endlicher Automat, der sich durch eine Besonderheit au
 
 $A=(X,Y,Z,\delta,z_0)$
 
-- $X Eingabealphabet
+- $X$ Eingabealphabet
 - $Y$ Ausgabealphabet
 - $Z$ Zustandsmenge
 - $\phi: Z \times X \rightarrow Z \times Y$ Überführungs- und Ausgabefunktion
