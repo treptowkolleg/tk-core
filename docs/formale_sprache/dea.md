@@ -44,8 +44,10 @@ $z_1$   |   $1$   |      $z_0$      |   $1$
 \\[
 A(m, n) =
 \begin{cases}
+\begin{pmatrix}
 n + 1 & \text{wenn } m = 0 \\
 A(m-1, 1) & \text{wenn } m > 0 \text{ und } n = 0 \\
 A(m-1, A(m, n-1)) & \text{wenn } m > 0 \text{ und } n > 0 \\
+\end{pmatrix}
 \end{cases}
 \\]
