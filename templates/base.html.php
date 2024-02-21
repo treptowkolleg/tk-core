@@ -171,10 +171,8 @@ use TreptowKolleg\Api\Session;
                 baseURL:                   // URL for use with links to tags (when there is a <base> tag in effect)
                     (document.getElementsByTagName('base').length === 0) ?
                         '' : String(document.location).replace(/#.*$/, '')),
-        formatError:               // function called when TeX syntax errors occur
-            (jax, err) => jax.formatError(err)
         }
-        };
+        }
     </script>
 
     </body>
