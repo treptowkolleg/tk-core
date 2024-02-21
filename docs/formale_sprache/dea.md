@@ -16,6 +16,22 @@ $A=(Q,\Sigma,\Delta,\phi,z_0)$
 - $\phi: Z \times \Sigma \rightarrow Q \times \Delta$ Überführungs- und Ausgabefunktion
 - $z_0$ Startzustand
 
+#### Überführungsfunktion
+
+Zustand / Eingabe | $0$ | $1$
+--------|---------|------------------
+$z_0$  |   $z_0$   |      $z_1$
+$z_1$   |   $z_1$  |      $z_0$
+
+#### Ausgabefunktion
+
+Eingabe / Zustand | $z_0$ | $z_1$
+--------|---------|------------------
+$0$ |   $0$   |      $0$
+$1$   |   $1$  |      $1$
+
+#### Impulsdiagramm
+
 Zustand | Eingabe | Nächster Zustand | Ausgabe
 --------|---------|------------------|--------
 $z_0$  |   $0$   |      $z_0$      |   $0$
