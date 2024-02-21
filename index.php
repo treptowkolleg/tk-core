@@ -161,12 +161,12 @@ foreach ($entries as $dir => $value) {
             foreach ($dirArray as &$word) {
                 $word = ucfirst($word);
             }
-            $dir = implode(' ', $dirArray);
+            $dir2 = implode(' ', $dirArray);
 
             if(strlen($dir) <= 5) {
-                $dirTitle = strtoupper($dir);
+                $dirTitle = strtoupper($dir2);
             } else {
-                $dirTitle = ucfirst($dir);
+                $dirTitle = ucfirst($dir2);
             }
             $newSidebarMenu = new SidebarMenu($dirTitle);
             foreach ($value as $key => $subValue) {
