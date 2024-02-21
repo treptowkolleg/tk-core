@@ -153,6 +153,7 @@ use TreptowKolleg\Api\Session;
                     ['$', '$']
                 ],
                 displayMath: [
+                    ['$','$'],
                     ['\\[', '\\]']
                 ],
                 processEscapes: true,      // use \$ to produce a literal dollar sign
