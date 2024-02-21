@@ -16,4 +16,11 @@ $A=(Q,\Sigma,\Delta,\phi,z_0)$
 - $\phi: Q \times \Sigma \rightarrow Q \times \Delta$ Überführungs- und Ausgabefunktion
 - $z_0$ Startzustand
 
+Zustand | Eingabe | Nächster Zustand | Ausgabe
+--------|---------|------------------|--------
+\(q_0\)  |   '0'   |      \(q_0\)      |   '0'
+\(q_0\)  |   '1'   |      \(q_1\)      |   '1'
+\(q_1\)  |   '0'   |      \(q_1\)      |   '0'
+\(q_1\)  |   '1'   |      \(q_0\)      |   '1'
+
 
