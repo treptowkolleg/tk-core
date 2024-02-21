@@ -25,10 +25,10 @@ $z_1$   |   $z_1$  |      $z_0$
 
 #### Ausgabefunktion
 
-Eingabe / Zustand | $z_0$ | $z_1$
+Zustand / Eingabe | $0$ | $1$
 --------|---------|------------------
-$0$ |   $0$   |      $0$
-$1$   |   $1$  |      $1$
+$z_0$ |   $0$   |      $1$
+$z_1$   |   $0$  |      $1$
 
 #### Impulsdiagramm
 
