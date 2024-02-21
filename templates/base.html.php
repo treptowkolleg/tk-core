@@ -152,10 +152,6 @@ use TreptowKolleg\Api\Session;
                 inlineMath: [              // start/end delimiter pairs for in-line math
                     ['$', '$']
                 ],
-                displayMath: [
-                    ['$','$'],
-                    ['\\[', '\\]']
-                ],
                 processEscapes: true,      // use \$ to produce a literal dollar sign
                 processEnvironments: true, // process \begin{xxx}...\end{xxx} outside math mode
                 processRefs: true,         // process \ref{...} outside of math mode
