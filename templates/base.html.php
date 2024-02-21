@@ -187,9 +187,6 @@ use TreptowKolleg\Api\Session;
                 maxBuffer: 5 * 1024,       // maximum size for the internal TeX string (5K)
             },
             svg: {
-                fontCache: 'global'
-            },
-            chtml: {
                 scale: 1,                      // global scaling factor for all expressions
                 minScale: .5,                  // smallest scaling factor to use
                 mtextInheritFont: false,       // true to make mtext elements use surrounding font
@@ -199,10 +196,11 @@ use TreptowKolleg\Api\Session;
                 exFactor: .5,                  // default size of ex in em units
                 displayAlign: 'center',        // default for indentalign when set to 'auto'
                 displayIndent: '0',            // default for indentshift when set to 'auto'
-                matchFontHeight: true,         // true to match ex-height of surrounding font
-                fontURL: '[mathjax]/components/output/chtml/fonts/woff-v2',   // The URL where the fonts are found
-                adaptiveCSS: true              // true means only produce CSS that is used in the processed equations
-            }
+                fontCache: 'local',            // or 'global' or 'none'
+                localID: null,                 // ID to use for local font cache (for single equation processing)
+                internalSpeechTitles: true,    // insert <title> tags with speech content
+                titleID: 0                     // initial id number to use for aria-labeledby titles
+            },
         };
     </script>
     <script type="text/javascript" id="MathJax-script" async
