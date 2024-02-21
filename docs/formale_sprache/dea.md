@@ -8,12 +8,12 @@ Ein Mealy Automat ist ein endlicher Automat, der sich durch eine Besonderheit au
 
 #### Formale Definition
 
-$A=(Z,\Sigma,\Delta,\phi,z_0)$
+$A=(X,Y,Z,\delta,z_0)$
 
+- $X Eingabealphabet
+- $Y$ Ausgabealphabet
 - $Z$ Zustandsmenge
-- $\Sigma$ Eingabealphabet
-- $\Delta$ Ausgabealphabet
-- $\phi: Z \times \Sigma \rightarrow Z \times \Delta$ Überführungs- und Ausgabefunktion
+- $\phi: Z \times X \rightarrow Z \times Y$ Überführungs- und Ausgabefunktion
 - $z_0$ Startzustand
 
 #### Überführungsfunktion
