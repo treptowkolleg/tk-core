@@ -41,8 +41,8 @@ $z_1$   |   $1$   |      $z_0$      |   $1$
 
 
 
-$$\begin{align}
+\\[\begin{align}
 \vec c =&\, \vec a \times \vec b \\
 =& \left(\begin{array}{}a_x\\a_y\\a_z\end{array}\right) \times \left(\begin{array}{}b_x\\b_y\\b_z\end{array}\right) \\
 \left(\begin{array}{}c_x\\c_y\\c_z\end{array}\right) =& \left(\begin{array}{}a_x\\a_y\\a_z\end{array}\right) \times \left(\begin{array}{}b_x\\b_y\\b_z\end{array}\right) \\
-\end{align}$$
+\end{align}\\]
