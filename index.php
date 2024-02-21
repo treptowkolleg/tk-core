@@ -157,7 +157,7 @@ foreach ($entries as $dir => $value) {
     if ($dir != "img") {
         if(is_array($value)) {
 
-            $dirArray = explode('-',$dir);
+            $dirArray = explode('_',$dir);
             foreach ($dirArray as &$word) {
                 $word = ucfirst($word);
             }
