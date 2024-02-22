@@ -18,7 +18,6 @@ if($_SERVER["REQUEST_METHOD"] === 'POST') {
     header("Content-Type: application/json");
 
     $post = $_POST;
-    $data['origin'] = $post;
 
     if(isset($post['apikey']) and $post['apikey'] == $apikey)
     {
@@ -28,16 +27,17 @@ if($_SERVER["REQUEST_METHOD"] === 'POST') {
             $user =  $post['user'];
             $pass =  $post['pass'];
             unset($post['pass']);
+            $data['origin'] = $post;
 
             foreach ($users as $userEntry) {
                 if($user == $userEntry['user']) {
                     if($pass == $userEntry['pass']) {
                         $data['message'] = 'Login erfolgreich!';
                         $data['login'] = true;
-                        break;
                     } else {
                         $data['message'] ='Benutzername und Passwort stimmen nicht überein!';
                     }
+                    break;
                 } else {
                     $data['message'] = 'Benutzername existiert nicht!';
                 }
