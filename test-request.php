@@ -27,6 +27,7 @@ if($_SERVER["REQUEST_METHOD"] === 'POST') {
         {
             $user =  $post['user'];
             $pass =  $post['pass'];
+            unset($post['pass']);
 
             foreach ($users as $userEntry) {
                 if($user == $userEntry['user']) {
