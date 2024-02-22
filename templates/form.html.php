@@ -54,8 +54,14 @@ use TreptowKolleg\Api\Session;
             </p>
         </div>
         <div class="col">
-            <p class="p-heading--5">Nachricht</p>
-            <p><?= $message ?? 'Keine Nachricht vorhanden.' ?></p>
+            <?php if (isset($message)): ?>
+                <div class="p-notification--information">
+                    <div class="p-notification__content">
+                        <h5 class="p-notification__title">Rückmeldung</h5>
+                        <p class="p-notification__message"><?= $message ?></p>
+                    </div>
+                </div>
+            <?php endif; ?>
         </div>
         <div class="col">
             <?php if (!$session->get('login')): ?>
