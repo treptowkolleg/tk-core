@@ -54,6 +54,10 @@ use TreptowKolleg\Api\Session;
             </p>
         </div>
         <div class="col">
+            <p class="p-heading--5">Nachricht</p>
+            <p><?= $message ?? 'Keine Nachricht vorhanden.' ?></p>
+        </div>
+        <div class="col">
             <?php if (!$session->get('login')): ?>
                 <h4>Anmelden zum fortsetzen</h4>
                 <form method="post" class="p-form p-form--stacked">
