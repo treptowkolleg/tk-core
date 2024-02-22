@@ -6,7 +6,12 @@ header("Access-Control-Allow-Methods: POST");
 header("Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With");
 
 $apikey = 'a38';
-
+$users = [
+    ['user' => 'sami','pass' => '1234'],
+    ['user' => 'vico','pass' => '1234'],
+    ['user' => 'ben','pass' => '1234'],
+    ['user' => 'luca','pass' => '1234'],
+];
 
 if($_SERVER["REQUEST_METHOD"] === 'POST') {
 
@@ -22,15 +27,19 @@ if($_SERVER["REQUEST_METHOD"] === 'POST') {
         {
             $user =  $post['user'];
             $pass =  $post['pass'];
-            $data['message'] = 'Login erfolgreich!';
-            $data['login'] = true;
-            if('1234' != $pass)  {
-                $data['message'] ='Benutzername und Passwort stimmen nicht überein!';
-                $data['login'] = false;
-            }
-            if('sami' !== strtolower($user)) {
-                $data['message'] = 'Benutzername existiert nicht!';
-                $data['login'] = false;
+
+            foreach ($users as $userEntry) {
+                if($user = $userEntry['user']) {
+                    if($pass = $userEntry['pass']) {
+                        $data['message'] = 'Login erfolgreich!';
+                        $data['login'] = true;
+                        break;
+                    } else {
+                        $data['message'] ='Benutzername und Passwort stimmen nicht überein!';
+                    }
+                } else {
+                    $data['message'] = 'Benutzername existiert nicht!';
+                }
             }
         }
 
