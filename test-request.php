@@ -29,8 +29,8 @@ if($_SERVER["REQUEST_METHOD"] === 'POST') {
             $pass =  $post['pass'];
 
             foreach ($users as $userEntry) {
-                if($user = $userEntry['user']) {
-                    if($pass = $userEntry['pass']) {
+                if($user == $userEntry['user']) {
+                    if($pass == $userEntry['pass']) {
                         $data['message'] = 'Login erfolgreich!';
                         $data['login'] = true;
                         break;
