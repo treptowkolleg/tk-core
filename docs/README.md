@@ -16,7 +16,10 @@ Beispielcode für Loginversuche
 $api = new \TreptowKolleg\Api\Bridge('apiKey');
 
 // Login anfragen
-$response = $api->requestLogin('username','password');
+if( $_SERVER['REQUEST_METHOD'] == 'POST' ) {
+    $response = $api->requestLogin('username','password');
+}
+
 ````
 
 Der Server liefert ein Array mit folgendem Aufbau:
@@ -28,7 +31,7 @@ origin | array | ursprüngliche POST-Daten
 message | string | Servernachricht
 
 ````php
-if($response['login']) {
+if( isset($response) and $response['login'] ) {
     $session->set('login', true);
     
     // Daten aus unserem ursprüngliche POST können ebenfalls gespeichert werden. Z. B.:
