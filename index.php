@@ -79,7 +79,7 @@ $mainMenu = new TopMenu('main');
 $mainMenu
     ->addMenuItem(new MenuItem('Abi-Rechner','abicalc.html','t-abirechner'))
     ->addMenuItem(new MenuItem('API','docs.html','docs-README.md'))
-    ->addMenuItem(new MenuItem('Vertretungsplan','vp.html','t-vp.md'))
+    ->addMenuItem(new MenuItem('Vertretungsplan','vp.html','t-vp'))
 ;
 $sidebar = new SidebarMenu('Interaktiv');
 $sidebar
