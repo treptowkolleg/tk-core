@@ -14,7 +14,7 @@
 <section class="p-section">
     <div class="row">
         <div class="col">
-           <iframe src="https://vertretungsplan.treptow-kolleg.de/schueler/showplan.php?day=today"></iframe>
+           Übungsprojekt zur Modernisierung des Vertretungsplans.
         </div>
     </div>
 </section>
