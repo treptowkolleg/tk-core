@@ -62,6 +62,9 @@ use TreptowKolleg\Api\Session;
                                     <li class="p-navigation__item <?= $_GET['page'] == 't-abirechner' ? 'is-selected' : ''?>">
                                         <a class="p-navigation__link" href="/?page=t-abirechner">Abi-Rechner</a>
                                     </li>
+                                    <li class="p-navigation__item <?= $_GET['page'] == 't-vp' ? 'is-selected' : ''?>">
+                                        <a class="p-navigation__link" href="/?page=t-vp">Vertretungsplan</a>
+                                    </li>
                                     <?php if ($session->get('login')): ?>
                                         <li class="p-navigation__item">
                                             <a class="p-navigation__link" href="/?page=docs-README.md&logout=true"><?=ucfirst($session->get('user'))?> abmelden</a>
