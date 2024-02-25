@@ -38,7 +38,7 @@
             </ol>
         </div>
         <div class="col">
-            <canvas id="myCanvas" width="100%" height="400" onmousedown="start_stop();">
+            <canvas class="u-float-left" id="myCanvas" width="600" height="400" onmousedown="start_stop();">
                 Der aktuelle Browser unterst&uuml;tzt kein HTML5 / canvas. Es wird empfohlen, eine neuere Version von Mozilla Firefox oder Google Chrome als Browser zu verwenden.
             </canvas>
 
