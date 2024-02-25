@@ -27,7 +27,6 @@ use TreptowKolleg\Api\Session;
 <!--        <link rel="stylesheet" href="https://unpkg.com/chota@latest">-->
         <link rel="stylesheet" href="/dist/style.css" />
 
-        <link href="/assets/canvas.css" rel="stylesheet" type="text/css" />
         <script src="/assets/ca.js" type="text/javascript"></script>
         <script src="/assets/canvas.js" type="text/javascript"></script>
 
