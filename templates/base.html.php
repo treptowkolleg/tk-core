@@ -27,7 +27,7 @@ use TreptowKolleg\Api\Session;
 <!--        <link rel="stylesheet" href="https://unpkg.com/chota@latest">-->
         <link rel="stylesheet" href="/dist/style.css" />
 
-        <script src="/assets/ca.js" type="text/javascript"></script>
+        <script src="/assets/cab.js" type="text/javascript"></script>
         <script src="/assets/canvas.js" type="text/javascript"></script>
 
         <link rel="stylesheet" href="https://unpkg.com/@highlightjs/cdn-assets@11.9.0/styles/a11y-light.min.css">

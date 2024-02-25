@@ -30,12 +30,7 @@
     <div class="row">
         <div class="col">
             <h2>Zellulärer Automat</h2>
-            <p>Simulation der Evolution mit drei Spezies und einfacher Dominanz.</p>
-            <ol>
-               <li>Rot dominiert Gelb</li>
-               <li>Gelb dominiert Blau</li>
-               <li>Blau dominiert Rot</li>
-            </ol>
+            <p>Simulation der Evolution bei fünf Spezies und zweifacher Dominanz, wobei jede Spezies zwei weitere Spezies jagt und von den übrigen zwei Spezies gejagt wird.</p>
         </div>
         <div class="col">
             <canvas class="u-float-left" id="myCanvas" width="600" height="400" onmousedown="start_stop();">
