@@ -2,7 +2,7 @@
     <div class="p-section--shallow">
         <div class="row">
             <div class="col-12">
-                <h1>Vertretungsplan</h1>
+                <h1>Simulationen</h1>
             </div>
         </div>
     </div>
@@ -15,6 +15,7 @@
                 <h2 class="p-table-of-contents__header">Auf dieser Seite</h2>
                 <nav class="p-table-of-contents__nav" aria-label="Table of contents">
                     <ul class="p-table-of-contents__list">
+                        <li class="p-table-of-contents__item"><a class="p-table-of-contents__link" href="#cellautomata">Zellulärer Automat</a></li>
                     </ul>
                 </nav>
             </div>
@@ -25,7 +26,7 @@
 <main>
 
 
-<section class="p-section">
+<section class="p-section" id="cellautomata">
     <div class="row">
         <div class="col">
             <h2>Zellulärer Automat</h2>

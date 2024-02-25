@@ -66,7 +66,7 @@ use TreptowKolleg\Api\Session;
                                         <a class="p-navigation__link" href="/?page=t-abirechner">Abi-Rechner</a>
                                     </li>
                                     <li class="p-navigation__item <?= $_GET['page'] == 't-vp' ? 'is-selected' : ''?>">
-                                        <a class="p-navigation__link" href="/?page=t-vp">Vertretungsplan</a>
+                                        <a class="p-navigation__link" href="/?page=t-vp">Philosophie</a>
                                     </li>
                                     <?php if ($session->get('login')): ?>
                                         <li class="p-navigation__item">
