@@ -30,6 +30,34 @@
         <div class="col">
            Übungsprojekt zur Modernisierung des Vertretungsplans.
         </div>
+        <div class="col">
+            <canvas id="myCanvas" width="400" height="380" onmousedown="start_stop();">
+                Der aktuelle Browser unterst&uuml;tzt kein HTML5 / canvas. Es wird empfohlen, eine neuere Version von Mozilla Firefox oder Google Chrome als Browser zu verwenden.
+            </canvas>
+
+            <div id="fps" style="color: #666666;">fps = 0</div>
+
+            <script>
+                var canvas = document.getElementById('myCanvas');
+                var context = canvas.getContext('2d');
+                var n = canvas.width;
+                var m = canvas.height-80;
+
+                window.requestAnimFrame = (function(callback) {
+                    return window.requestAnimationFrame ||
+                        window.webkitRequestAnimationFrame ||
+                        window.mozRequestAnimationFrame ||
+                        window.oRequestAnimationFrame ||
+                        window.msRequestAnimationFrame ||
+                        function(callback) {
+                            window.setTimeout(callback, 10);
+                        };
+                })();
+
+                init();
+                animate(canvas, context);
+            </script>
+        </div>
     </div>
 </section>
 
