@@ -28,10 +28,16 @@
 <section class="p-section">
     <div class="row">
         <div class="col">
-           Übungsprojekt zur Modernisierung des Vertretungsplans.
+            <h2>Zellulärer Automat</h2>
+            <p>Simulation der Evolution mit drei Spezies und einfacher Dominanz.</p>
+            <ol>
+               <li>Rot dominiert Gelb</li>
+               <li>Gelb dominiert Blau</li>
+               <li>Blau dominiert Rot</li>
+            </ol>
         </div>
         <div class="col">
-            <canvas id="myCanvas" width="400" height="380" onmousedown="start_stop();">
+            <canvas id="myCanvas" width="100%" height="400" onmousedown="start_stop();">
                 Der aktuelle Browser unterst&uuml;tzt kein HTML5 / canvas. Es wird empfohlen, eine neuere Version von Mozilla Firefox oder Google Chrome als Browser zu verwenden.
             </canvas>
 
