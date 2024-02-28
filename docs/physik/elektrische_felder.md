@@ -15,8 +15,10 @@ Beschreiben Sie für das Modell Gewitterwolke und Erde als Plattenkondensator di
 Berechnen Sie für dieses Modell die Spannung zwischen Wolke und Erde, die Kapazität des Kondensators und die elektrische Energie, die in dem Feld zwischen Erde und Wolke gespeichert ist. 
 
 <details> 
-  <summary>Q1: What is the best Language in the World? </summary>
-   A1: JavaScript 
+  <summary>Lösung aufdecken</summary>
+   Hier ist dann die Musterlösung zu sehen.
+
+    $f(x)=mx+\frac{1}{x+3x^2}$
 </details>
 
 #### 2)
