@@ -11,11 +11,6 @@ In den folgenden Aufgaben werden die Auswirkungen auf die Umwelt betrachtet.
 #### 1)
 Vergleichen Sie den Aufbau der beiden Cäsium-Isotope, die bei dem Reaktorunfall freigesetzt wurden.
 
-<details> 
-<summary>Lösung aufdecken</summary>
-$$\ce{^{137}_{55}Cs ->\ce{^{137}_{56}Ba}+^{0}_{-1}e}$$
-</details>
-
 Erläutern Sie die Prozesse, die bei der Umwandlung von Cs-137 im Kern auftreten. Geben Sie die entsprechende Reaktionsgleichung an.
 
 <details> 
@@ -29,7 +24,7 @@ Berechnen Sie die bei dem Zerfall eines Cs-137-Kerns frei werdende Energie.
 
 <details> 
 <summary>Lösung aufdecken</summary>
-<p></p>
+$$\ce{^{137}_{55}Cs ->\ce{^{137}_{56}Ba}+^{0}_{-1}e}$$
 </details>
 
 #### 3)
