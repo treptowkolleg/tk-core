@@ -123,6 +123,7 @@ function getName(string $file): ?string
         'control' => 'Kontrollstrukturen',
         'README' => 'Einleitung',
         'dea' => 'DEA',
+        'elektrische_felder' => 'Elektrische Felder'
     ];
     $fileName = substr($file,0,-3);
 
