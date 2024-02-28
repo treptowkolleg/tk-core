@@ -36,7 +36,7 @@ use TreptowKolleg\Api\Session;
             details{
                 background-color: white;
                 border: 1px solid dimgrey;
-                padding: 5px 5px;
+                padding: 5px 5px 5px 5px!important;
             }
             details > summary{
                 cursor: pointer;
