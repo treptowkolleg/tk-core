@@ -28,7 +28,7 @@ Berechnen Sie die bei dem Zerfall eines Cs-137-Kerns frei werdende Energie.
 <summary>Lösung aufdecken</summary>
 <p></p>
 
-$$\ce{^{227}_{90}Th+ ->\ce{+H2O}}$$
+$$\ce{^{137}_{55}Cs ->\ce{^{137}_{56}Ba}+^{0}_{-1}e}$$
 </details>
 
 #### 3)
