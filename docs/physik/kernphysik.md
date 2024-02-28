@@ -27,7 +27,7 @@ Berechnen Sie die bei dem Zerfall eines Cs-137-Kerns frei werdende Energie.
 <details> 
 <summary>Lösung aufdecken</summary>
 <p></p>
-$${^{A}_{Z}X -> ^{A-4}_{Z-2}Y + ^{4}_{2}He}$$
+$$^{$A$}_{$Z$}X -> ^{$A$}_{$Z+1$}Y + e-$$
 </details>
 
 #### 3)
