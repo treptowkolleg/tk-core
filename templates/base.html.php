@@ -36,6 +36,7 @@ use TreptowKolleg\Api\Session;
             details{
                 background-color: white;
                 border: 1px solid dimgrey;
+                padding: 5px 5px;
             }
         </style>
         <script src="https://unpkg.com/@highlightjs/cdn-assets@11.9.0/highlight.min.js"></script>
