@@ -16,7 +16,7 @@ Berechnen Sie für dieses Modell die Spannung zwischen Wolke und Erde, die Kapaz
 
 <details> 
   <summary>Lösung aufdecken</summary>
-   Hier ist dann die Musterlösung zu sehen.
+   <p>Hier ist dann die Musterlösung zu sehen.</p>
 
     $f(x)=mx+\frac{1}{x+3x^2}$
 </details>
