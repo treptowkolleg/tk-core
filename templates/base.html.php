@@ -40,6 +40,7 @@ use TreptowKolleg\Api\Session;
             }
             details > summary{
                 cursor: pointer;
+                margin-bottom: 0!important;
             }
         </style>
         <script src="https://unpkg.com/@highlightjs/cdn-assets@11.9.0/highlight.min.js"></script>
