@@ -31,6 +31,12 @@ use TreptowKolleg\Api\Session;
         <script src="/assets/canvas.js" type="text/javascript"></script>
 
         <link rel="stylesheet" href="https://unpkg.com/@highlightjs/cdn-assets@11.9.0/styles/a11y-light.min.css">
+
+        <style>
+            details{
+                background-color: whitesmoke;
+            }
+        </style>
         <script src="https://unpkg.com/@highlightjs/cdn-assets@11.9.0/highlight.min.js"></script>
 
         <script>hljs.highlightAll();</script>
