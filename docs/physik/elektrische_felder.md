@@ -14,6 +14,11 @@ werden einfache Modelle und typische Daten von Gewitterwolken und Blitzen genutz
 Beschreiben Sie für das Modell Gewitterwolke und Erde als Plattenkondensator die Eigenschaften des elektrischen Feldes zwischen Wolke und Erde. Skizzieren Sie dazu auch ein Feldlinienbild.
 Berechnen Sie für dieses Modell die Spannung zwischen Wolke und Erde, die Kapazität des Kondensators und die elektrische Energie, die in dem Feld zwischen Erde und Wolke gespeichert ist. 
 
+<details> 
+  <summary>Q1: What is the best Language in the World? </summary>
+   A1: JavaScript 
+</details>
+
 #### 2)
 Das Modell Gewitterwolke als Dipol beschreibt die Ladungsverteilung in der Wolke besser als das Modell Gewitterwolke und Erde als Plattenkondensator.
 
