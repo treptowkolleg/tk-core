@@ -34,7 +34,8 @@ use TreptowKolleg\Api\Session;
 
         <style>
             details{
-                background-color: whitesmoke;
+                background-color: white;
+                border: 1px solid dimgrey;
             }
         </style>
         <script src="https://unpkg.com/@highlightjs/cdn-assets@11.9.0/highlight.min.js"></script>
