@@ -20,7 +20,7 @@ Berechnen Sie für dieses Modell die Spannung zwischen Wolke und Erde, die Kapaz
 <p>Skizze des Feldlinienbildes mit parallelen und nach oben gerichteten Feldlinien</p>
 $$C=\epsilon_0 \cdot \epsilon_r \cdot \frac{A}{s}$$
 $$U=E \cdot s$$
-$$E_{elek}=\frac{A}{s} \cdot C \cdot U^2$$
+$$E_{elek}=\frac{1}{2} \cdot C \cdot U^2$$
 </details>
 
 #### 2)
