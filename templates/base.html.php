@@ -41,7 +41,8 @@ use TreptowKolleg\Api\Session;
             details > summary{
                 cursor: pointer;
                 margin-bottom: 0!important;
-                padding-bottom: 0!important;
+                padding-top: 2px!important;
+                padding-bottom: 2px!important;
             }
         </style>
         <script src="https://unpkg.com/@highlightjs/cdn-assets@11.9.0/highlight.min.js"></script>
