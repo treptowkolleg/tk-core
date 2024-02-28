@@ -15,10 +15,12 @@ Beschreiben Sie für das Modell Gewitterwolke und Erde als Plattenkondensator di
 Berechnen Sie für dieses Modell die Spannung zwischen Wolke und Erde, die Kapazität des Kondensators und die elektrische Energie, die in dem Feld zwischen Erde und Wolke gespeichert ist. 
 
 <details> 
-  <summary>Lösung aufdecken</summary>
-   <p>Hier ist dann die Musterlösung zu sehen.</p>
-
-    $f(x)=mx+\frac{1}{x+3x^2}$
+<summary>Lösung aufdecken</summary>
+<p>Unter der Annahme, dass Wolke und Erde einen Plattenkondensator bilden, ist das elektrische Feld homogen, d.h. die Feldstärke ist überall gleich.</p>
+<p>Skizze des Feldlinienbildes mit parallelen und nach oben gerichteten Feldlinien</p>
+$$C=\epsilon_0 \cdot \epsilon_r \cdot \frac{A}{s}$$
+$$U=E \cdot s$$
+$$E_{elek}=\frac{A}{s} \cdot C \cdot U^2$$
 </details>
 
 #### 2)
