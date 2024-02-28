@@ -1,12 +1,11 @@
 # Physik
 ## Kernphysik
+
+### Aufgaben
 **Die Folgen des Reaktorunfalls von Fukushima**
 
 Am 11. März 2011 hatten ein schweres Erdbeben und ein Tsunami das japanische Kernkraftwerk Fukushima stark beschädigt. Dadurch gelangten in den Folgemonaten große Mengen an radioaktiven Isotopen in die Umgebung des Kraftwerkes und ins Meer.
 
-
-
-### Aufgaben
 In den folgenden Aufgaben werden die Auswirkungen auf die Umwelt betrachtet.
 
 #### 1)
