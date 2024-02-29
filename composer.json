@@ -15,7 +15,7 @@
     "minimum-stability": "stable",
     "name": "treptowkolleg/api",
     "require": {
-        "PHP": ">=7.4",
+        "PHP": ">=8.0",
         "twig/twig": "^3.8",
         "erusev/parsedown": "^1.7",
         "erusev/parsedown-extra": "^0.8.1",
