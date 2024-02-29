@@ -1,3 +1,13 @@
+<?php
+
+use TreptowKolleg\Api\Service\BenfordsLawService;
+
+$benford = new BenfordsLawService([1,2,3,4,5,6,7,8,9,10,11,12,13,14,15],6,2);
+$integersToTest = array_map('intval', [8,6,14,15,6,5,11,12,11,13,14,10,9,11,12,10,11,12,13,14,11,12,13,9]);
+$result = $benford->analyzeForBenfordsLaw($integersToTest);
+
+?>
+
 <div class="l-docs__title" id="main-content">
     <div class="p-section--shallow">
         <div class="row">
@@ -30,14 +40,10 @@
         <div class="row">
             <div class="col">
                 <h2>Benfords Gesetz</h2>
-                <?php
+                <pre>
+                    <code><?php print_r($result)?></code>
+                </pre>
 
-                use TreptowKolleg\Api\Service\BenfordsLawService;
-
-                $benford = new BenfordsLawService(['Fach','Punkte'],1,2);
-                $result = $benford->analyzeForBenfordsLaw([8,6,14,16,27,5]);
-                print_r($result);
-                ?>
             </div>
         </div>
     </section>

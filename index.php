@@ -12,17 +12,25 @@ use TreptowKolleg\Api\Session;
 
 require __DIR__ . '/vendor/autoload.php';
 
+function getProtocol(): string
+{
+    return (!empty($_SERVER['HTTPS']) && $_SERVER['HTTPS'] !== 'off' || $_SERVER['SERVER_PORT'] == 443) ? "https://" : "http://";
+}
+
+$server = getProtocol().$_SERVER['HTTP_HOST'].'/';
+
+
 $session = new Session();
 $api = new Bridge('a38');
 $mdParser = new ParsedownExtra();
 
 if (!isset($_GET['page'])) {
-    header("Location: https://it.treptowkolleg.de/?page=docs-README.md", true, 302);
+    header("Location: $server?page=docs-README.md", true, 302);
     exit;
 }
 
 if(isset($_GET['logout'])) {
-    $session->destroy("https://it.treptowkolleg.de/");
+    $session->destroy("$server");
 }
 
 // Login verarbeiten
@@ -45,7 +53,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             for($p = 1; $p <= 4; $p++) {
                 if($_POST["$i-$p"] < 0 || $_POST["$i-$p"] > 15) {
                     $_SESSION['message'] = printf("Du hast im %s. Kurs im Semester Q%s mehr als 15 Punkte eingetragen!",$i,$p);
-                    header("Location: https://it.treptowkolleg.de/?page=t-abirechner", true, 302);
+                    header("Location: $server?page=t-abirechner", true, 302);
                     exit;
                 }
                 if ($i <= 3) {
