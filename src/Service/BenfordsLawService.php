@@ -82,7 +82,7 @@ class BenfordsLawService
         return $leadingNumberOccurance;
     }
 
-    public function inputHasError(array $integers): string|bool
+    public function inputHasError(array $integers)
     {
         if (count($integers) < $this->minLength) {
             return sprintf('Too small of data set to test, please input at least %s integers', $this->minLength);
