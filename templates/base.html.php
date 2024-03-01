@@ -226,6 +226,16 @@ use TreptowKolleg\Api\Session;
     <script type="text/javascript" id="MathJax-script" async
             src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js">
     </script>
-
+    <script src="https://unpkg.com/@sidsbrmnn/scrollspy@1.x/dist/scrollspy.min.js"></script>
+    <script>
+        window.onload = function () {
+            scrollSpy('#list', {
+                sectionSelector: 'h2',
+                activeClass: 'is-active',
+                targetSelector: '.p-table-of-contents__link',
+                offset: 50
+            });
+        }
+    </script>
     </body>
 </html>

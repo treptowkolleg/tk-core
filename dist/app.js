@@ -1,26 +1,5 @@
 // Setup toggling of side navigation drawer
-(function() {
-    'use strict';
 
-    var section = document.querySelectorAll(".p-section");
-    var sections = {};
-    var i = 0;
-
-    Array.prototype.forEach.call(section, function(e) {
-        sections[e.id] = e.offsetTop;
-    });
-
-    window.onscroll = function() {
-        var scrollPosition = document.documentElement.scrollTop || document.body.scrollTop;
-
-        for (i in sections) {
-            if (sections[i] <= scrollPosition) {
-                document.querySelector('.is-active').classList.remove('is-active');
-                document.querySelector('a[href*=' + i + ']').classList.add('is-active');
-            }
-        }
-    };
-})();
 
 (function () {
     // throttling function calls, by Remy Sharp
