@@ -1,6 +1,5 @@
-# Unified Modeling Language
-## Klassenbeziehungen
-### Generalisierung/Spezialisierung (B erbt von A)
+# Klassenbeziehungen
+## Generalisierung/Spezialisierung
 
 ![Klassendiagramm](/docs/img/uml-inherit.png)
 
@@ -8,7 +7,7 @@ Bei der Generalisierung/Spezialisierung spricht man davon, dass die **Unterklass
 Attribute und Methoden der **Oberklasse** erbt. Die Unterklasse ist eine spezialisierte
 Variante der Oberklasse.
 
-#### PHP
+### PHP
 ````php
 <?php
 
@@ -35,7 +34,7 @@ class SubClass extends SuperClass
     
 }
 ````
-#### JAVA
+### JAVA
 ````php
 public class SuperClass {
 
@@ -58,7 +57,7 @@ public class SubClass extends SuperClass {
 }
 ````
 
-### Schnittstellen (Interfaces)
+## Schnittstellen (Interfaces)
 
 ![Interface](/docs/img/uml-interface.png)
 
@@ -75,7 +74,7 @@ verwendet werden:
 Interfaces können statische Attribute und default-Implementierungen,
 also nur Methodenköpfe, enthalten.
 
-#### PHP
+### PHP
 
 ````php
 <?php
@@ -132,7 +131,7 @@ function clientCode() {
 }
 ````
 
-#### JAVA
+### JAVA
 
 ````php
 
