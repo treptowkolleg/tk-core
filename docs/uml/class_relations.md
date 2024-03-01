@@ -1,5 +1,5 @@
 # Klassenbeziehungen
-## Generalisierung/Spezialisierung
+## Generalisierung
 
 ![Klassendiagramm](/docs/img/uml-inherit.png)
 
@@ -57,7 +57,7 @@ public class SubClass extends SuperClass {
 }
 ````
 
-## Schnittstellen (Interfaces)
+## Schnittstellen
 
 ![Interface](/docs/img/uml-interface.png)
 
