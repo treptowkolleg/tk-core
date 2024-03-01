@@ -1,7 +1,6 @@
-# Unified Modeling Language
-## Objektbeziehungen
+# Objektbeziehungen
 
-### Allgemeine Form
+## Allgemeine Form
 
 ![Klassendiagramm](/docs/img/uml-relations.png)
 
@@ -13,7 +12,7 @@
 | 0..*          	| kein oder beliebig viele Objekte 	|
 | *             	| beliebig viele Objekte (außer 0) 	|
 
-### Assoziation (A kennt B)
+## Assoziation
 
 ![Klassendiagramm](/docs/img/uml-association.png)
 
@@ -21,7 +20,7 @@ Der Browser kennt den Webserver, was durch die Methode ``addHost(Webserver $serv
 gebracht wird.
 
 
-#### PHP
+### PHP
 ````php
 <?php
 
@@ -42,7 +41,7 @@ class Browser
 }
 ````
 
-#### JAVA
+### JAVA
 ````php
 public class Webserver {
 
@@ -63,7 +62,7 @@ public class Browser {
 ````
 
 
-### Aggregation (A hat B)
+## Aggregation
 
 ![Klassendiagramm](/docs/img/uml-aggregation.png)
 
@@ -72,7 +71,7 @@ Ein Mitarbeiter kann jedoch auch ohne Firma existieren (Dann hat er den Status *
 Wird eine neue Firma gegründet, muss wenigstens ein Mitarbeiter zugeordnet werden. Das
 passiert im Konstruktor.
 
-#### PHP
+### PHP
 ````php
 <?php
 
@@ -112,7 +111,7 @@ class Company
     }    
 }
 ````
-#### JAVA
+### JAVA
 ````php
 public class Employee {
 
@@ -147,14 +146,14 @@ public class Company {
 }
 ````
 
-### Komposition (B ist Teil von A)
+## Komposition
 
 ![Klassendiagramm](/docs/img/uml-composition.png)
 
 Ein neues Dokument benötigt mindestens einen Absatz. Daher wird bei Instantiierung
 eines ``Dokument``-Objekts ein ``Paragraph``-Objekt im Konstruktor instantiiert.
 
-#### PHP
+### PHP
 ````php
 <?php
 
@@ -177,7 +176,7 @@ class Document
 Ein weiteres Beispiel für eine Komposition findest du auch unter [Magische Methoden](/docs/php/magic_methods.md)
 im Abschnitt [PHP](/docs/php/_index.md). Weißt du, welches Beispiel gemeint ist?
 
-#### JAVA
+### JAVA
 ````php
 public class Paragraph {
 
