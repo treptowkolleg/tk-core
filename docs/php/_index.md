@@ -24,7 +24,7 @@ zum Beispiel in Form von HTML ausgibt. PHP-Code wird mit einem PHP-Tag gekennzei
 
 Folgt nach dem PHP-Quellcode kein HTML mehr, kann das schließende Tag weggelassen werden.
 
-### Dateiendungen
+## Dateiendungen
 
 PHP-Dateien sollten die Endung ``.php`` aufweisen, damit der PHP-Interpreter den Quellcode verarbeiten kann.
 Der Einstiegspunkt der Webanwendung ist demnach ``index.php`` (ohne PHP ist es sonst ``index.html``).

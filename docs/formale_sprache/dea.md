@@ -1,12 +1,10 @@
-# Formale Sprache
+# Deterministische endliche Automaten
 
-## Deterministische endliche Automaten
-
-### Mealy-Automaten
+## Mealy-Automaten
 
 Ein Mealy Automat ist ein endlicher Automat, der sich durch eine Besonderheit auszeichnet: Die Ausgaben sind nicht nur vom aktuellen Zustand abhängig, sondern auch vom aktuellen Eingabewert. Dies unterscheidet ihn von anderen Automatenarten, wie dem Moore-Automaten, bei dem die Ausgabe ausschließlich vom Zustand abhängig ist.
 
-#### Formale Definition
+### Formale Definition
 
 $A=(X,Y,Z,\delta,z_0)$
 
@@ -16,21 +14,21 @@ $A=(X,Y,Z,\delta,z_0)$
 - $\phi: Z \times X \rightarrow Z \times Y$ Überführungs- und Ausgabefunktion
 - $z_0$ Startzustand
 
-#### Überführungsfunktion
+### Überführungsfunktion
 
 Zustand / Eingabe | $0$ | $1$
 --------|---------|------------------
 $z_0$  |   $z_0$   |      $z_1$
 $z_1$   |   $z_1$  |      $z_0$
 
-#### Ausgabefunktion
+### Ausgabefunktion
 
 Zustand / Eingabe | $0$ | $1$
 --------|---------|------------------
 $z_0$ |   $0$   |      $1$
 $z_1$   |   $0$  |      $1$
 
-#### Impulsdiagramm
+### Impulsdiagramm
 
 Zustand | Eingabe | Nächster Zustand | Ausgabe
 --------|---------|------------------|--------

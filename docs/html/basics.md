@@ -1,5 +1,4 @@
-# HTML
-## HTML Grundlagen
+# HTML Grundlagen
 HTML steht für ``Hypertext Markup Language`` und stellt damit eine grundlegende Auszeichnungssprache für die formatierte Darstellung von textbasierten Inhalten in Webbrowsern dar.
 
 Im Folgenden beschäftigen wir uns mit dem grundlegenden Aufbau einer ``HTML-Datei``:

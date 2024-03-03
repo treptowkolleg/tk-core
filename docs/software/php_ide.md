@@ -1,8 +1,6 @@
 # Entwicklungsumgebung für PHP
 
-## Benötigte Software
-
-### Windows
+## Chocolatey
 
 Für die Installation erforderlicher Software für die PHP-Entwicklung, aber auch für andere
 Programmiersprachen, benötigen wir einen Softwarepaketmanager. Ein einfacher Paketmanager
@@ -42,7 +40,7 @@ Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope LocalMachine
 
 Danach sollte das Ausführen funktionieren.
 
-## Empfohlene Software für die PHP-Entwicklung
+### Empfohlene Software für die PHP-Entwicklung
 
 - PHP Binary
 - Composer
@@ -52,13 +50,13 @@ Danach sollte das Ausführen funktionieren.
 - Symfony CLI
 - PHP IDE
 
-### PHP Binary
+## PHP Binary
 
 ````shell
 choco install php
 ````
 
-### Composer
+## Composer
 Composer ist ein Paketmanager für Softwareabhängigkeiten in PHP. Außerdem versorgt dich Composer
 mit einem praktischen Autoloader für deine PHP-Klassen. Andernfalls müssten wir uns einen
 eigenen Autoloader entwickeln.
@@ -67,7 +65,7 @@ eigenen Autoloader entwickeln.
 choco install composer
 ````
 
-### Git
+## Git
 Git ist perfekt für die Versionierung von Softwareprojekten. Git hilft dir außerdem dabei, von
 überall aus auf deine Dateien zugreifen zu können.
 
@@ -77,7 +75,7 @@ Git ist perfekt für die Versionierung von Softwareprojekten. Git hilft dir auß
 choco install git
 ````
 
-### Node.js
+## Node.js
 
 Node.js ist ein Paketmanager für Javascript- und Stylesheet-Frameworks. Wir benötigen ihn
 außerdem, um **Yarn** installieren zu können.
@@ -86,7 +84,7 @@ außerdem, um **Yarn** installieren zu können.
 choco install nodejs-lts
 ````
 
-### Yarn Package Manager
+## Yarn Package Manager
 
 Bevor **Yarn** installiert werden kann, muss Node.js installiert sein.
 
@@ -94,7 +92,7 @@ Bevor **Yarn** installiert werden kann, muss Node.js installiert sein.
 npm install --global yarn
 ````
 
-### Symfony CLI
+## Symfony CLI
 Symfony ist eigentlich für das gleichnamige PHP-Framework gedacht. Dennoch ist
 es für unsere Zwecke perfekt geeignet, da die Verwaltung des Testservers so
 deutlich einfacher erledigt werden kann.
@@ -114,7 +112,7 @@ symfony server:start
 symfony server:stop
 ````
 
-### PHP IDE (Integrated Development Environment)
+## PHP IDE
 
 Für die eigentliche Entwicklungsarbeit sollten wir auf eine IDE zurückgreifen. Ein
 einfacher Editor tut es zwar auch, jedoch mangelt es ihm an vielen nützlichen Funktionen.

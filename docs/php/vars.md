@@ -1,7 +1,6 @@
-# PHP Web Development
-## Variablen
+# Variablen
 
-### Deklarieren
+## Deklarieren
 
 Variablen werden immer mit einem Dollar-Zeichen markiert. PHP ist Typen-dynamisch (im Gegensatz zu JAVA),
 weshalb keine Angabe des Datentypen erfolgt. Die Art des Datentyps ergibt sich aufgrund der
@@ -17,7 +16,7 @@ $myArray = [];  // array
 $myArray = true;  // bool
 ````
 
-### Dynamisch deklarieren
+## Dynamisch deklarieren
 
 In PHP lässt sich etwas total verrücktes machen, was zum Beispiel in JAVA undenkbar wäre.
 Wir können Variablen nämlich auch dynamisch während der Laufzeit deklarieren:
@@ -117,10 +116,7 @@ Schauen wir uns das Template (Auszug) an:
     </table>
 ````
 
-
-## Gängige Operatoren
-
-### Mathematische Operatoren
+## Mathematische Operatoren
 
 Aufgrund der Typen-Dynamik können wir sogar mit Zeichenketten rechnen. Zumindest, solange die
 Zeichenkette einer Zahl entspricht.
@@ -134,7 +130,7 @@ $myResult = $myString * 2;  // Multiplikation ergibt 10. $myResult ist vom Typ i
 $anotherResult = $myString + 5; // Addition ergibt 10. $anotherResult ist vom Typ int
 ````
 
-### Zeichenkettenoperatoren
+## Zeichenkettenoperatoren
 
 Mit dem Punkt (``.``) können Zeichenketten verknüpft werden. Zeichenketten, die in einfachen
 Anführungszeichen notiert sind, werden 1:1 ausgegeben. Zeichenketten in doppelten Anführungszeichen

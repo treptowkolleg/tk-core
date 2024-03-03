@@ -1,7 +1,6 @@
-# Unified Modeling Language
-## Klassenkarten
+# Klassenkarten
 
-### Aufbau
+## Aufbau
 
 Eine Klassenkarte besteht aus insgesamt drei Segmenten. Diese sind von oben nach unten:
 
@@ -11,7 +10,7 @@ Eine Klassenkarte besteht aus insgesamt drei Segmenten. Diese sind von oben nach
 
 ![UML-Class](/docs/img/uml-class.png)
 
-### Sichtbarkeit
+## Sichtbarkeit
 
 Attribute und Methoden können verschiedene Sichtbarkeiten annehmen:
 

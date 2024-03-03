@@ -1,7 +1,8 @@
-# PHP Web Development
-## Magische Methoden
+# Magische Methoden
 
 Magische Methoden sind Methoden, die PHPs Standardverhalten überschreiben, wenn bestimmte Aktionen mit einem Objekt durchgeführt werden.
+
+## Überblick
 
 Die folgenden Methodennamen werden als magisch betrachtet: ``__construct()``,
 ``__destruct()``, ``__call()``, ``__callStatic()``,`` __get()``, ``__set()``,
@@ -50,7 +51,7 @@ Umgekehrt überprüft ``unserialize()``, ob eine Funktion mit dem magischen Name
 
 Der Zweck von ``__wakeup()`` ist es, alle Datenbankverbindungen, die bei der Serialisierung verlorengegangen sind, wiederherzustellen und andere Aufgaben der erneuten Initialisierung durchzuführen.
 
-### __construct()
+## __construct()
 
 Mit Konstruktoren kann im **Client Code** ein Objekt dazu gezwungen werden, bestimmte Attributwerte
 anzunehmen und Methoden auszuführen. Im folgenden Beispiel werden bei Instantiierung eines
@@ -84,7 +85,7 @@ class Connection
 Nachdem die drei Parameter den Klassenattributen zugewiesen wurden, wird die Klassenmethode
 ``connect()`` ausgeführt, die dem Attribut ``$link`` das neue ``PDO``-Objekt zuweist.
 
-### __toString()
+## __toString()
 
 Manchmal wollen wir einen bestimmten Inhalt eines Objekts ausgeben (``echo``), ohne erst zu überlegen,
 welche Methoden die vielen Objekte haben, um gewisse Informationen auszugeben. Mithilfe der
@@ -114,7 +115,7 @@ $myObject = new Person();
 echo $myObject; // gibt zurück: Susi Sorglos
 ````
 
-### __invoke()
+## __invoke()
 
 Mit dieser magischen Methode ist es möglich, ein Objekt als Callable zu behandeln. Die Prüfung
 ``is_callable($meinObjekt)`` ergibt immer dann ``true``, wenn die Methode ``__invoke()`` implementiert

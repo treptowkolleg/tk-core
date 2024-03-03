@@ -1,6 +1,6 @@
-# HTML
+# HTML-Elemente
 ## Typographie
-Die Typographie umfasst allgemeine Textformatierungen.
+Die Typografie umfasst allgemeine Textformatierungen.
 
 - Überschriften 
 - Absätze 

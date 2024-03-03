@@ -1,5 +1,4 @@
-# Cascading Stylesheets
-## Grundlagen
+# Grundlagen
 
 CSS-Dokumente stellen eine Art Liste dar, in der definiert ist, welche HTML-Elemente wie aussehen sollen.
 Dies geschieht nach folgendem Muster:
@@ -13,9 +12,7 @@ h1 { color:red; font-size:48px; }
 ````
 Im obigen Beispiel haben alle Überschriften **h1** eine **rote Textfarbe** und eine **Schriftgröße von 48px**.
 
-##  CSS in HTML einbinden
-
-### Direkt im Quellcode
+## Inline
 Im folgenden Beispiel haben wir die CSS-Informationen direkt im ``<h1>``-Tag geschrieben.
 ````html
 <!DOCTYPE html>
@@ -33,7 +30,7 @@ Im folgenden Beispiel haben wir die CSS-Informationen direkt im ``<h1>``-Tag ges
 </html>
 ````
 
-### Im HTML-Kopf
+## Im HTML-Kopf
 ````html
 <!DOCTYPE html>
 <html lang="de">
@@ -53,7 +50,7 @@ Im folgenden Beispiel haben wir die CSS-Informationen direkt im ``<h1>``-Tag ges
 </html>
 ````
 
-### Ausgelagert
+## Ausgelagert
 Die dritte variante trennt HTML und CSS am deutlichsten.
 
 Die ``HTML-Datei``:

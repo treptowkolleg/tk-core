@@ -1,10 +1,10 @@
-# Java
-
-## Enumerations
+# Enumerations
 
 Manchmal wollen wir Objekte anhand bestimmter Typen oder Eigenschaften unterscheiden.
 Gleichzeitig wollen wir jedoch dem Client Code nur zuvor festgelegte Werte erlauben.
 Das ist mit sogenannten ``enums``, also Aufzählungen möglich.
+
+## Aufbau
 
 Enums bzw. deren Konstanten sind statische Attribute, die für Vergleiche herangezogen werden können.
 
@@ -32,6 +32,8 @@ public enum AgentType {
 
 }
 ````
+
+## Verwendung
 
 Im Folgenden wird die soeben deklarierte ``enum`` in einer anderen Klasse verwendet:
 
@@ -67,6 +69,8 @@ public class Human extends Agent
     
 }
 ````
+
+## Client Code
 
 Nun können wir im Client Code mit der ``enum`` arbeiten:
 

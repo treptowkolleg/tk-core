@@ -1,5 +1,4 @@
-# PHP Web Development
-## Kontrollstrukturen
+# Kontrollstrukturen
 
 Kontrollstrukturen erlauben uns, Code nur unter bestimmten Bedingungen auszuführen. Daher
 werden diese Strukturen auch als Algorithmen bezeichnet.
@@ -92,3 +91,29 @@ switch ($action) {
 }
 ````
 
+## Match
+
+Die Kontrollstruktur ``match`` ist ab PHP 8.0 verfügbar.
+
+````php
+<?php
+
+# Standardnotation if-else
+if( array_key_exists('action', $_POST) ) {
+    $action = $_POST['action'];
+    } else {
+        $action = null;
+}
+
+# Kurzschreibweise if-else
+$action = array_key_exists('action', $_POST) ? $_POST['action'] : null;
+
+# mehrseitiger match-Algorithmus
+$result = match($action) {
+    'create' => $myObject->new(),
+    'read' => $myObject->show(),
+    'update' => $myObject->update(),
+    'delete' => $myObject->delete(),
+    default => $myObject->index()
+}
+````

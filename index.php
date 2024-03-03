@@ -133,6 +133,7 @@ function getName(string $file): ?string
         'dea' => 'DEA',
         'elektrische_felder' => 'Elektrische Felder',
         'kernphysik' => 'Kernphysik',
+        'method' => 'Methoden',
     ];
     $fileName = substr($file,0,-3);
 

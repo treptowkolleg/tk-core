@@ -1,6 +1,6 @@
-# PHP Web Development
-## Klassen
-### Definition
+# Klassen
+
+## Definition
 
 Eine Klasse stellt den Bauplan von Objekten dar. Objekte werden daher auch als Klasseninstanz
 bezeichnet.
@@ -14,7 +14,7 @@ class MyClass
 }
 ````
 
-### Attribute
+## Attribute
 
 Jeder Klasse können beliebige Attribute hinzugefügt werden.
 

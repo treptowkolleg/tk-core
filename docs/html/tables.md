@@ -1,8 +1,7 @@
-# HTML
-## Tabellen
+# Tabellen
 Tabellen können nicht nur Inhalte sortieren. Früher wurden sie auch für die Website-Gestaltung verwendet.
 
-###Allgemeiner Aufbau
+## Allgemeiner Aufbau
 Allgemein gliedert sich eine Tabelle in Zeilen (rows) und Spalten (columns). Zusätzlich unterscheiden wir zwischen:
 
 - Tabellenkopf
