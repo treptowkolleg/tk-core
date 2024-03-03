@@ -207,8 +207,8 @@ class AuthenticationController extends AbstractController
 
 ### Überprüfen, ob Logout angefordert wurde.
 
-![formularAnzeigen](/docs/img/logout.svg)
+![logout](/docs/img/logout.svg)
 
 ### Überprüfen, ob Login erfolgreich.
 
-![formularAnzeigen](/docs/img/login.svg)
+![login](/docs/img/login.svg)

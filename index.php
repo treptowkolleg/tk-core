@@ -134,6 +134,7 @@ function getName(string $file): ?string
         'elektrische_felder' => 'Elektrische Felder',
         'kernphysik' => 'Kernphysik',
         'method' => 'Methoden',
+        'swing' => 'EM-Schwingkreis',
     ];
     $fileName = substr($file,0,-3);
 
