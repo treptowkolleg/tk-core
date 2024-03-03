@@ -201,4 +201,10 @@ class AuthenticationController extends AbstractController
 
 ## Übung 5 - Login-Formular
 
+### Überprüfen, ob Client eingeloggt ist oder nicht.
+
 ![formularAnzeigen](/docs/img/loginformular.svg)
+
+### Überprüfen, ob Logout angefordert wurde.
+
+![formularAnzeigen](/docs/img/logout.svg)
