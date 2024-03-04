@@ -81,7 +81,9 @@ nun eine positive Spannungsspitze gemessen ($t=11,5s$ bis $t=13s$).
 Dieser Ausschlag kann beim Empfänger als Signalimpuls über einen Lautsprecher hörbar
 gemacht werden.
 
-Welches Wort wurde im dargestellten Graph gemorst?
+![img.png](/docs/img/morse.png)
+
+Welches Wort wurde im zweiten dargestellten Graph gemorst?
 
 <details> 
 <summary>Lösung aufdecken</summary>
