@@ -76,7 +76,7 @@ gemessen ($t=10s$ bis $t=11s$).
 
 Wird der Primärstromkreis wieder geschlossen, entlädt sich der Kondensator wieder. An der
 Spule fließt der Strom wieder in die ursprüngliche Richtung. Am Sekundärstromkreis wird
-nun eine positive Spannungsspitze gemessen ($t=11s$ bis $t=12s$).
+nun eine positive Spannungsspitze gemessen ($t=11,5s$ bis $t=13s$).
 
 Dieser Ausschlag kann beim Empfänger als Signalimpuls über einen Lautsprecher hörbar
 gemacht werden.
