@@ -26,3 +26,9 @@ wieder zur ersten Kondensatorplatte.
 Die ursprüngliche Ladung am Kondensator ist wiederhergestellt und der Kreislauf beginnt von vorn.
 
 ![img.png](/docs/img/sk3.png)
+
+## Grafische Auswertung
+
+Misst man die Spannung an der Spule, ergibt sich folgender Zeit-Spannung-Graph:
+
+![img.png](/docs/img/skGraph.png)
