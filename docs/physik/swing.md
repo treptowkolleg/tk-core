@@ -56,3 +56,34 @@ Misst man nun die Spannung am Ausgang der Gleichrichterschaltung ergibt sich fol
 
 Hier zeigt sich nun, dass mit der gleichen Frequenz wie am Primärstromkreis des Transformators nun
 immer nur eine positive Spannung am Sekundärstromkreis anliegt.
+
+## Anwendung
+
+### Funkeninduktor
+
+Der EM-Schwingkreis kann verwendet werden, um ein Morsegerät zu bauen. Das Morsesignal
+wird über einen Wagner'schen Hammer (Unterbrecher) ausgelöst. 
+
+![img.png](/docs/img/fiplan.png)
+
+#### Grafische Darstellung
+
+![img.png](/docs/img/figraph.png)
+
+Beim Öffnen des Primärstromkreises wird der Kondensator geladen. Dabei fließt der Strom
+von der Spule zum Kondensator. Am Sekundärstromkreis wird daher eine negative Spannungsspitze
+gemessen.
+
+Wird der Primärstromkreis wieder geschlossen, entlädt sich der Kondensator wieder. An der
+Spule fließt der Strom wieder in die ursprüngliche Richtung. Am Sekundärstromkreis wird
+nun eine positive Spannungsspitze gemessen.
+
+Dieser Ausschlag kann beim Empfänger als Signalimpuls über einen Lautsprecher hörbar
+gemacht werden.
+
+Welches Wort wurde im dargestellten Graph gemorst?
+
+<details> 
+<summary>Lösung aufdecken</summary>
+<p>Das Wort besteht aus den Buchstaben $k,k,k,l,l,l,k,k,k$ und entspricht $S-O-S$</p>
+</details>
