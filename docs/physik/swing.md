@@ -39,3 +39,14 @@ Spannungsspitze zu sehen.
 Anschließend bewegt sich der Strom periodisch hin und her. Die Spannung liegt hier zwischen
 $U=-4V$ und $U=4V$. Der Graph beschreibt eine Sinuskurve. Im EM-Schwingkreis besteht also
 ein Wechselstrom.
+
+### Gleichrichter
+
+Über eine Gleichrichterschaltung mit vier Dioden lässt sich an einer Sekundärspule der
+negative Stromfluss sperren.
+
+![img.png](/docs/img/gleichrichter.png)
+
+Misst man nun die Spannung am Ausgang der Gleichrichterschaltung ergibt sich folgender Graph:
+
+![img.png](/docs/img/gleichrichterMessung.png)
