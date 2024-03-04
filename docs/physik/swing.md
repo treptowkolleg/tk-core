@@ -50,3 +50,6 @@ negative Stromfluss sperren.
 Misst man nun die Spannung am Ausgang der Gleichrichterschaltung ergibt sich folgender Graph:
 
 ![img.png](/docs/img/gleichrichterMessung.png)
+
+Hier zeigt sich nun, dass mit der gleichen Frequenz wie am Primärstromkreis des Transformators nun
+immer nur eine positive Spannung am Sekundärstromkreis anliegt.
