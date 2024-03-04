@@ -32,3 +32,10 @@ Die ursprüngliche Ladung am Kondensator ist wiederhergestellt und der Kreislauf
 Misst man die Spannung an der Spule, ergibt sich folgender Zeit-Spannung-Graph:
 
 ![img.png](/docs/img/skGraph.png)
+
+Bei ca. $t=1s$ wurde der Umschalter betätigt. Hier ist interessanterweise eine hohe
+Spannungsspitze zu sehen.
+
+Anschließend bewegt sich der Strom periodisch hin und her. Die Spannung liegt hier zwischen
+$U=-4V$ und $U=4V$. Der Graph beschreibt eine Sinuskurve. Im EM-Schwingkreis besteht also
+ein Wechselstrom.
