@@ -51,5 +51,8 @@ Misst man nun die Spannung am Ausgang der Gleichrichterschaltung ergibt sich fol
 
 ![img.png](/docs/img/gleichrichterMessung.png)
 
+- Hellblau: Spannung am Sekundärstromkreis
+- Dunkelblau: Spannung am Primärstromkreis
+
 Hier zeigt sich nun, dass mit der gleichen Frequenz wie am Primärstromkreis des Transformators nun
 immer nur eine positive Spannung am Sekundärstromkreis anliegt.
