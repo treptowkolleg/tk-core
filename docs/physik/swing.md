@@ -72,11 +72,11 @@ wird über einen Wagner'schen Hammer (Unterbrecher) ausgelöst.
 
 Beim Öffnen des Primärstromkreises wird der Kondensator geladen. Dabei fließt der Strom
 von der Spule zum Kondensator. Am Sekundärstromkreis wird daher eine negative Spannungsspitze
-gemessen.
+gemessen ($t=10s$ bis $t=11s$).
 
 Wird der Primärstromkreis wieder geschlossen, entlädt sich der Kondensator wieder. An der
 Spule fließt der Strom wieder in die ursprüngliche Richtung. Am Sekundärstromkreis wird
-nun eine positive Spannungsspitze gemessen.
+nun eine positive Spannungsspitze gemessen ($t=11s$ bis $t=12s$).
 
 Dieser Ausschlag kann beim Empfänger als Signalimpuls über einen Lautsprecher hörbar
 gemacht werden.
