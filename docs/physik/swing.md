@@ -94,4 +94,10 @@ Welches Wort wurde im zweiten dargestellten Graph gemorst?
 
 Unser Empfänger ist für Mittelwellen geeignet. Uns interessiert aber eigentlich gar nicht die HF, die unser Ohr ohnehin nicht wahrnehmen kann, sondern die NF, also Sprache und Musik. Deshalb wird die Stärke der Hochfrequenz senderseitig im Takt der NF ganz leicht verändert. Was also unseren Empfänger als Radiowelle erreicht, ist eine HFSchwingung, die ständig ein bißchen in ihrer Stärke schwankt. Im Empfänger besteht nun die Kunst darin, aus den vielen Radiowellen die gewünschte herauszufischen und die Schwankungen in Töne umzuwandeln. Für die Senderauswahl ist das Zusammenwirken einer Spule mit einem Kondensator — ein sogenannter Schwingkreis — verantwortlich, die Wandlung der HF-Schwankungen in Tonfrequenzen besorgt die Germanium-Diode im Verein mit dem Kondensator C1. Die beiden Transistoren schließlich dienen der Verstärkung, sodass Du im Ohrhörer das Rundfunkprogramm hören kannst.
 
+#### Einfach
+
 ![img.png](/docs/img/radioplan.png)
+
+#### Verbessert
+
+![img.png](/docs/img/radioplusplan.png)
