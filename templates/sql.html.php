@@ -74,8 +74,9 @@ $tableCountry = [
                     <div class="p-form__group row">
                         <div class="col-6">
                             <label for="query">SQl-Query</label>
-                            <input type="text" id="query" name="query"
-                                   value="<?= $response['origin']['query'] ?? '' ?>" required>
+                            <textarea type="text" id="query" name="query" required>
+                                <?= $response['origin']['query'] ?? '' ?>
+                            </textarea>
                         </div>
                     </div>
                     <div class="row">
