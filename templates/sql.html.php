@@ -86,6 +86,11 @@ $tableCountry = [
                 </form>
             </div>
             <div class="col">
+                <pre>
+                    <code class="language-php" style="background: none"><?php print_r($response['query'] ?? []) ?></code>
+                </pre>
+            </div>
+            <div class="col">
                 <table>
                     <thead>
                         <tr>
@@ -105,17 +110,10 @@ $tableCountry = [
                     </tbody>
                 </table>
             </div>
-        </div>
-    </section>
-
-    <section class="p-section p-strip">
             <div class="col">
-                <p class="p-heading--5">Debug Informationen</p>
-                <div class="p-code-snippet">
                 <pre>
-                    <code class="language-php" style="background: none"><?php print_r($response ?? []) ?></code>
+                    <code class="language-php" style="background: none"><?php print_r($response['query'] ?? []) ?></code>
                 </pre>
-                </div>
             </div>
         </div>
     </section>
