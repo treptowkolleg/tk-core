@@ -87,7 +87,7 @@ $tableCountry = [
             </div>
             <div class="col">
                 <pre>
-                    <code class="language-php" style="background: none"><?php print_r($response['query'] ?? []) ?></code>
+                    <code class="language-sql" style="background: none"><?php print_r($response['query'] ?? []) ?></code>
                 </pre>
             </div>
             <div class="col">
@@ -112,7 +112,7 @@ $tableCountry = [
             </div>
             <div class="col">
                 <pre>
-                    <code class="language-php" style="background: none"><?php print_r($response['query'] ?? []) ?></code>
+                    <code class="language-sql" style="background: none"><?php print_r($response['query'] ?? []) ?></code>
                 </pre>
             </div>
         </div>
