@@ -33,10 +33,8 @@ class Bridge
         $data['apikey'] = $this->apikey;
         $data['database'] = $this->database;
 
-        $escapedData = self::escapeChars($data);
-
         $ch = curl_init("https://www.wagnerpictures.com/sqlrequest.php");
-        return $this->extracted($ch, $escapedData);
+        return $this->extracted($ch, $data);
     }
 
     private function escapeChars($element)
