@@ -25,23 +25,18 @@ class Bridge
         $escapedData = self::escapeChars($data);
 
         $ch = curl_init("https://www.wagnerpictures.com/test-request.php");
-        curl_setopt_array($ch, array(
-            CURLOPT_POST => TRUE,
-            CURLOPT_RETURNTRANSFER => TRUE,
-            CURLOPT_SSL_VERIFYPEER => FALSE,
-            CURLOPT_SSL_VERIFYHOST => FALSE,
-            CURLOPT_POSTFIELDS => $escapedData
-        ));
+        return $this->extracted($ch, $escapedData);
+    }
 
-        $response = curl_exec($ch);
+    public function requestSQL($query) {
+        $data['query'] = $query;
+        $data['apikey'] = $this->apikey;
+        $data['database'] = $this->database;
 
-        if($response === FALSE){
-            $responseData['message'] = curl_error($ch);
-        } else {
-            $responseData = json_decode($response, TRUE);
-        }
-        curl_close($ch);
-        return $responseData;
+        $escapedData = self::escapeChars($data);
+
+        $ch = curl_init("https://www.wagnerpictures.com/sqlrequest.php");
+        return $this->extracted($ch, $escapedData);
     }
 
     private function escapeChars($element)
@@ -58,6 +53,32 @@ class Bridge
             }
         }
         return $element;
+    }
+
+    /**
+     * @param $ch
+     * @param $escapedData
+     * @return array|mixed
+     */
+    public function extracted($ch, $escapedData)
+    {
+        curl_setopt_array($ch, array(
+            CURLOPT_POST => TRUE,
+            CURLOPT_RETURNTRANSFER => TRUE,
+            CURLOPT_SSL_VERIFYPEER => FALSE,
+            CURLOPT_SSL_VERIFYHOST => FALSE,
+            CURLOPT_POSTFIELDS => $escapedData
+        ));
+
+        $response = curl_exec($ch);
+
+        if ($response === FALSE) {
+            $responseData['message'] = curl_error($ch);
+        } else {
+            $responseData = json_decode($response, TRUE);
+        }
+        curl_close($ch);
+        return $responseData;
     }
 
 
