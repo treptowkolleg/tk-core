@@ -89,11 +89,6 @@ $tableCountry = [
     </section>
 
     <section class="p-section p-strip">
-        <div class="row--25-75">
-            <div class="col">
-                <p class="p-heading--5">Nachricht</p>
-                <p><?= $message ?? 'Keine Nachricht vorhanden.' ?></p>
-            </div>
             <div class="col">
                 <p class="p-heading--5">Debug Informationen</p>
                 <div class="p-code-snippet">
