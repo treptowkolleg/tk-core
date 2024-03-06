@@ -58,7 +58,7 @@ $tableCountry = [
                 In diesem Beispiel können SQL-Abfragen über eine API an die angeschlossene Datenbank gestellt werden.
                 Als Rückmeldung erhält man ein Array, das in Tabellenform dargestellt wird.
             </p>
-            <a href="/docs/img/world.pdf">Struktur</a> der World-Datenbank.
+            <a href="/docs/img/world.pdf" target="_blank">Struktur</a> der World-Datenbank.
         </div>
         <div class="col">
             <table>
