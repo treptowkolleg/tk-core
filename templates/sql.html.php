@@ -37,10 +37,7 @@ $tableCountry = [
                 <h2 class="p-table-of-contents__header">Auf dieser Seite</h2>
                 <nav class="p-table-of-contents__nav" aria-label="Table of contents">
                     <ul class="p-table-of-contents__list">
-                        <li class="p-table-of-contents__item"><a class="p-table-of-contents__link" href="#link1">Was ist SQL</a></li>
-                        <li class="p-table-of-contents__item"><a class="p-table-of-contents__link" href="#link2">Wie funktioniert die API</a></li>
                         <li class="p-table-of-contents__item"><a class="p-table-of-contents__link is-active" href="#link3">Abfragen erstellen</a></li>
-                        <li class="p-table-of-contents__item"><a class="p-table-of-contents__link" href="#link4">Weitere Informationen</a></li>
                     </ul>
                 </nav>
             </div>
@@ -53,6 +50,7 @@ $tableCountry = [
     <section class="p-section">
         <div class="row">
             <div class="col">
+                <h2 id="link3">SQL-Abfragen erstellen</h2>
                 <p>
                     In diesem Beispiel können SQL-Abfragen über eine API an die angeschlossene Datenbank gestellt werden.
                     Als Rückmeldung erhält man ein Array, das in Tabellenform dargestellt wird.
