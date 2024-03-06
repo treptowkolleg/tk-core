@@ -70,9 +70,9 @@ $tableCountry = [
             <div class="col">
                 <form method="post" class="p-form p-form--stacked">
                     <div class="p-form__group row">
-                        <div class="col-6">
+                        <div class="col-12">
                             <label for="query">SQl-Query</label>
-                            <textarea type="text" id="query" name="query" required><?= trim($response['origin']['query'] ?? '') ?></textarea>
+                            <textarea rows="8" class="u-text-max-width" type="text" id="query" name="query" required><?= trim($response['origin']['query'] ?? '') ?></textarea>
                         </div>
                     </div>
                     <div class="row">
