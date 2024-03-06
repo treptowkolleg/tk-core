@@ -85,6 +85,26 @@ $tableCountry = [
                     </div>
                 </form>
             </div>
+            <div class="col">
+                <table>
+                    <thead>
+                        <tr>
+                        <?php foreach ($columns ?? [] as $column): ?>
+                            <th><?=$column?></th>
+                        <?php endforeach; ?>
+                        </tr>
+                    </thead>
+                    <tbody>
+                    <?php foreach ($response['response'] ?? [] as $row): ?>
+                        <tr>
+                            <?php foreach ($row as $value): ?>
+                                <td><?=$value?></td>
+                            <?php endforeach; ?>
+                        </tr>
+                    <?php endforeach; ?>
+                    </tbody>
+                </table>
+            </div>
         </div>
     </section>
 
