@@ -45,6 +45,11 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $message = $response['message'];
     }
 
+    if(isset($_POST['sql'])) {
+        $response = $api->requestSQL($_POST['query']);
+        $message = $response['message'];
+    }
+
     // Kurspunkte
     $points = 0;
     if(isset($_POST['calc_course'])) {

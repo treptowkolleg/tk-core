@@ -50,29 +50,59 @@ $tableCountry = [
 
 <main>
 
+    <section class="p-section">
+        <div class="row">
+            <div class="col">
+                <p>
+                    In diesem Beispiel können SQL-Abfragen über eine API an die angeschlossene Datenbank gestellt werden.
+                    Als Rückmeldung erhält man ein Array, das in Tabellenform dargestellt wird.
+                </p>
+                <a href="/docs/img/world.pdf" target="_blank">Struktur</a> der World-Datenbank.
+            </div>
+            <div class="col">
+                <?php if (isset($message)): ?>
+                    <div class="p-notification--information">
+                        <div class="p-notification__content">
+                            <h5 class="p-notification__title">Rückmeldung</h5>
+                            <p class="p-notification__message"><?= $message ?></p>
+                        </div>
+                    </div>
+                <?php endif; ?>
+            </div>
+            <div class="col">
+                <form method="post" class="p-form p-form--stacked">
+                    <div class="p-form__group row">
+                        <div class="col-6">
+                            <label for="query">SQl-Query</label>
+                            <input type="text" id="query" name="query"
+                                   value="<?= $response['origin']['query'] ?? '' ?>" required>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-6">
+                            <button type="submit" class="p-button--positive" name="sql">SQL-Query ausführen</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
 
-<section class="p-section">
-    <div class="row">
-        <div class="col">
-            <p>
-                In diesem Beispiel können SQL-Abfragen über eine API an die angeschlossene Datenbank gestellt werden.
-                Als Rückmeldung erhält man ein Array, das in Tabellenform dargestellt wird.
-            </p>
-            <a href="/docs/img/world.pdf" target="_blank">Struktur</a> der World-Datenbank.
+    <section class="p-section p-strip">
+        <div class="row--25-75">
+            <div class="col">
+                <p class="p-heading--5">Nachricht</p>
+                <p><?= $message ?? 'Keine Nachricht vorhanden.' ?></p>
+            </div>
+            <div class="col">
+                <p class="p-heading--5">Debug Informationen</p>
+                <div class="p-code-snippet">
+                <pre>
+                    <code class="language-php" style="background: none"><?php print_r($response ?? []) ?></code>
+                </pre>
+                </div>
+            </div>
         </div>
-        <div class="col">
-            <table>
-                <caption>SQL-Tabelle "Country"</caption>
-                <thead>
-                    <tr>
-                        <?php foreach ($tableCountry as $column): ?>
-                            <th><?=$column?></th>
-                        <?php endforeach;?>
-                    </tr>
-                </thead>
-            </table>
-        </div>
-    </div>
-</section>
+    </section>
 
 </main>

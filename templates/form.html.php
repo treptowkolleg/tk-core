@@ -108,7 +108,6 @@ use TreptowKolleg\Api\Session;
                     <code class="language-php" style="background: none"><?php print_r($response ?? []) ?></code>
                 </pre>
             </div>
-
         </div>
     </div>
 </section>
