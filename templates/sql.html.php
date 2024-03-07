@@ -55,7 +55,11 @@ $tableCountry = [
                     In diesem Beispiel können SQL-Abfragen über eine API an die angeschlossene Datenbank gestellt werden.
                     Als Rückmeldung erhält man ein Array, das in Tabellenform dargestellt wird.
                 </p>
-                <a href="/docs/img/abitraining.pdf" target="_blank">Struktur</a> der Abitur-Training-Datenbank.
+                <ul>
+                    <li><a href="/docs/img/abitraining.pdf" target="_blank">Struktur</a> der Abitur-Training-Datenbank.</li>
+                    <li><a href="/docs/img/abitrainingAufgaben.pdf" target="_blank">Aufgaben</a> zur Prüfungsvorbereitung.</li>
+                </ul>
+
             </div>
             <div class="col">
                 <?php if (isset($message)): ?>
