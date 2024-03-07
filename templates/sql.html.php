@@ -55,7 +55,7 @@ $tableCountry = [
                     In diesem Beispiel können SQL-Abfragen über eine API an die angeschlossene Datenbank gestellt werden.
                     Als Rückmeldung erhält man ein Array, das in Tabellenform dargestellt wird.
                 </p>
-                <a href="/docs/img/world.pdf" target="_blank">Struktur</a> der World-Datenbank.
+                <a href="/docs/img/abitraining.pdf" target="_blank">Struktur</a> der Abitur-Training-Datenbank.
             </div>
             <div class="col">
                 <?php if (isset($message)): ?>
@@ -69,7 +69,7 @@ $tableCountry = [
             </div>
             <div class="col">
                 <h3>ERM</h3>
-                <img src="/docs/img/world_erm.svg" alt="ERM World-Datenbank">
+                <img src="/docs/img/abitraining.png" alt="Abitraining-Datenbank">
             </div>
             <div class="col">
                 <form method="post" class="p-form p-form--stacked">
