@@ -68,6 +68,10 @@ $tableCountry = [
                 <?php endif; ?>
             </div>
             <div class="col">
+                <h3>ERM</h3>
+                <img src="/docs/img/world_erm.svg" alt="ERM World-Datenbank">
+            </div>
+            <div class="col">
                 <form method="post" class="p-form p-form--stacked">
                     <div class="p-form__group row">
                         <div class="col-12">
