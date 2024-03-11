@@ -18,6 +18,8 @@ ORDER BY
         examNumber ASC
 ````
 
+![img.png](../img/world_erm.png)
+
 Die obige SQL-Abfrage benennt die selektierten Spalten so um, dass sie zu folgender
 Klasse passen:
 

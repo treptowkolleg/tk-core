@@ -70,7 +70,7 @@ $tableCountry = [
                     <li><a href="/docs/img/world.pdf" target="_blank">Struktur</a> der Welt-Datenbank.</li>
                 </ul>
                 <h4>ERM (Welt)</h4>
-                <img src="/docs/img/world_erm.svg" alt="ERM Welt-Datenbank">
+                <img src="/docs/img/world_erm.png" alt="ERM Welt-Datenbank">
             </div>
             <div class="col">
                 <?php if (isset($message)): ?>
