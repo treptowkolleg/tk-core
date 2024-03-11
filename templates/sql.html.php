@@ -87,7 +87,7 @@ $tableCountry = [
                 <ul>
                     <li><a href="/docs/img/tk02.pdf" target="_blank">Struktur</a> der 5.-PK-Datenbank.</li>
                 </ul>
-                <h4>ERM (Großhandel)</h4>
+                <h4>ERM (5.-PK-Datenbank)</h4>
                 <img src="/docs/img/tk02.png" alt="ERM 5.-PK-Datenbank">
             </div>
             <div class="col">
