@@ -79,6 +79,15 @@ $tableCountry = [
                 <form method="post" action="#form" class="p-form p-form--stacked" id="form">
                     <div class="p-form__group row">
                         <div class="col-12">
+                            <label for="db">Datenbank</label>
+                            <select class="u-text-max-width" id="db" name="db">
+                                <option value="tk06">Schule</option>
+                                <option value="world">Welt</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="p-form__group row">
+                        <div class="col-12">
                             <label for="query">SQl-Query</label>
                             <textarea style="font-family: monospace" rows="8" class="u-text-max-width" type="text" id="query" name="query" required><?= trim($response['origin']['query'] ?? '') ?></textarea>
                         </div>
