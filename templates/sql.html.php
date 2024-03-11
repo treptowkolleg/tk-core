@@ -81,16 +81,6 @@ $tableCountry = [
                 <img src="/docs/img/grosshandel_erm.png" alt="ERM Großhandel-Datenbank">
             </div>
             <div class="col">
-                <?php if (isset($message)): ?>
-                    <div class="p-notification--information">
-                        <div class="p-notification__content">
-                            <h5 class="p-notification__title">Rückmeldung</h5>
-                            <p class="p-notification__message"><?= $message ?></p>
-                        </div>
-                    </div>
-                <?php endif; ?>
-            </div>
-            <div class="col">
                 <h2 id="formular">Formular</h2>
                 <form method="post" action="#form" class="p-form p-form--stacked" id="form">
                     <div class="p-form__group row">
@@ -123,6 +113,16 @@ $tableCountry = [
                         </div>
                     </div>
                 </form>
+            </div>
+            <div class="col">
+                <?php if (isset($message)): ?>
+                    <div class="p-notification--caution">
+                        <div class="p-notification__content">
+                            <h5 class="p-notification__title">Rückmeldung</h5>
+                            <p class="p-notification__message"><?= $message ?></p>
+                        </div>
+                    </div>
+                <?php endif; ?>
             </div>
             <div class="col">
                 <h2 id="result">Ergebnistabelle</h2>
