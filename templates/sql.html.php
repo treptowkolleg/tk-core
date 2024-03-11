@@ -30,13 +30,13 @@ $tableCountry = [
     </div>
 </div>
 
-<div class="l-docs__meta">
+<div class="l-docs__meta" id="main-content">
     <div class="l-docs__sticky-container">
         <aside class="p-table-of-contents">
             <div class="p-table-of-contents__section p-strip is-shallow">
                 <h2 class="p-table-of-contents__header">Auf dieser Seite</h2>
                 <nav class="p-table-of-contents__nav" aria-label="Table of contents">
-                    <ul class="p-table-of-contents__list">
+                    <ul class="p-table-of-contents__list" id="list">
                         <li class="p-table-of-contents__item"><a class="p-table-of-contents__link is-active" href="#link3">Abfragen erstellen</a></li>
                         <li class="p-table-of-contents__item"><a class="p-table-of-contents__link" href="#formular">Abfrageformular</a></li>
                         <li class="p-table-of-contents__item"><a class="p-table-of-contents__link" href="#result">Ergebnistabelle</a></li>
