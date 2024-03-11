@@ -21,7 +21,12 @@ $server = getProtocol().$_SERVER['HTTP_HOST'].'/';
 
 
 $session = new Session();
-$api = new Bridge('a38','abitraining');
+if(isset($_POST['db'])) {
+    $db = $_POST['db'];
+} else {
+    $db = 'abitraining';
+}
+$api = new Bridge('a38',$db);
 $mdParser = new ParsedownExtra();
 
 if (!isset($_GET['page'])) {

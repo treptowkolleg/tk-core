@@ -89,7 +89,7 @@ $tableCountry = [
                         <div class="col-12">
                             <label for="db">Datenbank</label>
                             <select class="u-text-max-width" id="db" name="db">
-                                <option value="tk06">Schule</option>
+                                <option value="abitraining">Schule</option>
                                 <option value="world">Welt</option>
                             </select>
                         </div>
