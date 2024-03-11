@@ -92,10 +92,10 @@ $tableCountry = [
                                 <?php if(isset($_POST['db'])):?>
                                     <option value="abitraining" <?=$_POST['db'] == 'abitraining' ? 'selected' : '' ?>>Schule</option>
                                     <option value="world" <?=$_POST['db'] == 'world' ? 'selected' : '' ?>>Welt</option>
+                                    <?php else: ?>
+                                        <option value="abitraining">Schule</option>
+                                        <option value="world">Welt</option>
                                 <?php endif; ?>
-                                <option value="abitraining">Schule</option>
-                                <option value="world">Welt</option>
-
                             </select>
                         </div>
                     </div>
