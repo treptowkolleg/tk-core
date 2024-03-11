@@ -76,7 +76,7 @@ $tableCountry = [
                 <img src="/docs/img/abitraining.png" alt="Abitraining-Datenbank">
             </div>
             <div class="col">
-                <form method="post" class="p-form p-form--stacked">
+                <form method="post" action="#form" class="p-form p-form--stacked" id="form">
                     <div class="p-form__group row">
                         <div class="col-12">
                             <label for="query">SQl-Query</label>
@@ -89,11 +89,6 @@ $tableCountry = [
                         </div>
                     </div>
                 </form>
-            </div>
-            <div class="col">
-                <pre>
-                    <code class="language-sql" style="background: none"><?php print_r($response['query'] ?? []) ?></code>
-                </pre>
             </div>
             <div class="col">
                 <table>
