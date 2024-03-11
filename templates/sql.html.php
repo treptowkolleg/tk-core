@@ -75,6 +75,7 @@ $tableCountry = [
                 <h3>Großhandel-Datenbank</h3>
                 <ul>
                     <li><a href="/docs/img/grosshandel.pdf" target="_blank">Struktur</a> der Großhandelsdatenbank.</li>
+                    <li><a href="/docs/img/abitrainingAufgaben2.pdf" target="_blank">Aufgaben</a> zur Prüfungsvorbereitung.</li>
                 </ul>
                 <h4>ERM (Großhandel)</h4>
                 <img src="/docs/img/grosshandel_erm.png" alt="ERM Großhandel-Datenbank">
