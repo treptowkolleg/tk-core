@@ -38,8 +38,8 @@ $tableCountry = [
                 <nav class="p-table-of-contents__nav" aria-label="Table of contents">
                     <ul class="p-table-of-contents__list">
                         <li class="p-table-of-contents__item"><a class="p-table-of-contents__link is-active" href="#link3">Abfragen erstellen</a></li>
-                        <li class="p-table-of-contents__item"><a class="p-table-of-contents__link is-active" href="#formular">Abfrageformular</a></li>
-                        <li class="p-table-of-contents__item"><a class="p-table-of-contents__link is-active" href="#result">Ergebnistabelle</a></li>
+                        <li class="p-table-of-contents__item"><a class="p-table-of-contents__link" href="#formular">Abfrageformular</a></li>
+                        <li class="p-table-of-contents__item"><a class="p-table-of-contents__link" href="#result">Ergebnistabelle</a></li>
                     </ul>
                 </nav>
             </div>
