@@ -38,6 +38,8 @@ $tableCountry = [
                 <nav class="p-table-of-contents__nav" aria-label="Table of contents">
                     <ul class="p-table-of-contents__list">
                         <li class="p-table-of-contents__item"><a class="p-table-of-contents__link is-active" href="#link3">Abfragen erstellen</a></li>
+                        <li class="p-table-of-contents__item"><a class="p-table-of-contents__link is-active" href="#formular">Abfrageformular</a></li>
+                        <li class="p-table-of-contents__item"><a class="p-table-of-contents__link is-active" href="#result">Ergebnistabelle</a></li>
                     </ul>
                 </nav>
             </div>
@@ -76,6 +78,7 @@ $tableCountry = [
                 <img src="/docs/img/abitraining.png" alt="Abitraining-Datenbank">
             </div>
             <div class="col">
+                <h2 id="formular">Formular</h2>
                 <form method="post" action="#form" class="p-form p-form--stacked" id="form">
                     <div class="p-form__group row">
                         <div class="col-12">
@@ -100,6 +103,7 @@ $tableCountry = [
                 </form>
             </div>
             <div class="col">
+                <h2 id="result">Ergebnistabelle</h2>
                 <table>
                     <thead>
                         <tr>
