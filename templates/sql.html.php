@@ -71,6 +71,13 @@ $tableCountry = [
                 </ul>
                 <h4>ERM (Welt)</h4>
                 <img src="/docs/img/world_erm.png" alt="ERM Welt-Datenbank">
+
+                <h3>Großhandel-Datenbank</h3>
+                <ul>
+                    <li><a href="/docs/img/grosshandel.pdf" target="_blank">Struktur</a> der Großhandelsdatenbank.</li>
+                </ul>
+                <h4>ERM (Großhandel)</h4>
+                <img src="/docs/img/grosshandel_erm.png" alt="ERM Großhandel-Datenbank">
             </div>
             <div class="col">
                 <?php if (isset($message)): ?>
@@ -92,10 +99,12 @@ $tableCountry = [
                                 <?php if(isset($_POST['db'])):?>
                                     <option value="">Datenbank wählen</option>
                                     <option value="abitraining" <?=$_POST['db'] == 'abitraining' ? 'selected' : '' ?>>Schule</option>
+                                    <option value="grosshandel" <?=$_POST['db'] == 'grosshandel' ? 'selected' : '' ?>>Großhandel</option>
                                     <option value="world" <?=$_POST['db'] == 'world' ? 'selected' : '' ?>>Welt</option>
                                     <?php else: ?>
                                         <option value="">Datenbank wählen</option>
                                         <option value="abitraining">Schule</option>
+                                        <option value="grosshandel">Großhandel</option>
                                         <option value="world">Welt</option>
                                 <?php endif; ?>
                             </select>
