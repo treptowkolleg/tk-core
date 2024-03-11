@@ -90,10 +90,11 @@ $tableCountry = [
                             <label for="db">Datenbank</label>
                             <select class="u-text-max-width" id="db" name="db" required>
                                 <?php if(isset($_POST['db'])):?>
+                                    <option value="">Datenbank wählen</option>
                                     <option value="abitraining" <?=$_POST['db'] == 'abitraining' ? 'selected' : '' ?>>Schule</option>
                                     <option value="world" <?=$_POST['db'] == 'world' ? 'selected' : '' ?>>Welt</option>
                                     <?php else: ?>
-                                        <option>Datenbank wählen</option>
+                                        <option value="">Datenbank wählen</option>
                                         <option value="abitraining">Schule</option>
                                         <option value="world">Welt</option>
                                 <?php endif; ?>
