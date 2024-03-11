@@ -37,7 +37,7 @@ $tableCountry = [
                 <h2 class="p-table-of-contents__header">Auf dieser Seite</h2>
                 <nav class="p-table-of-contents__nav" aria-label="Table of contents">
                     <ul class="p-table-of-contents__list" id="list">
-                        <li class="p-table-of-contents__item"><a class="p-table-of-contents__link is-active" href="#link3">Abfragen erstellen</a></li>
+                        <li class="p-table-of-contents__item"><a class="p-table-of-contents__link is-active" href="#link3">Datenbanken</a></li>
                         <li class="p-table-of-contents__item"><a class="p-table-of-contents__link" href="#formular">Abfrageformular</a></li>
                         <li class="p-table-of-contents__item"><a class="p-table-of-contents__link" href="#result">Ergebnistabelle</a></li>
                     </ul>
@@ -52,10 +52,13 @@ $tableCountry = [
     <section class="p-section">
         <div class="row">
             <div class="col">
-                <h2 id="link3">SQL-Abfragen erstellen</h2>
+                <h2 id="link3">Datenbanken</h2>
                 <p>
                     In diesem Beispiel können SQL-Abfragen über eine API an die angeschlossene Datenbank gestellt werden.
                     Als Rückmeldung erhält man ein Array, das in Tabellenform dargestellt wird.
+                </p>
+                <p>
+                    Im Folgenden werden die verfügbaren Datenbanken beschrieben.
                 </p>
                 <h3>Schul-Datenbank</h3>
                 <ul>
@@ -79,6 +82,13 @@ $tableCountry = [
                 </ul>
                 <h4>ERM (Großhandel)</h4>
                 <img src="/docs/img/grosshandel_erm.png" alt="ERM Großhandel-Datenbank">
+
+                <h3>5.-PK-Datenbank (Q1)</h3>
+                <ul>
+                    <li><a href="/docs/img/tk02.pdf" target="_blank">Struktur</a> der 5.-PK-Datenbank.</li>
+                </ul>
+                <h4>ERM (Großhandel)</h4>
+                <img src="/docs/img/tk02.png" alt="ERM 5.-PK-Datenbank">
             </div>
             <div class="col">
                 <h2 id="formular">Formular</h2>
@@ -92,11 +102,13 @@ $tableCountry = [
                                     <option value="abitraining" <?=$_POST['db'] == 'abitraining' ? 'selected' : '' ?>>Schule</option>
                                     <option value="grosshandel" <?=$_POST['db'] == 'grosshandel' ? 'selected' : '' ?>>Großhandel</option>
                                     <option value="world" <?=$_POST['db'] == 'world' ? 'selected' : '' ?>>Welt</option>
+                                    <option value="tk02" <?=$_POST['db'] == 'tk02' ? 'selected' : '' ?>>5.-PK-Themen</option>
                                     <?php else: ?>
                                         <option value="">Datenbank wählen</option>
                                         <option value="abitraining">Schule</option>
                                         <option value="grosshandel">Großhandel</option>
                                         <option value="world">Welt</option>
+                                        <option value="tk02">5.-PK-Themen</option>
                                 <?php endif; ?>
                             </select>
                         </div>
