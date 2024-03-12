@@ -65,30 +65,39 @@ $tableCountry = [
                     <li><a href="/docs/img/abitraining.pdf" target="_blank">Struktur</a> der Abitur-Training-Datenbank.</li>
                     <li><a href="/docs/img/abitrainingAufgaben.pdf" target="_blank">Aufgaben</a> zur Prüfungsvorbereitung.</li>
                 </ul>
-                <h4>ERM (Schule)</h4>
-                <img src="/docs/img/abitraining.png" alt="ERM Abitraining-Datenbank">
+                <details>
+                    <summary>ERM (Schule)</summary>
+                    <img src="/docs/img/abitraining.png" alt="ERM Abitraining-Datenbank">
+                </details>
+
 
                 <h3>Welt-Datenbank</h3>
                 <ul>
                     <li><a href="/docs/img/world.pdf" target="_blank">Struktur</a> der Welt-Datenbank.</li>
                 </ul>
-                <h4>ERM (Welt)</h4>
-                <img src="/docs/img/world_erm.png" alt="ERM Welt-Datenbank">
+                <details>
+                    <summary>ERM (Welt)</summary>
+                    <img src="/docs/img/world_erm.png" alt="ERM Welt-Datenbank">
+                </details>
 
                 <h3>Großhandel-Datenbank</h3>
                 <ul>
                     <li><a href="/docs/img/grosshandel.pdf" target="_blank">Struktur</a> der Großhandelsdatenbank.</li>
                     <li><a href="/docs/img/abitrainingAufgaben2.pdf" target="_blank">Aufgaben</a> zur Prüfungsvorbereitung.</li>
                 </ul>
-                <h4>ERM (Großhandel)</h4>
-                <img src="/docs/img/grosshandel_erm.png" alt="ERM Großhandel-Datenbank">
+                <details>
+                    <summary>ERM (Großhandel)</summary>
+                    <<img src="/docs/img/grosshandel_erm.png" alt="ERM Großhandel-Datenbank">
+                </details>
 
                 <h3>5.-PK-Datenbank (Q1)</h3>
                 <ul>
                     <li><a href="/docs/img/tk02.pdf" target="_blank">Struktur</a> der 5.-PK-Datenbank.</li>
                 </ul>
-                <h4>ERM (5.-PK-Datenbank)</h4>
-                <img src="/docs/img/tk02.png" alt="ERM 5.-PK-Datenbank">
+                <details>
+                    <summary>ERM (5.-PK-Datenbank)</summary>
+                    <img src="/docs/img/tk02.png" alt="ERM 5.-PK-Datenbank">
+                </details>
             </div>
             <div class="col">
                 <h2 id="formular">Formular</h2>
