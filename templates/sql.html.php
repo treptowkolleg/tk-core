@@ -67,7 +67,7 @@ $tableCountry = [
                 </ul>
                 <details>
                     <summary>ERM (Schule)</summary>
-                    <img src="/docs/img/abitraining.png" alt="ERM Abitraining-Datenbank">
+                    <img src="/docs/img/abitraining.svg" alt="ERM Abitraining-Datenbank">
                 </details>
 
 
