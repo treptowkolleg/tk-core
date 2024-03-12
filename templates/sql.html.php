@@ -87,7 +87,7 @@ $tableCountry = [
                 </ul>
                 <details>
                     <summary>ERM (Großhandel)</summary>
-                    <<img src="/docs/img/grosshandel_erm.png" alt="ERM Großhandel-Datenbank">
+                    <img src="/docs/img/grosshandel_erm.png" alt="ERM Großhandel-Datenbank">
                 </details>
 
                 <h3>5.-PK-Datenbank (Q1)</h3>
