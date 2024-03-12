@@ -2,6 +2,8 @@
 
 ![sql-logo](/docs/img/Sql_data_base_with_logo.png)
 
+Live-Abfragen für einige Datenbanken können [hier getätigt werden](https://it.treptowkolleg.de/?page=docs-sql).
+
 ## Grundlagen
 
 Um ein Gefühl für SQL zu bekommen, erstmal eine *Select-Query* üblichen Ausmaßes:
