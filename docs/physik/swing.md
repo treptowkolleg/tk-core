@@ -57,6 +57,20 @@ Misst man nun die Spannung am Ausgang der Gleichrichterschaltung ergibt sich fol
 Hier zeigt sich nun, dass mit der gleichen Frequenz wie am Primärstromkreis des Transformators nun
 immer nur eine positive Spannung am Sekundärstromkreis anliegt.
 
+#### Verbesserte Schaltung
+
+Mithilfe eines weiteren Kondensators im Sekundärstromkreis lässt sich die nun anliegende
+oszillierende Gleichspannung glätten, um weitere Verbraucher mit einer stabileren Spannung
+zu versorgen:
+
+![img.png](/docs/img/gleichrichterV2.png)
+
+Der Graph der Spannungsmessung zeigt, wie die Spannung nun nicht mehr so stark zwischen dem
+Maximum und Null schwankt. Je größer die Kapazität des Kondensators ist, desto gleichmäßiger
+wird die Gleichspannung.
+
+![img.png](/docs/img/gleichrichterMessungV2.png)
+
 ## Anwendung
 
 ### Funkeninduktor
