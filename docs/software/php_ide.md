@@ -75,7 +75,7 @@ Git ist perfekt für die Versionierung von Softwareprojekten. Git hilft dir auß
 choco install git
 ````
 
-## Node.js
+## NodeJs
 
 Node.js ist ein Paketmanager für Javascript- und Stylesheet-Frameworks. Wir benötigen ihn
 außerdem, um **Yarn** installieren zu können.
