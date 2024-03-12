@@ -1,5 +1,7 @@
 # Elektromagnetischer Schwingkreis
 
+*Die Pfeile der Schaltungen zeigen den physikalischen Stromfluss, also den der Elektronen*
+
 ## Phasen
 
 ### Erste Phase
