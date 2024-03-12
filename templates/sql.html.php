@@ -107,13 +107,13 @@ $tableCountry = [
                             <label for="db">Datenbank</label>
                             <select class="u-text-max-width" id="db" name="db" required>
                                 <?php if(isset($_POST['db'])):?>
-                                    <option value="">Datenbank wählen</option>
+                                    <option value="">Datenbank wählen...</option>
                                     <option value="abitraining" <?=$_POST['db'] == 'abitraining' ? 'selected' : '' ?>>Schule</option>
                                     <option value="grosshandel" <?=$_POST['db'] == 'grosshandel' ? 'selected' : '' ?>>Großhandel</option>
                                     <option value="world" <?=$_POST['db'] == 'world' ? 'selected' : '' ?>>Welt</option>
                                     <option value="tk02" <?=$_POST['db'] == 'tk02' ? 'selected' : '' ?>>5.-PK-Themen</option>
                                     <?php else: ?>
-                                        <option value="">Datenbank wählen</option>
+                                        <option value="">Datenbank wählen...</option>
                                         <option value="abitraining">Schule</option>
                                         <option value="grosshandel">Großhandel</option>
                                         <option value="world">Welt</option>
