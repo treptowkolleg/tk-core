@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/PR-SVG-20010719/DTD/svg10.dtd">
+<svg width="33cm" height="20cm" viewBox="281 111 653 386" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <g>
+    <rect style="fill: #ffffff" x="646" y="254" width="110.7" height="18"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="646" y="254" width="110.7" height="18"/>
+    <text font-size="11.2" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="701.35" y="268">fach</text>
+    <rect style="fill: #ffffff" x="646" y="272" width="110.7" height="36"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="646" y="272" width="110.7" height="36"/>
+    <ellipse style="fill: #000000" cx="651" cy="282" rx="2" ry="2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="655" y="288">Name</text>
+    <ellipse style="fill: #000000" cx="651" cy="298" rx="2" ry="2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="655" y="304">Pflichtfach</text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="514" y="356" width="135.8" height="18"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="514" y="356" width="135.8" height="18"/>
+    <text font-size="11.2" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="581.9" y="370">hat_fachbetreuung_in</text>
+    <rect style="fill: #ffffff" x="514" y="374" width="135.8" height="52"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="514" y="374" width="135.8" height="52"/>
+    <polygon style="fill: #000000" points="517,384 519,387 521,384 519,381 "/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:700" x="523" y="390">Lehrkraft</text>
+    <line style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" x1="523" y1="391.6" x2="610" y2="391.6"/>
+    <ellipse style="fill: #000000" cx="519" cy="400" rx="2" ry="2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="523" y="406">Fach</text>
+    <ellipse style="fill: #000000" cx="519" cy="416" rx="2" ry="2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="523" y="422">Wertigkeit</text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="514" y="443" width="145.75" height="18"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="514" y="443" width="145.75" height="18"/>
+    <text font-size="11.2" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="586.875" y="457">hat_lehrbefaehigung_in</text>
+    <rect style="fill: #ffffff" x="514" y="461" width="145.75" height="36"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="514" y="461" width="145.75" height="36"/>
+    <polygon style="fill: #000000" points="517,471 519,474 521,471 519,468 "/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:700" x="523" y="477">Lehrkraft</text>
+    <line style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" x1="523" y1="478.6" x2="602.3" y2="478.6"/>
+    <ellipse style="fill: #000000" cx="519" cy="487" rx="2" ry="2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="523" y="493">Fach</text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="635" y="111" width="132" height="18"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="635" y="111" width="132" height="18"/>
+    <text font-size="11.2" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="701" y="125">ist_fachlehrkraft_von</text>
+    <rect style="fill: #ffffff" x="635" y="129" width="132" height="68"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="635" y="129" width="132" height="68"/>
+    <polygon style="fill: #000000" points="638,139 640,142 642,139 640,136 "/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:700" x="644" y="145">Lehrkraft</text>
+    <line style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" x1="644" y1="146.6" x2="738.7" y2="146.6"/>
+    <polygon style="fill: #000000" points="638,155 640,158 642,155 640,152 "/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:700" x="644" y="161">Klasse</text>
+    <line style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" x1="644" y1="162.6" x2="738.7" y2="162.6"/>
+    <ellipse style="fill: #000000" cx="640" cy="171" rx="2" ry="2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="644" y="177">Fach</text>
+    <ellipse style="fill: #000000" cx="640" cy="187" rx="2" ry="2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="644" y="193">Stundenzahl</text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="800" y="253" width="133.8" height="18"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="800" y="253" width="133.8" height="18"/>
+    <text font-size="11.2" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="866.9" y="267">klasse</text>
+    <rect style="fill: #ffffff" x="800" y="271" width="133.8" height="52"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="800" y="271" width="133.8" height="52"/>
+    <polygon style="fill: #000000" points="803,281 805,284 807,281 805,278 "/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:700" x="809" y="287">Name</text>
+    <line style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" x1="809" y1="288.6" x2="926.8" y2="288.6"/>
+    <ellipse style="fill: #000000" cx="805" cy="297" rx="2" ry="2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="809" y="303">Klassenzimmer</text>
+    <ellipse style="fill: #000000" cx="805" cy="313" rx="2" ry="2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="809" y="319">Klassenleitung</text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="281" y="222" width="110.7" height="18"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="281" y="222" width="110.7" height="18"/>
+    <text font-size="11.2" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="336.35" y="236">lehrkraft</text>
+    <rect style="fill: #ffffff" x="281" y="240" width="110.7" height="84"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="281" y="240" width="110.7" height="84"/>
+    <polygon style="fill: #000000" points="284,250 286,253 288,250 286,247 "/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:700" x="290" y="256">PersNr</text>
+    <line style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" x1="290" y1="257.6" x2="384.7" y2="257.6"/>
+    <ellipse style="fill: #000000" cx="286" cy="266" rx="2" ry="2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="290" y="272">Name</text>
+    <ellipse style="fill: #000000" cx="286" cy="282" rx="2" ry="2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="290" y="288">Geschlecht</text>
+    <ellipse style="fill: #000000" cx="286" cy="298" rx="2" ry="2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="290" y="304">Wohnort</text>
+    <ellipse style="fill: #000000" cx="286" cy="314" rx="2" ry="2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="290" y="320">Geburtsjahr</text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="804" y="394" width="126.1" height="18"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="804" y="394" width="126.1" height="18"/>
+    <text font-size="11.2" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="867.05" y="408">schueler</text>
+    <rect style="fill: #ffffff" x="804" y="412" width="126.1" height="84"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="804" y="412" width="126.1" height="84"/>
+    <polygon style="fill: #000000" points="807,422 809,425 811,422 809,419 "/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:700" x="813" y="428">Nr</text>
+    <line style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" x1="813" y1="429.6" x2="923.1" y2="429.6"/>
+    <ellipse style="fill: #000000" cx="809" cy="438" rx="2" ry="2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="813" y="444">Eintrittsjahr</text>
+    <ellipse style="fill: #000000" cx="809" cy="454" rx="2" ry="2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="813" y="460">Name</text>
+    <ellipse style="fill: #000000" cx="809" cy="470" rx="2" ry="2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="813" y="476">Konfession</text>
+    <ellipse style="fill: #000000" cx="809" cy="486" rx="2" ry="2"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="813" y="492">gehoert_zu</text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="649.8,400 701.35,400 701.35,312.472 "/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="706.35,320.236 701.35,310.236 696.35,320.236 "/>
+    <text font-size="9.6" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="653.8" y="396">1</text>
+    <text font-size="9.6" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="705.35" y="320">n</text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="659.75,471 729.025,471 729.025,312.472 "/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="734.025,320.236 729.025,310.236 724.025,320.236 "/>
+    <text font-size="9.6" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="663.75" y="467">1</text>
+    <text font-size="9.6" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="733.025" y="320">n</text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="767,155 866.9,155 866.9,248.528 "/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="861.9,240.764 866.9,250.764 871.9,240.764 "/>
+    <text font-size="9.6" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="771" y="151">1</text>
+    <text font-size="9.6" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="870.9" y="249">n</text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="701,197 701,225.5 701.35,225.5 701.35,249.528 "/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="696.35,241.764 701.35,251.764 706.35,241.764 "/>
+    <text font-size="9.6" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="705" y="209">1</text>
+    <text font-size="9.6" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="705.35" y="250">n</text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="867.05,394 867.05,358.5 866.9,358.5 866.9,327.472 "/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="871.9,335.236 866.9,325.236 861.9,335.236 "/>
+    <text font-size="9.6" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="871.05" y="390">1</text>
+    <text font-size="9.6" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="870.9" y="335">n</text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="635,155 336.35,155 336.35,217.528 "/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="331.35,209.764 336.35,219.764 341.35,209.764 "/>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="514,400 364.025,400 364.025,328.472 "/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="369.025,336.236 364.025,326.236 359.025,336.236 "/>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="514,471 308.675,471 308.675,328.472 "/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="313.675,336.236 308.675,326.236 303.675,336.236 "/>
+  </g>
+</svg>
