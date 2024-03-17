@@ -41,10 +41,14 @@ class Session
      * @param mixed $value Wert des Elements
      * @param string|null $key optionaler Schlüssel des Elements
      */
-    public function add($value, string $key = null)
+    public function add($value, string $key = null, string $secondKey = null)
     {
         if($key) {
-            $_SESSION[$key][] = $value;
+            if($secondKey) {
+                $_SESSION[$key][$secondKey] = $value;
+            } else {
+                $_SESSION[$key][] = $value;
+            }
         } else {
             $_SESSION[] = $value;
         }
