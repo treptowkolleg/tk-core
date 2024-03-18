@@ -2,6 +2,17 @@
 
 ## Basics
 
+Reihenfolge der Notation von Anweisungen:
+
+1. SELECT
+2. FROM
+3. JOIN
+4. WHERE
+5. GROUP BY
+6. HAVING
+7. ORDER BY
+8. LIMIT
+
 ### Projektion von Spalten
 
 Es sollen Vor- und Nachnamen aller Lehrkräfte angezeigt werden.
@@ -12,6 +23,33 @@ SELECT Vorname, Nachname FROM Lehrkraft
 
 Die Spaltennamen der Ergebnistabelle können mit ``AS`` umbenannt werden. Im Folgenden soll
 die Spalte *Wohnort* der Relation *Lehrkraft* in *Ort* umbenannt werden:
+
+````SQL
+SELECT Vorname, Nachname, Wohnort AS Ort FROM Lehrkraft
+````
+
+Standardmäßig wird immer aufsteigend nach dem ersten Attribut sortiert. Die
+Sortierung lässt sich jedoch auch ändern.
+
+#### Sortieren
+
+Zuerst nach Nachname und dann nach Vorname aufsteigend sortieren:
+
+````SQL
+SELECT Vorname, Nachname, Wohnort AS Ort
+FROM Lehrkraft
+ORDER BY Nachname, Vorname
+````
+
+Nach Nachname absteigend sortieren:
+
+````SQL
+SELECT Vorname, Nachname, Wohnort AS Ort
+FROM Lehrkraft
+ORDER BY Nachname DESC
+````
+
+#### Limitieren
 
 ````SQL
 SELECT Vorname, Nachname, Wohnort AS Ort FROM Lehrkraft
