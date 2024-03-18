@@ -58,3 +58,5 @@ SELECT Name
 FROM lehrkraft
 WHERE Geburtsjahr IS NOT NULL
 ````
+
+## Rechnen und Zählen
