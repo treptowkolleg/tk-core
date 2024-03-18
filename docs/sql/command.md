@@ -37,3 +37,7 @@ WHERE
   AND 
       lf.Fach = f.Name
 ````
+
+Mit ``WHERE`` können Bedingungen festgelegt werden, nach denen Datensätze selektiert werden
+sollen. Im obigen Beispiel würden nur Lehrkräfte angezeigt werden, die überhaupt eine
+Lehrbefähigung haben. Mit ``AND`` und/oder ``OR`` können weitere Bedingungen festgelegt werden.
