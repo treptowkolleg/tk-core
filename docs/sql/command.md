@@ -97,7 +97,7 @@ WHERE Geburtsjahr IS NOT NULL
 
 ## Schnittmengen
 
-### INNER JOIN
+### JOINS
 
 #### Mit WHERE
 
@@ -115,10 +115,10 @@ WHERE
       lf.Fach = f.Name
 ````
 
-#### INNER JOIN ON
+#### Mit INNER JOIN ON
 
 
-#### INNER JOIN USE
+#### Mit INNER JOIN USE
 
 ## Rechnen und Zählen
 
