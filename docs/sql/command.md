@@ -21,7 +21,7 @@ Es sollen Vor- und Nachnamen aller Lehrkräfte angezeigt werden.
 SELECT Name FROM lehrkraft
 ````
 
-<form method="post" action="https://it.treptowkolleg.de/?page=docs-sql#form">
+<form method="post" action="https://it.treptowkolleg.de/?page=docs-sql#result">
 <input type="hidden" name="db" value="abitraining">
 <input type="hidden" name="query" value="
 SELECT Name FROM lehrkraft
@@ -39,7 +39,7 @@ SELECT Name, Wohnort AS Ort FROM lehrkraft
 Standardmäßig wird immer aufsteigend nach dem ersten Attribut sortiert (normalerweise der
 Primärschlüssel). Die Sortierung lässt sich jedoch auch ändern.
 
-<form method="post" action="https://it.treptowkolleg.de/?page=docs-sql#form">
+<form method="post" action="https://it.treptowkolleg.de/?page=docs-sql#result">
 <input type="hidden" name="db" value="abitraining">
 <input type="hidden" name="query" value="
 SELECT Name, Wohnort AS Ort FROM lehrkraft
@@ -57,7 +57,7 @@ FROM lehrkraft
 ORDER BY Wohnort, Name
 ````
 
-<form method="post" action="https://it.treptowkolleg.de/?page=docs-sql#form">
+<form method="post" action="https://it.treptowkolleg.de/?page=docs-sql#result">
 <input type="hidden" name="db" value="abitraining">
 <input type="hidden" name="query" value="
 SELECT Name, Wohnort AS Ort
@@ -75,7 +75,7 @@ FROM lehrkraft
 ORDER BY Name DESC
 ````
 
-<form method="post" action="https://it.treptowkolleg.de/?page=docs-sql#form">
+<form method="post" action="https://it.treptowkolleg.de/?page=docs-sql#result">
 <input type="hidden" name="db" value="abitraining">
 <input type="hidden" name="query" value="
 SELECT Name, Wohnort AS Ort
@@ -95,7 +95,7 @@ FROM lehrkraft
 LIMIT 5
 ````
 
-<form method="post" action="https://it.treptowkolleg.de/?page=docs-sql#form">
+<form method="post" action="https://it.treptowkolleg.de/?page=docs-sql#result">
 <input type="hidden" name="db" value="abitraining">
 <input type="hidden" name="query" value="
 SELECT Name, Wohnort AS Ort 
@@ -113,7 +113,7 @@ FROM lehrkraft
 LIMIT 5 OFFSET 4
 ````
 
-<form method="post" action="https://it.treptowkolleg.de/?page=docs-sql#form">
+<form method="post" action="https://it.treptowkolleg.de/?page=docs-sql#result">
 <input type="hidden" name="db" value="abitraining">
 <input type="hidden" name="query" value="
 SELECT Name, Wohnort AS Ort 
@@ -141,7 +141,7 @@ FROM lehrkraft
 WHERE Geburtsjahr IS NULL
 ````
 
-<form method="post" action="https://it.treptowkolleg.de/?page=docs-sql#form">
+<form method="post" action="https://it.treptowkolleg.de/?page=docs-sql#result">
 <input type="hidden" name="db" value="abitraining">
 <input type="hidden" name="query" value="
 SELECT Name
@@ -159,7 +159,7 @@ FROM lehrkraft
 WHERE Geburtsjahr IS NOT NULL
 ````
 
-<form method="post" action="https://it.treptowkolleg.de/?page=docs-sql#form">
+<form method="post" action="https://it.treptowkolleg.de/?page=docs-sql#result">
 <input type="hidden" name="db" value="abitraining">
 <input type="hidden" name="query" value="
 SELECT Name
@@ -189,7 +189,7 @@ WHERE
       lf.Fach = f.Name
 ````
 
-<form method="post" action="https://it.treptowkolleg.de/?page=docs-sql#form">
+<form method="post" action="https://it.treptowkolleg.de/?page=docs-sql#result">
 <input type="hidden" name="db" value="abitraining">
 <input type="hidden" name="query" value="
 SELECT l.Name AS Lehrkraft, f.Name AS Fach
@@ -216,7 +216,7 @@ SELECT 'Schüler' AS Typ, Name FROM schueler
 UNION
 SELECT 'Lehrkraft', Name FROM lehrkraft
 ````
-<form method="post" action="https://it.treptowkolleg.de/?page=docs-sql#form">
+<form method="post" action="https://it.treptowkolleg.de/?page=docs-sql#result">
 <input type="hidden" name="db" value="abitraining">
 <input type="hidden" name="query" value="SELECT 'Schüler' AS Typ, Name FROM schueler
 UNION
