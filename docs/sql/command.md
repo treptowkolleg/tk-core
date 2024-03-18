@@ -2,6 +2,8 @@
 
 ## Basics
 
-Anweisung|Bedeutung|Beispiel
----|---|---
- ``SELECT`` | Projektion von Spalten | ``SELECT Name, Vorname...`` 
+````SQL
+SELECT Name, Vorname...
+````
+
+Projektion von Spalten der Ergebnistabelle.
