@@ -2,8 +2,17 @@
 
 ## Basics
 
+### Projektion von Spalten
+
+Es sollen Vor- und Nachnamen aller Lehrkräfte angezeigt werden.
+
 ````SQL
-SELECT Name, Vorname...
+SELECT Vorname, Nachname FROM Lehrkraft
 ````
 
-Projektion von Spalten der Ergebnistabelle.
+Die Spaltennamen der Ergebnistabelle können mit ``AS`` umbenannt werden. Folgenden soll
+die Spalte *Wohnort* der Relation *Lehrkraft* in *Ort* umbenannt werden:
+
+````SQL
+SELECT Vorname, Nachname, Wohnort AS Ort FROM lehrkraft
+````
