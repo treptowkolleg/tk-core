@@ -175,6 +175,8 @@ WHERE Geburtsjahr IS NOT NULL
 
 #### Mit WHERE
 
+Mit ``WHERE`` bzw. ``JOIN`` lassen sich Datensätze aus verschiedenen Relationen horizontal vereinigen.
+
 ![img.png](/docs/img/innerjoin.png)
 
 Im Folgenden sollen die Fächer neben jeder Lehrkraft angezeigt werden, in denen diese
@@ -255,6 +257,10 @@ FROM preisliste p
 </form>
 
 #### Vereinigung mit UNION
+
+Mit ``UNION`` lassen sich Datensätze aus verschiedenen Relationen vertikal vereinigen.
+Das ist immer dann sinnvoll, wenn Spalten gleichen Datentyps verschiedener Relationen
+in Zusammenhang gebracht werden sollen.
 
 ![img.png](/docs/img/union.png)
 
