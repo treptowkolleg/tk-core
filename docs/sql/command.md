@@ -14,5 +14,5 @@ Die Spaltennamen der Ergebnistabelle können mit ``AS`` umbenannt werden. Folgen
 die Spalte *Wohnort* der Relation *Lehrkraft* in *Ort* umbenannt werden:
 
 ````SQL
-SELECT Vorname, Nachname, Wohnort AS Ort FROM lehrkraft
+SELECT Vorname, Nachname, Wohnort AS Ort FROM Lehrkraft
 ````
