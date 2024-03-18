@@ -41,3 +41,20 @@ WHERE
 Mit ``WHERE`` können Bedingungen festgelegt werden, nach denen Datensätze selektiert werden
 sollen. Im obigen Beispiel würden nur Lehrkräfte angezeigt werden, die überhaupt eine
 Lehrbefähigung haben. Mit ``AND`` und/oder ``OR`` können weitere Bedingungen festgelegt werden.
+
+Soll geprüft werden, ob eine Spalte **nicht null** oder **null** ist, kann allerdings nicht
+der Vergleichsoperator ``=`` verwendet werden. Stattdessen ist folgende Notation zu verwenden:
+
+````SQL
+SELECT Name
+FROM lehrkraft
+WHERE Geburtsjahr IS NULL
+````
+
+oder:
+
+````SQL
+SELECT Name
+FROM lehrkraft
+WHERE Geburtsjahr IS NOT NULL
+````
