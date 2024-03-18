@@ -2,6 +2,6 @@
 
 ## Basics
 
-|Anweisung|Bedeutung|Beispiel|
-|---|---|---|
-| ``SELECT`` | Projektion von Spalten | ``SELECT Name, Vorname...``|
+Anweisung|Bedeutung|Beispiel
+---|---|---
+ ``SELECT`` | Projektion von Spalten | ``SELECT Name, Vorname...`` 
