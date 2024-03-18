@@ -120,6 +120,16 @@ WHERE
 
 #### Mit INNER JOIN USE
 
+#### Vereinigung mit UNION
+
+![img.png](/docs/img/union.png)
+
+````SQL
+SELECT 'Schüler' AS Typ, Name FROM schueler
+UNION
+SELECT 'Lehrkraft', Name FROM lehrkraft
+````
+
 ## Rechnen und Zählen
 
 ## Formatieren
