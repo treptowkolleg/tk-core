@@ -64,6 +64,7 @@ $tableCountry = [
                 <ul>
                     <li><a href="/docs/img/abitraining.pdf" target="_blank">Struktur</a> der Abitur-Training-Datenbank.</li>
                     <li><a href="/docs/img/abitrainingAufgaben.pdf" target="_blank">Aufgaben</a> zur Prüfungsvorbereitung.</li>
+                    <li><a href="/docs/img/1_SQLAbiturvorbereitungLoesung.pdf" target="_blank">Lösungen</a> zu den Aufgaben.</li>
                 </ul>
                 <details>
                     <summary>ERM (Schule)</summary>
