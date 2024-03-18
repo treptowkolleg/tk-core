@@ -30,7 +30,7 @@ Tabellennamen vorangestellt werden. Für sehr lange Tabellennamen kann auch ein 
 werden, um Schreibarbeit zu sparen (``FROM Tabellenname t``).
 
 ````SQL
-SELECT Lehrkraft.Name, Fach.Name
+SELECT l.Name, f.Name
 FROM lehrkraft l, hat_lehrbefaehigung_in lf, fach f
 WHERE
       l.PersNr = lf.Lehrkraft
