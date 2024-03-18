@@ -21,7 +21,7 @@ Es sollen Vor- und Nachnamen aller Lehrkräfte angezeigt werden.
 SELECT Vorname, Nachname FROM Lehrkraft
 ````
 
-[Ausprobieren](https://it.treptowkolleg.de/?page=docs-sql&db=abitraining&query=SELECT%20Vorname,%20Nachname%20FROM%20Lehrkraft)
+[Ausprobieren](https://it.treptowkolleg.de/?page=docs-sql&db=abitraining&query=SELECT%20Vorname,%20Nachname%20FROM%20Lehrkraft#formular)
 
 Die Spaltennamen der Ergebnistabelle können mit ``AS`` umbenannt werden. Im Folgenden soll
 die Spalte *Wohnort* der Relation *Lehrkraft* in *Ort* umbenannt werden:
