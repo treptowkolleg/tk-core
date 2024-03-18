@@ -142,6 +142,7 @@ function getName(string $file): ?string
         'kernphysik' => 'Kernphysik',
         'method' => 'Methoden',
         'swing' => 'EM-Schwingkreis',
+        'command' => 'Befehle',
     ];
     $fileName = substr($file,0,-3);
 
