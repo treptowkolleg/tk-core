@@ -60,3 +60,5 @@ WHERE Geburtsjahr IS NOT NULL
 ````
 
 ## Rechnen und Zählen
+
+## Aggregatfunktionen
