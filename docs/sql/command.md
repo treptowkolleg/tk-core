@@ -136,7 +136,7 @@ Soll geprüft werden, ob eine Spalte **nicht null** oder **null** ist, kann alle
 der Vergleichsoperator ``=`` verwendet werden. Stattdessen ist folgende Notation zu verwenden:
 
 ````SQL
-SELECT Name
+SELECT Name, Geburtsjahr
 FROM lehrkraft
 WHERE Geburtsjahr IS NULL
 ````
@@ -144,7 +144,7 @@ WHERE Geburtsjahr IS NULL
 <form method="post" action="https://it.treptowkolleg.de/?page=docs-sql#result">
 <input type="hidden" name="db" value="abitraining">
 <input type="hidden" name="query" value="
-SELECT Name
+SELECT Name, Geburtsjahr
 FROM lehrkraft
 WHERE Geburtsjahr IS NULL
 ">
@@ -154,7 +154,7 @@ WHERE Geburtsjahr IS NULL
 oder:
 
 ````SQL
-SELECT Name
+SELECT Name, Geburtsjahr
 FROM lehrkraft
 WHERE Geburtsjahr IS NOT NULL
 ````
@@ -162,7 +162,7 @@ WHERE Geburtsjahr IS NOT NULL
 <form method="post" action="https://it.treptowkolleg.de/?page=docs-sql#result">
 <input type="hidden" name="db" value="abitraining">
 <input type="hidden" name="query" value="
-SELECT Name
+SELECT Name, Geburtsjahr
 FROM lehrkraft
 WHERE Geburtsjahr IS NOT NULL
 ">
