@@ -18,56 +18,110 @@ Reihenfolge der Notation von Anweisungen:
 Es sollen Vor- und Nachnamen aller Lehrkräfte angezeigt werden.
 
 ````SQL
-SELECT Vorname, Nachname FROM Lehrkraft
+SELECT Name FROM Lehrkraft
 ````
 
-[Ausprobieren](https://it.treptowkolleg.de/?page=docs-sql&db=abitraining&query=SELECT%20Vorname,%20Nachname%20FROM%20Lehrkraft#formular)
+<form method="post" action="https://it.treptowkolleg.de/?page=docs-sql#form">
+<input type="hidden" name="db" value="abitraining">
+<input type="hidden" name="query" value="
+SELECT Name FROM Lehrkraft
+">
+<button type="submit" class="p-button--positive" name="sql">Ausprobieren</button>
+</form>
 
 Die Spaltennamen der Ergebnistabelle können mit ``AS`` umbenannt werden. Im Folgenden soll
 die Spalte *Wohnort* der Relation *Lehrkraft* in *Ort* umbenannt werden:
 
 ````SQL
-SELECT Vorname, Nachname, Wohnort AS Ort FROM Lehrkraft
+SELECT Name, Wohnort AS Ort FROM lehrkraft
 ````
 
-Standardmäßig wird immer aufsteigend nach dem ersten Attribut sortiert. Die
-Sortierung lässt sich jedoch auch ändern.
+Standardmäßig wird immer aufsteigend nach dem ersten Attribut sortiert (normalerweise der
+Primärschlüssel). Die Sortierung lässt sich jedoch auch ändern.
+
+<form method="post" action="https://it.treptowkolleg.de/?page=docs-sql#form">
+<input type="hidden" name="db" value="abitraining">
+<input type="hidden" name="query" value="
+SELECT Name, Wohnort AS Ort FROM lehrkraft
+">
+<button type="submit" class="p-button--positive" name="sql">Ausprobieren</button>
+</form>
 
 #### Sortieren
 
-Zuerst nach Nachname und dann nach Vorname aufsteigend sortieren:
+Zuerst nach Wohnort und dann nach Name aufsteigend sortieren:
 
 ````SQL
-SELECT Vorname, Nachname, Wohnort AS Ort
+SELECT Name, Wohnort AS Ort
 FROM Lehrkraft
-ORDER BY Nachname, Vorname
+ORDER BY Wohnort, Name
 ````
 
-Nach Nachname absteigend sortieren:
+<form method="post" action="https://it.treptowkolleg.de/?page=docs-sql#form">
+<input type="hidden" name="db" value="abitraining">
+<input type="hidden" name="query" value="
+SELECT Name, Wohnort AS Ort
+FROM Lehrkraft
+ORDER BY Wohnort, Name
+">
+<button type="submit" class="p-button--positive" name="sql">Ausprobieren</button>
+</form>
+
+Nach Name absteigend sortieren:
 
 ````SQL
-SELECT Vorname, Nachname, Wohnort AS Ort
-FROM Lehrkraft
-ORDER BY Nachname DESC
+SELECT Name, Wohnort AS Ort
+FROM lehrkraft
+ORDER BY Name DESC
 ````
+
+<form method="post" action="https://it.treptowkolleg.de/?page=docs-sql#form">
+<input type="hidden" name="db" value="abitraining">
+<input type="hidden" name="query" value="
+SELECT Name, Wohnort AS Ort
+FROM lehrkraft
+ORDER BY Name DESC
+">
+<button type="submit" class="p-button--positive" name="sql">Ausprobieren</button>
+</form>
 
 #### Limitieren
 
 Nur die ersten fünf Datensätze auswählen:
 
 ````SQL
-SELECT Vorname, Nachname, Wohnort AS Ort 
-FROM Lehrkraft
+SELECT Name, Wohnort AS Ort 
+FROM lehrkraft
 LIMIT 5
 ````
+
+<form method="post" action="https://it.treptowkolleg.de/?page=docs-sql#form">
+<input type="hidden" name="db" value="abitraining">
+<input type="hidden" name="query" value="
+SELECT Name, Wohnort AS Ort 
+FROM lehrkraft
+LIMIT 5
+">
+<button type="submit" class="p-button--positive" name="sql">Ausprobieren</button>
+</form>
 
 Nur fünf Datensätze ab dem fünften Datensatz auswählen:
 
 ````SQL
-SELECT Vorname, Nachname, Wohnort AS Ort 
-FROM Lehrkraft
+SELECT Name, Wohnort AS Ort 
+FROM lehrkraft
 LIMIT 5 OFFSET 4
 ````
+
+<form method="post" action="https://it.treptowkolleg.de/?page=docs-sql#form">
+<input type="hidden" name="db" value="abitraining">
+<input type="hidden" name="query" value="
+SELECT Name, Wohnort AS Ort 
+FROM lehrkraft
+LIMIT 5 OFFSET 4
+">
+<button type="submit" class="p-button--positive" name="sql">Ausprobieren</button>
+</form>
 
 ### Selektion von Tabellen
 
@@ -87,6 +141,16 @@ FROM lehrkraft
 WHERE Geburtsjahr IS NULL
 ````
 
+<form method="post" action="https://it.treptowkolleg.de/?page=docs-sql#form">
+<input type="hidden" name="db" value="abitraining">
+<input type="hidden" name="query" value="
+SELECT Name
+FROM lehrkraft
+WHERE Geburtsjahr IS NULL
+">
+<button type="submit" class="p-button--positive" name="sql">Ausprobieren</button>
+</form>
+
 oder:
 
 ````SQL
@@ -94,6 +158,16 @@ SELECT Name
 FROM lehrkraft
 WHERE Geburtsjahr IS NOT NULL
 ````
+
+<form method="post" action="https://it.treptowkolleg.de/?page=docs-sql#form">
+<input type="hidden" name="db" value="abitraining">
+<input type="hidden" name="query" value="
+SELECT Name
+FROM lehrkraft
+WHERE Geburtsjahr IS NOT NULL
+">
+<button type="submit" class="p-button--positive" name="sql">Ausprobieren</button>
+</form>
 
 ## Schnittmengen
 
