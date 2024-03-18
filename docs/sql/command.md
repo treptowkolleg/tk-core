@@ -107,7 +107,7 @@ Tabellennamen vorangestellt werden. Für sehr lange Tabellennamen kann auch ein 
 werden, um Schreibarbeit zu sparen (``FROM Tabellenname t``).
 
 ````SQL
-SELECT l.Name, f.Name
+SELECT l.Name AS Lehrkraft, f.Name AS Fach
 FROM lehrkraft l, hat_lehrbefaehigung_in lf, fach f
 WHERE
       l.PersNr = lf.Lehrkraft
@@ -118,7 +118,7 @@ WHERE
 <form method="post" action="https://it.treptowkolleg.de/?page=docs-sql#form">
 <input type="hidden" name="db" value="abitraining">
 <input type="hidden" name="query" value="
-SELECT l.Name, f.Name
+SELECT l.Name AS Lehrkraft, f.Name AS Fach
 FROM lehrkraft l, hat_lehrbefaehigung_in lf, fach f
 WHERE
       l.PersNr = lf.Lehrkraft
