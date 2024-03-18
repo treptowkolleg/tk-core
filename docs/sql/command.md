@@ -212,10 +212,10 @@ die Anweisung ``ON`` benötigt:
 ````SQL
 SELECT l.Name AS Lehrkraft, f.Name AS Fach
 FROM lehrkraft l
-    INNER JOIN hat_lehrbefaehigung_in lf
-        ON l.PersNr = lf.Lehrkraft
-    INNER JOIN hat_lehrbefaehigung_in lf
-        ON lf.Fach = f.Name
+     INNER JOIN hat_lehrbefaehigung_in lf
+                ON l.PersNr = lf.Lehrkraft
+     INNER JOIN fach f
+                ON lf.Fach = f.Name
 ````
 
 <form method="post" action="https://it.treptowkolleg.de/?page=docs-sql#result">
@@ -225,7 +225,7 @@ SELECT l.Name AS Lehrkraft, f.Name AS Fach
 FROM lehrkraft l
     INNER JOIN hat_lehrbefaehigung_in lf
         ON l.PersNr = lf.Lehrkraft
-    INNER JOIN hat_lehrbefaehigung_in lf
+    INNER JOIN fach f
         ON lf.Fach = f.Name
 ">
 <button type="submit" class="p-button--positive" name="sql">Ausprobieren</button>
