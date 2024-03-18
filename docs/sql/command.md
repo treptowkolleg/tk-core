@@ -206,8 +206,53 @@ WHERE
 
 #### Mit INNER JOIN ON
 
+Sind die zu vergleichenden Primär- und Fremdschlüssel unterschiedlich benannt, wird mit ``JOIN``
+die Anweisung ``ON`` benötigt:
 
-#### Mit INNER JOIN USE
+````SQL
+SELECT l.Name AS Lehrkraft, f.Name AS Fach
+FROM lehrkraft l
+    INNER JOIN hat_lehrbefaehigung_in lf
+        ON l.PersNr = lf.Lehrkraft
+    INNER JOIN hat_lehrbefaehigung_in lf
+        ON lf.Fach = f.Name
+````
+
+<form method="post" action="https://it.treptowkolleg.de/?page=docs-sql#result">
+<input type="hidden" name="db" value="abitraining">
+<input type="hidden" name="query" value="
+SELECT l.Name AS Lehrkraft, f.Name AS Fach
+FROM lehrkraft l
+    INNER JOIN hat_lehrbefaehigung_in lf
+        ON l.PersNr = lf.Lehrkraft
+    INNER JOIN hat_lehrbefaehigung_in lf
+        ON lf.Fach = f.Name
+">
+<button type="submit" class="p-button--positive" name="sql">Ausprobieren</button>
+</form>
+
+#### Mit INNER JOIN USING
+
+Sind die zu vergleichenden Primär- und Fremdschlüssel identisch benannt, kann stattdessen
+``USING`` verwendet werden:
+
+````SQL
+SELECT p.produkt AS Produkt, l.anzahl AS Anzahl
+FROM preisliste p
+    INNER JOIN liefervertrag l
+        USING(produkt)
+````
+
+<form method="post" action="https://it.treptowkolleg.de/?page=docs-sql#result">
+<input type="hidden" name="db" value="grosshandel">
+<input type="hidden" name="query" value="
+SELECT p.produkt AS Produkt, l.anzahl AS Anzahl
+FROM preisliste p
+    INNER JOIN liefervertrag l
+        USING(produkt)
+">
+<button type="submit" class="p-button--positive" name="sql">Ausprobieren</button>
+</form>
 
 #### Vereinigung mit UNION
 
