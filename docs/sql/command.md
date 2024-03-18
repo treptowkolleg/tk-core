@@ -36,9 +36,6 @@ die Spalte *Wohnort* der Relation *Lehrkraft* in *Ort* umbenannt werden:
 SELECT Name, Wohnort AS Ort FROM lehrkraft
 ````
 
-Standardmäßig wird immer aufsteigend nach dem ersten Attribut sortiert (normalerweise der
-Primärschlüssel). Die Sortierung lässt sich jedoch auch ändern.
-
 <form method="post" action="https://it.treptowkolleg.de/?page=docs-sql#result">
 <input type="hidden" name="db" value="abitraining">
 <input type="hidden" name="query" value="
@@ -46,6 +43,9 @@ SELECT Name, Wohnort AS Ort FROM lehrkraft
 ">
 <button type="submit" class="p-button--positive" name="sql">Ausprobieren</button>
 </form>
+
+Standardmäßig wird immer aufsteigend nach dem ersten Attribut sortiert (normalerweise der
+Primärschlüssel). Die Sortierung lässt sich jedoch auch ändern.
 
 #### Sortieren
 
