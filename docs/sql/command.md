@@ -51,8 +51,20 @@ ORDER BY Nachname DESC
 
 #### Limitieren
 
+Nur die ersten fünf Datensätze auswählen:
+
 ````SQL
-SELECT Vorname, Nachname, Wohnort AS Ort FROM Lehrkraft
+SELECT Vorname, Nachname, Wohnort AS Ort 
+FROM Lehrkraft
+LIMIT 5
+````
+
+Nur fünf Datensätze ab dem fünften Datensatz auswählen:
+
+````SQL
+SELECT Vorname, Nachname, Wohnort AS Ort 
+FROM Lehrkraft
+LIMIT 5, 5
 ````
 
 ### Selektion von Tabellen
