@@ -134,7 +134,7 @@ SELECT 'Lehrkraft', Name FROM lehrkraft
 <input type="hidden" name="query" value="SELECT 'Schüler' AS Typ, Name FROM schueler
 UNION
 SELECT 'Lehrkraft', Name FROM lehrkraft">
-<button type="submit" name="sql">Ausprobieren</button>
+<button type="submit" class="p-button--positive" name="sql">Ausprobieren</button>
 </form>
 
 
