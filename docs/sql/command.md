@@ -18,13 +18,13 @@ Reihenfolge der Notation von Anweisungen:
 Es sollen Vor- und Nachnamen aller Lehrkräfte angezeigt werden.
 
 ````SQL
-SELECT Name FROM Lehrkraft
+SELECT Name FROM lehrkraft
 ````
 
 <form method="post" action="https://it.treptowkolleg.de/?page=docs-sql#form">
 <input type="hidden" name="db" value="abitraining">
 <input type="hidden" name="query" value="
-SELECT Name FROM Lehrkraft
+SELECT Name FROM lehrkraft
 ">
 <button type="submit" class="p-button--positive" name="sql">Ausprobieren</button>
 </form>
@@ -53,7 +53,7 @@ Zuerst nach Wohnort und dann nach Name aufsteigend sortieren:
 
 ````SQL
 SELECT Name, Wohnort AS Ort
-FROM Lehrkraft
+FROM lehrkraft
 ORDER BY Wohnort, Name
 ````
 
@@ -61,7 +61,7 @@ ORDER BY Wohnort, Name
 <input type="hidden" name="db" value="abitraining">
 <input type="hidden" name="query" value="
 SELECT Name, Wohnort AS Ort
-FROM Lehrkraft
+FROM lehrkraft
 ORDER BY Wohnort, Name
 ">
 <button type="submit" class="p-button--positive" name="sql">Ausprobieren</button>
