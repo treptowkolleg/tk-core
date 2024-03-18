@@ -129,15 +129,14 @@ SELECT 'Schüler' AS Typ, Name FROM schueler
 UNION
 SELECT 'Lehrkraft', Name FROM lehrkraft
 ````
-
-<a href="
-https://it.treptowkolleg.de/?page=docs-sql
-&db=abitraining
-&query=
-SELECT 'Schüler' AS Typ, Name FROM schueler
+<form method="post" action="https://it.treptowkolleg.de/?page=docs-sql#form">
+<input type="hidden" name="db" value="abitraining">
+<input type="hidden" name="query" value="SELECT 'Schüler' AS Typ, Name FROM schueler
 UNION
-SELECT 'Lehrkraft', Name FROM lehrkraft
-">Ausprobieren</a>
+SELECT 'Lehrkraft', Name FROM lehrkraft">
+<button type="submit" name="sql">Ausprobieren</button>
+</form>
+
 
 Diese Abfrage resultiert in folgender Relation:
 
