@@ -97,6 +97,10 @@ WHERE Geburtsjahr IS NOT NULL
 
 ## Schnittmengen
 
+### INNER JOIN
+
+#### Mit WHERE
+
 Im Folgenden sollen die Fächer neben jeder Lehrkraft angezeigt werden, in denen diese
 eine Lehrbefähigung haben. Haben mehrere Relationen gleichnamige Attribute, müssen die
 Tabellennamen vorangestellt werden. Für sehr lange Tabellennamen kann auch ein Alias erzeugt
@@ -110,6 +114,11 @@ WHERE
   AND 
       lf.Fach = f.Name
 ````
+
+#### INNER JOIN ON
+
+
+#### INNER JOIN USE
 
 ## Rechnen und Zählen
 
