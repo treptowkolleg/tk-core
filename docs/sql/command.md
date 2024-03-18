@@ -130,6 +130,15 @@ UNION
 SELECT 'Lehrkraft', Name FROM lehrkraft
 ````
 
+Diese Abfrage resultiert in folgender Relation:
+
+|Typ|Name|
+|---|---|
+|Schüler|Obelix|
+|Schüler|Asterix|
+|Lehrkraft|Troubadour|
+|Lehrkraft|Globox|
+
 ## Rechnen und Zählen
 
 ## Formatieren
