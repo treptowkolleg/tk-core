@@ -115,6 +115,19 @@ WHERE
       lf.Fach = f.Name
 ````
 
+<form method="post" action="https://it.treptowkolleg.de/?page=docs-sql#form">
+<input type="hidden" name="db" value="abitraining">
+<input type="hidden" name="query" value="
+SELECT l.Name, f.Name
+FROM lehrkraft l, hat_lehrbefaehigung_in lf, fach f
+WHERE
+      l.PersNr = lf.Lehrkraft
+  AND 
+      lf.Fach = f.Name
+">
+<button type="submit" class="p-button--positive" name="sql">Ausprobieren</button>
+</form>
+
 #### Mit INNER JOIN ON
 
 
@@ -136,16 +149,6 @@ UNION
 SELECT 'Lehrkraft', Name FROM lehrkraft">
 <button type="submit" class="p-button--positive" name="sql">Ausprobieren</button>
 </form>
-
-
-Diese Abfrage resultiert in folgender Relation:
-
-|Typ|Name|
-|---|---|
-|Schüler|Obelix|
-|Schüler|Asterix|
-|Lehrkraft|Troubadour|
-|Lehrkraft|Globox|
 
 ## Rechnen und Zählen
 
