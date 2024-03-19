@@ -443,6 +443,12 @@ aus dem ``UNION``-Verbund an: Es gibt $x$ Schüler und $y$ Lehrkräfte. Mit ``UN
 wir die Datensätze beider Relationen vertikal vereinigt, da beide vergleichbare Datentypen
 enthalten (Namen).
 
+````SQL
+SELECT 'Schüler' AS Typ, Name FROM schueler
+UNION
+SELECT 'Lehrkraft', Name FROM lehrkraft
+````
+
 Indem wir die ursprüngliche Ergebnistabelle als Zwischenabfrage betrachten, können wir nun
 nach Personentyp gruppieren und die jeweilige Anzahl an Datensätzen zählen:
 
