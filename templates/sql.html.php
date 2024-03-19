@@ -176,7 +176,7 @@ $tableCountry = [
             </div>
             <div class="col">
                 <pre>
-                    <code class="language-sql" style="background: none"><?php print_r($response['query'] ?? '') ?></code>
+                    <code class="language-sql"><?php print_r($response['query'] ?? '') ?></code>
                 </pre>
             </div>
         </div>
