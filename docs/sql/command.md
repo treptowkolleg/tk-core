@@ -128,7 +128,7 @@ LIMIT 5 OFFSET 4
 Mit der Anweisung ``FROM`` können Relationen selektiert werden. Im obigen Beispiel war das
 die Relation *Lehrkraft*. Es ist jedoch auch möglich, mehrere Relationen zu selektieren.
 
-[Mehr zu Joins](#joins)
+[Mehr zu Joins](#wherejoins)
 
 Mit ``WHERE`` können Bedingungen festgelegt werden, nach denen Datensätze selektiert werden
 sollen. Im obigen Beispiel würden nur Lehrkräfte angezeigt werden, die überhaupt eine
@@ -176,6 +176,8 @@ WHERE Geburtsjahr IS NOT NULL
 ### JOINS
 
 #### Mit WHERE
+
+<div id="wherejoins"></div>
 
 Mit ``WHERE`` bzw. ``JOIN`` lassen sich Datensätze aus verschiedenen Relationen horizontal vereinigen.
 
@@ -346,6 +348,55 @@ SELECT 'Lehrkraft', Name FROM lehrkraft">
 
 ## Rechnen und Zählen
 
+Mit ``+``, ``-``, ``*`` und ``/`` können Werte addiert, subtrahiert, multipliziert und
+dividert werden.
+
+````SQL
+SELECT p.produkt, p.preis * l.anzahl AS Gesamt
+FROM preisliste p
+JOIN liefervertrag l
+USING(produkt)
+````
+<form method="post" action="https://it.treptowkolleg.de/?page=docs-sql#result">
+<input type="hidden" name="db" value="grosshandel">
+<input type="hidden" name="query" value="
+SELECT p.produkt, p.preis * l.anzahl AS Gesamt
+FROM preisliste p
+JOIN liefervertrag l
+USING(produkt)
+">
+<button type="submit" class="p-button--positive" name="sql">Ausprobieren</button>
+</form>
+
+Nutze ``SUM()``, um die Werte einer Spalte der selektierten Datensätze aufzusummieren.
+Bedenke, dass ``SUM()`` oder auch ``COUNT()`` Aggregatfunktionen sind, die ein ``GROUP BY``
+erfordern.
+
+[Mehr zur Gruppierung](#groups)
+
+````SQL
+SELECT p.produkt, SUM(p.preis * l.anzahl) AS 'Gesamt/Produktgruppe'
+FROM preisliste p
+JOIN liefervertrag l
+USING(produkt)
+GROUP BY p.produkt
+````
+<form method="post" action="https://it.treptowkolleg.de/?page=docs-sql#result">
+<input type="hidden" name="db" value="grosshandel">
+<input type="hidden" name="query" value="
+SELECT p.produkt, SUM(p.preis * l.anzahl) AS 'Gesamt/Produktgruppe'
+FROM preisliste p
+JOIN liefervertrag l
+USING(produkt)
+GROUP BY p.produkt
+">
+<button type="submit" class="p-button--positive" name="sql">Ausprobieren</button>
+</form>
+
+Die Ausgabe der Summe funktioniert zwar einwandfrei, jedoch passt die Formatierung nicht
+zur landestypischen Darstellung von Währungen. Dank Funktionen für Formatierungen lässt
+sich die Darstellung jedoch bei Bedarf anpassen.
+
 ## Formatieren
 
 ### Dezimalzahlen
@@ -383,3 +434,5 @@ SELECT produkt, CONCAT( FORMAT(preis,2,'de_DE') , ' €' ) AS Preis FROM preisli
 </form>
 
 ## Gruppieren
+
+<div id="groups"></div>
