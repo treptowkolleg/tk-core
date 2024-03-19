@@ -110,7 +110,7 @@ Nur fünf Datensätze ab dem fünften Datensatz auswählen:
 ````SQL
 SELECT Name, Wohnort AS Ort 
 FROM lehrkraft
-LIMIT 5 OFFSET 4
+LIMIT 5 OFFSET 5
 ````
 
 <form method="post" action="https://it.treptowkolleg.de/?page=docs-sql#result">
@@ -118,7 +118,7 @@ LIMIT 5 OFFSET 4
 <input type="hidden" name="query" value="
 SELECT Name, Wohnort AS Ort 
 FROM lehrkraft
-LIMIT 5 OFFSET 4
+LIMIT 5 OFFSET 5
 ">
 <button type="submit" class="p-button--positive" name="sql">Ausprobieren</button>
 </form>
