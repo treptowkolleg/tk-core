@@ -256,6 +256,71 @@ FROM preisliste p
 <button type="submit" class="p-button--positive" name="sql">Ausprobieren</button>
 </form>
 
+#### Mit LEFT JOIN
+
+Mit ``LEFT JOIN`` werden alle Tupel der linken Relation selektiert, unabhängig davon,
+ob es Verknüpfungen mit der rechten Relation gibt oder nicht.
+
+![img.png](/docs/img/leftjoin.png)
+
+Sollen auch die Datensätze selektiert werden, die im Verbund eine Schlüsselzuordnung
+enthalten, kann das mit ``LEFT JOIN`` umgesetzt werden. Die Lehrkraft **Lovelace** hat
+zum Beispiel keine Lehrbefähigung und würde mit ``INNER JOIN`` nicht angezeigt werden.
+
+````SQL
+SELECT l.Name AS Lehrkraft, f.Name AS Fach
+FROM lehrkraft l
+     LEFT JOIN hat_lehrbefaehigung_in lf
+                ON l.PersNr = lf.Lehrkraft
+     LEFT JOIN fach f
+                ON lf.Fach = f.Name
+````
+
+<form method="post" action="https://it.treptowkolleg.de/?page=docs-sql#result">
+<input type="hidden" name="db" value="abitraining">
+<input type="hidden" name="query" value="
+SELECT l.Name AS Lehrkraft, f.Name AS Fach
+FROM lehrkraft l
+     LEFT JOIN hat_lehrbefaehigung_in lf
+                ON l.PersNr = lf.Lehrkraft
+     LEFT JOIN fach f
+                ON lf.Fach = f.Name
+">
+<button type="submit" class="p-button--positive" name="sql">Ausprobieren</button>
+</form>
+
+#### Mit RIGHT JOIN
+
+Sollen nun alle Datensätze der rechten Relation unabhängig von Zuordnungen mit der
+linken Relation selektiert werden, kann das mit ``RIGHT JOIN`` bewerkstelligt werden.
+
+![img.png](/docs/img/rightjoin.png)
+
+Beim Ausprobieren folgender Abfrage stellt sich in der resultierenden Relation heraus,
+dass niemand eine Lehrbefähigung für das Fach *Englisch* hat.
+
+````SQL
+SELECT l.Name AS Lehrkraft, f.Name AS Fach
+FROM lehrkraft l
+     RIGHT JOIN hat_lehrbefaehigung_in lf
+                ON l.PersNr = lf.Lehrkraft
+     RIGHT JOIN fach f
+                ON lf.Fach = f.Name
+````
+
+<form method="post" action="https://it.treptowkolleg.de/?page=docs-sql#result">
+<input type="hidden" name="db" value="abitraining">
+<input type="hidden" name="query" value="
+SELECT l.Name AS Lehrkraft, f.Name AS Fach
+FROM lehrkraft l
+     RIGHT JOIN hat_lehrbefaehigung_in lf
+                ON l.PersNr = lf.Lehrkraft
+     RIGHT JOIN fach f
+                ON lf.Fach = f.Name
+">
+<button type="submit" class="p-button--positive" name="sql">Ausprobieren</button>
+</form>
+
 #### Vereinigung mit UNION
 
 Mit ``UNION`` lassen sich Datensätze aus verschiedenen Relationen vertikal vereinigen.
@@ -281,4 +346,38 @@ SELECT 'Lehrkraft', Name FROM lehrkraft">
 
 ## Formatieren
 
-## Aggregatfunktionen
+### Dezimalzahlen
+
+Zahlen können mit ``FORMAT(Spalte,Nachkommastellen,Land)`` formatiert werden. Die
+Länderkennung ist insofern wichtig, als in Deutschland das **Komma** als Dezimaltrennzeichen
+verwendet wird. In anderen Ländern ist das jedoch möglicherweise der **Punkt**.
+
+````SQL
+SELECT produkt, FORMAT(preis,2,'de_DE') AS Preis FROM preisliste
+````
+<form method="post" action="https://it.treptowkolleg.de/?page=docs-sql#result">
+<input type="hidden" name="db" value="grosshandel">
+<input type="hidden" name="query" value="
+SELECT produkt, FORMAT(preis,2,'de_DE') AS Preis FROM preisliste
+">
+<button type="submit" class="p-button--positive" name="sql">Ausprobieren</button>
+</form>
+
+### Zeichenketten
+
+Das Ergebnis des obigen Beispiels kann sich schon sehen lassen, jedoch wäre es
+noch besser, wenn auch das Symbol der Währung angezeigt werden würde. Das lässt
+sich mit der Funktion ``CONCAT()`` umsetzen:
+
+````SQL
+SELECT produkt, CONCAT( FORMAT(preis,2,'de_DE') , ' €' ) AS Preis FROM preisliste
+````
+<form method="post" action="https://it.treptowkolleg.de/?page=docs-sql#result">
+<input type="hidden" name="db" value="grosshandel">
+<input type="hidden" name="query" value="
+SELECT produkt, CONCAT( FORMAT(preis,2,'de_DE') , ' €' ) AS Preis FROM preisliste
+">
+<button type="submit" class="p-button--positive" name="sql">Ausprobieren</button>
+</form>
+
+## Gruppieren
