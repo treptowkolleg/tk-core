@@ -436,3 +436,35 @@ SELECT produkt, CONCAT( FORMAT(preis,2,'de_DE') , ' €' ) AS Preis FROM preisli
 ## Gruppieren
 
 <div id="groups"></div>
+
+Gruppierungen sind immer dann sinnvoll, wenn bestimmte Datensätze zusammengefasst werden
+sollen. Etwa, wenn gezählt oder summiert werden soll. Schauen wir uns nochmals das Beispiel
+aus dem ``UNION``-Verbund an: Es gibt $x$ Schüler und $y$ Lehrkräfte. Mit ``UNION`` haben
+wir die Datensätze beider Relationen vertikal vereinigt, da beide vergleichbare Datentypen
+enthalten (Namen).
+
+Indem wir die ursprüngliche Ergebnistabelle als Zwischenabfrage betrachten, können wir nun
+nach Personentyp gruppieren und die jeweilige Anzahl an Datensätzen zählen:
+
+````SQL
+SELECT Typ AS Personenkreis, COUNT(Name) AS 'Anzahl der Personen' FROM
+                             
+(SELECT 'Schüler' AS Typ, Name FROM schueler
+UNION
+SELECT 'Lehrkraft', Name FROM lehrkraft) ergebnis
+
+GROUP BY Typ
+````
+<form method="post" action="https://it.treptowkolleg.de/?page=docs-sql#result">
+<input type="hidden" name="db" value="abitraining">
+<input type="hidden" name="query" value="
+SELECT Typ AS Personenkreis, COUNT(Name) AS 'Anzahl der Personen' FROM
+
+(SELECT 'Schüler' AS Typ, Name FROM schueler
+UNION
+SELECT 'Lehrkraft', Name FROM lehrkraft) ergebnis
+
+GROUP BY Typ
+">
+<button type="submit" class="p-button--positive" name="sql">Ausprobieren</button>
+</form>
