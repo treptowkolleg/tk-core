@@ -128,6 +128,8 @@ LIMIT 5 OFFSET 4
 Mit der Anweisung ``FROM`` können Relationen selektiert werden. Im obigen Beispiel war das
 die Relation *Lehrkraft*. Es ist jedoch auch möglich, mehrere Relationen zu selektieren.
 
+[Mehr zu Joins](#joins)
+
 Mit ``WHERE`` können Bedingungen festgelegt werden, nach denen Datensätze selektiert werden
 sollen. Im obigen Beispiel würden nur Lehrkräfte angezeigt werden, die überhaupt eine
 Lehrbefähigung haben. Mit ``AND`` und/oder ``OR`` können weitere Bedingungen festgelegt werden.
