@@ -73,6 +73,23 @@ wird die Gleichspannung.
 
 ![img.png](/docs/img/gleichrichterMessungV2.png)
 
+### Aufbau der Schaltung
+
+Die Gleichrichterschaltung - hier mit Wechselspannungsversorgung über ein
+Schülernetzteil - ist wie folgt angeordnet. Der Primärstromkreis und der Kondensator
+im Sekundärstromkreis können separat hinzugeschaltet werden. So kann der Einfluss
+des Kondensators auf die Spannung untersucht werden.
+
+Ein Arduino-Mikrocontroller greift die Spannung am Widerstand ab und stellt diese in
+einem U-t-Diagramm dar.
+
+![Foto der Schaltung](/docs/img/photo_2024-03-20_06-30-58.jpg)
+
+Der Graph der Messung zeigt genau die erwarteten Werte:
+
+1. Ohne Kondensator schwingt die Spannung im Takt der Frequenz von $50Hz$ zwischen $3V$ und $0V$.
+2. Mit Kondensator ist die Spannung relativ konstant bei $3V$.
+
 ## Anwendung
 
 ### Funkeninduktor

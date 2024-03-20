@@ -465,12 +465,45 @@ GROUP BY Typ
 <input type="hidden" name="db" value="abitraining">
 <input type="hidden" name="query" value="
 SELECT Typ AS Personenkreis, COUNT(Name) AS 'Anzahl der Personen' FROM
-
 (SELECT 'Schüler' AS Typ, Name FROM schueler
 UNION
 SELECT 'Lehrkraft', Name FROM lehrkraft) ergebnis
-
 GROUP BY Typ
+">
+<button type="submit" class="p-button--positive" name="sql">Ausprobieren</button>
+</form>
+
+### GROUP BY und UNION
+
+In diesem Beispiel werden wieder die Lieferungen der jeweiligen Großhandelsprodukte
+aufsummiert und nach Produkt gruppiert. Zusätzlich wird der Gesamtumsatz als weiterer
+Datensatz der Ergebnistabelle angehängt.
+
+````SQL
+SELECT p.produkt, CONCAT( FORMAT(SUM(p.preis * l.anzahl),2,'de_DE') , ' €' ) AS 'Gesamt/Produktgruppe'
+FROM preisliste p
+    JOIN liefervertrag l
+        USING(produkt)
+GROUP BY p.produkt
+UNION
+SELECT 'GESAMT', CONCAT( FORMAT(SUM(p.preis * l.anzahl),2,'de_DE') , ' €' )
+FROM preisliste p
+    JOIN liefervertrag l
+        USING(produkt)
+````
+<form method="post" action="https://it.treptowkolleg.de/?page=docs-sql#result">
+<input type="hidden" name="db" value="grosshandel">
+<input type="hidden" name="query" value="
+SELECT p.produkt, CONCAT( FORMAT(SUM(p.preis * l.anzahl),2,'de_DE') , ' €' ) AS 'Gesamt/Produktgruppe'
+FROM preisliste p
+    JOIN liefervertrag l
+        USING(produkt)
+GROUP BY p.produkt
+UNION
+SELECT 'GESAMT', CONCAT( FORMAT(SUM(p.preis * l.anzahl),2,'de_DE') , ' €' )
+FROM preisliste p
+    JOIN liefervertrag l
+        USING(produkt)
 ">
 <button type="submit" class="p-button--positive" name="sql">Ausprobieren</button>
 </form>
