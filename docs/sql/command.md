@@ -325,6 +325,8 @@ FROM lehrkraft l
 <button type="submit" class="p-button--positive" name="sql">Ausprobieren</button>
 </form>
 
+![Execution Plan 02](/docs/img/ep03.png)
+
 #### Vereinigung mit UNION
 
 Mit ``UNION`` lassen sich Datensätze aus verschiedenen Relationen vertikal vereinigen.
