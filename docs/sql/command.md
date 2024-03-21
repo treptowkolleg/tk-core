@@ -507,3 +507,5 @@ FROM preisliste p
 ">
 <button type="submit" class="p-button--positive" name="sql">Ausprobieren</button>
 </form>
+
+![Execution Plan Union Group By](/docs/img/group_union_ep.png)
