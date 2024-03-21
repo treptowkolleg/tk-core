@@ -510,3 +510,4 @@ FROM preisliste p
 <button type="submit" class="p-button--positive" name="sql">Ausprobieren</button>
 </form>
 
+![Execution Plan 02](/docs/img/ep02.png)
