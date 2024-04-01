@@ -25,7 +25,6 @@ $result = $benford->analyzeForBenfordsLaw($integersToTest);
                 <h2 class="p-table-of-contents__header">Auf dieser Seite</h2>
                 <nav class="p-table-of-contents__nav" aria-label="Table of contents">
                     <ul class="p-table-of-contents__list">
-                        <li class="p-table-of-contents__item"><a class="p-table-of-contents__link" href="#benfordslaw">Benfords Gesetz</a></li>
                         <li class="p-table-of-contents__item"><a class="p-table-of-contents__link" href="#cellautomata">Zellulärer Automat</a></li>
                     </ul>
                 </nav>
@@ -35,19 +34,6 @@ $result = $benford->analyzeForBenfordsLaw($integersToTest);
 </div>
 
 <main>
-
-    <section class="p-section" id="benfordslaw">
-        <div class="row">
-            <div class="col">
-                <h2>Benfords Gesetz</h2>
-                <pre>
-                    <code><?php print_r($result)?></code>
-                </pre>
-
-            </div>
-        </div>
-    </section>
-
 
 <section class="p-section" id="cellautomata">
     <div class="row">
