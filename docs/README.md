@@ -1,5 +1,5 @@
 # AG Informatik
 
-## Was ist neu?
+## Was ist neu
 
 - Suchfunktion implementiert ✅
