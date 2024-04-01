@@ -101,8 +101,8 @@ use TreptowKolleg\Api\Session;
                 </div>
                 <div class="l-docs__main">
                     <div class="row">
-                        <form class="p-search-box u-no-margin--bottom">
-                            <input type="search" class="p-search-box__input" name="q" placeholder="Dokumentation durchsuchen" required="" autocomplete="on">
+                        <form class="p-search-box u-no-margin--bottom" method="post" action="/?page=t-search">
+                            <input type="search" class="p-search-box__input" name="q" value="<?=$_POST["q"] ?? '' ?>" placeholder="Dokumentation durchsuchen" required="" autocomplete="on">
                             <button type="reset" class="p-search-box__reset" name="close"><i class="p-icon--close">Schließen</i></button>
                             <button type="submit" class="p-search-box__button" name="submitSearch"><i class="p-icon--search">Suchen</i></button>
                         </form>

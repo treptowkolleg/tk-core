@@ -17,6 +17,29 @@ function getProtocol(): string
     return (!empty($_SERVER['HTTPS']) && $_SERVER['HTTPS'] !== 'off' || $_SERVER['SERVER_PORT'] == 443) ? "https://" : "http://";
 }
 
+function searchFiles($dir, $text): array
+{
+    $files = Array();
+    $file_tmp = glob($dir . '*', GLOB_MARK | GLOB_NOSORT);
+    foreach ($file_tmp as $item) {
+        if (substr($item,-1) != DIRECTORY_SEPARATOR) {
+            $temp = explode('.', $item);
+            $type = $temp[count($temp) - 1];
+
+            if (in_array($type, array("md","txt"))) {
+                $inhalt = file_get_contents($item);
+                if (stristr($inhalt, $text)) {
+                    $files[] = $item;
+                }
+            }
+        }
+        else {
+            $files = array_merge($files, searchFiles($item, $text));
+        }
+    }
+    return $files;
+}
+
 $server = getProtocol().$_SERVER['HTTP_HOST'].'/';
 
 
@@ -34,7 +57,9 @@ if(isset($_GET['logout'])) {
     $session->destroy("$server");
 }
 
-// Login verarbeiten
+$result = null;
+
+// POST verarbeiten
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // Login
     if(isset($_POST['login'])) {
@@ -44,6 +69,12 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             $session->set('user',$response['origin']['user']);
         }
         $message = $response['message'];
+    }
+
+    if(isset($_POST['q'])) {
+        $query = $_POST['q'];
+        $searchDir = "./docs/";
+        $result = searchFiles($searchDir,$query);
     }
 
     if(isset($_POST['sql'])) {
@@ -90,6 +121,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     }
 
 }
+$searchMenu = new TopMenu('search');
+$searchMenu->addMenuItem(new MenuItem('Suchen','search.html','t-search'));
+
+
 $mainMenu = new TopMenu('main');
 $mainMenu
     ->addMenuItem(new MenuItem('Abi-Rechner','abicalc.html','t-abirechner'))
@@ -143,10 +178,17 @@ function getName(string $file): ?string
         'method' => 'Methoden',
         'swing' => 'EM-Schwingkreis',
         'command' => 'Befehle',
+        'index' => 'Startseite'
     ];
     $fileName = substr($file,0,-3);
 
-    return $fileNames[$fileName];
+
+    if(array_key_exists($fileName,$fileNames)) {
+        return $fileNames[$fileName];
+    } else {
+        return "$fileName ist nicht benannt.";
+    }
+
 }
 
 function dirToArray($dir): array
@@ -173,7 +215,7 @@ function dirToArray($dir): array
 
 $entries = dirToArray('./docs');
 $sidebars = [];
-asort($entries);
+ksort($entries);
 foreach ($entries as $dir => $value) {
     if ($dir != "img") {
         if(is_array($value)) {
@@ -200,7 +242,7 @@ foreach ($entries as $dir => $value) {
     }
 }
 
-$sidebars = array_merge($sidebars,[$sidebar,$mainMenu]);
+$sidebars = array_merge($sidebars,[$sidebar,$mainMenu,$searchMenu]);
 
 
 function checkPages(array $items, &$filePathOutput)
