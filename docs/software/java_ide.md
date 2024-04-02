@@ -68,19 +68,16 @@ es für unsere Zwecke perfekt geeignet, da die Verwaltung des Testservers so
 deutlich einfacher erledigt werden kann.
 
 ````shell
-choco install symfony-cli
+choco install liberica11jdkfull
 ````
 
-Über ein Terminal im Projektordner kann dann der PHP-Testserver einfach gestartet
-oder beendet werden:
-
-````shell
-symfony server:start
-````
+Über ein Terminal im Projektordner kann dann das kompilierte Projekt gestartet werden:
 
 ````shell
-symfony server:stop
+java -jar myProject.jar
 ````
+
+Über die IDE kann das Projekt auch direkt gestartet und getestet werden.
 
 ## JAVA IDE
 
