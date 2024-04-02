@@ -78,4 +78,4 @@ In der heutigen Zeit ist zumindest sicher, dass der Informatikunterricht für di
 
 Leitung, AG Informatik
 
-PHP-Packages für Entwicklungen wie Urlaub bei <a href="https://github.com/vaganca">Vaganca Frameworks</a>. Mein neues PHP-Projekt.
+PHP-Packages für Entwicklungen wie Urlaub bei <a target="_blank" href="https://github.com/vaganca">Vaganca Frameworks</a>. Mein neues PHP-Projekt.
