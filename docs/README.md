@@ -38,7 +38,7 @@ sogenannter Spaghetti-Code entstand. Es funktionierte, niemand wusste jedoch wie
 
 Es brauchte etwa fünf Jahre, bis ich begann, systematisch und organisiert zu entwickeln. Um zu verstehen,
 wie etwa das Model-View-Controller-Paradigma funktioniert, entwickelte ich ein eigenes rudimentäres
-PHP-Framework, dass erste Anzeichen objektorientierter Programmierung aufwies. Bis heute habe ich
+PHP-Framework, das erste Anzeichen objektorientierter Programmierung aufwies. Bis heute habe ich
 dieses Framework mit Erhalt neuer Erkenntnisse immer weiter verfeinert, verbessert und ausgebaut.
 
 Ein Projekt, das auf diesem Framework basiert, kann [auf dieser Seite](https://abi.treptowkolleg.de) betrachtet werden.
