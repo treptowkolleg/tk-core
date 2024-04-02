@@ -73,3 +73,7 @@ für das Treptow-Kolleg rückblickend eine sehr gute Entscheidung. Mit Abschluss
 jedoch der letzte sein, der am Treptow-Kolleg das Fach Informatik belegen konnte. Doch wer weiß,
 welche Möglichkeiten sich für die Lernenden des am Standort des Kollegs neu gegründeten Gymnasiums auftun werden.
 In der heutigen Zeit ist zumindest sicher, dass der Informatikunterricht für die berufliche Entwicklung nur von Vorteil sein kann.
+
+![Unterschrift](/docs/img/sign.png)
+
+Leitung, AG Informatik
