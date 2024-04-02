@@ -158,7 +158,10 @@ use TreptowKolleg\Api\Session;
                         </ul>
                     </nav>
                     <div class="col-9">
-                        <p class="u-no-margin--bottom">Ein Projekt der <b>AG Informatik</b> am Treptow-Kolleg Berlin.</p>
+                        <p class="u-no-margin--bottom">
+                            Ein Projekt der <b>AG Informatik</b> am Treptow-Kolleg Berlin.<br>
+                            Powered by <i>Vaganca Frameworks</i>
+                        </p>
                     </div>
                 </div>
             </div>
