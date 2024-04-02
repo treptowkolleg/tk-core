@@ -2,6 +2,21 @@
 
 Aktuell findet die **AG Informatik** immer freitags 12:30 Uhr im Raum A102 statt.
 
+## Was ist neu
+
+- Suchfunktion implementiert ✔️
+- Abi-Rechner ✔️
+- Interaktive SQL-Abfragen zu zahlreichen Übungsdatenbanken ✔️
+  - Nutzung über [API für eigene Projekte](https://packagist.org/packages/treptowkolleg/api) möglich
+- Abituraufgaben für Physik ✔️
+- Lerninhalte für Mathematik ✔️
+
+## Woran wir arbeiten
+
+- Login-Formular ✔️
+- TicTacToe-Spiel in PHP 🔨
+  - fertiges [Musterbeispiel](https://ttt.treptowkolleg.de)
+
 ## Über mich
 
 ### Es begann im Jahre Null
@@ -58,18 +73,3 @@ für das Treptow-Kolleg rückblickend eine sehr gute Entscheidung. Mit Abschluss
 jedoch der letzte sein, der am Treptow-Kolleg das Fach Informatik belegen konnte. Doch wer weiß,
 welche Möglichkeiten sich für die Lernenden des am Standort des Kollegs neu gegründeten Gymnasiums auftun werden.
 In der heutigen Zeit ist zumindest sicher, dass der Informatikunterricht für die berufliche Entwicklung nur von Vorteil sein kann.
-
-## Was ist neu
-
-- Suchfunktion implementiert ✔️
-- Abi-Rechner ✔️
-- Interaktive SQL-Abfragen zu zahlreichen Übungsdatenbanken ✔️
-  - Nutzung über [API für eigene Projekte](https://packagist.org/packages/treptowkolleg/api) möglich
-- Abituraufgaben für Physik ✔️
-- Lerninhalte für Mathematik ✔️
-
-## Woran wir arbeiten
-
-- Login-Formular ✔️
-- TicTacToe-Spiel in PHP 🔨
-  - fertiges [Musterbeispiel](https://ttt.treptowkolleg.de)
