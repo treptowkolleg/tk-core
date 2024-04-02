@@ -84,18 +84,11 @@ symfony server:stop
 
 ## JAVA IDE
 
-Für die eigentliche Entwicklungsarbeit sollten wir auf eine IDE zurückgreifen. Ein
-einfacher Editor tut es zwar auch, jedoch mangelt es ihm an vielen nützlichen Funktionen.
+Für die eigentliche Entwicklungsarbeit sollten wir auf eine IDE zurückgreifen.
 
-Es gibt aktuell nur sehr wenige gute PHP IDEs, die gleichzeitig kostenfrei sind. Obwohl
-sich Microsofts Visual Studio Code prinzipiell eignet, ist es weniger zu empfehlen, da VSC
-nicht speziell für PHP gedacht ist. Das macht sich bei der Arbeit mit der Software bemerkbar.
+Ein klarer Sieger ist die **Jetbrains IntelliJ (CE)**. Sie bietet alles, was das
+JAVA-Herz begehrt. Mit dabei sogar eine Git- und Package-Manager-Integration.
 
-Ein klarer Sieger ist die **Eclipse IDE for PHP Developers**. Sie bietet alles, was das
-PHP-Herz begehrt. Mit dabei sogar eine Git- und Composer-Integration. Letzteres kann sogar
-On-The-Fly projektweit installiert werden.
-
-Neben einer **PHP-IDE** bietet Eclipse aber auch IDEs für andere Programmiersprachen an.
-Den Installer findest du unter:
-
-[https://www.eclipse.org/downloads/](https://www.eclipse.org/downloads/)
+````shell
+choco install intellijidea-community
+````
