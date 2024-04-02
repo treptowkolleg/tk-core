@@ -44,6 +44,11 @@ use TreptowKolleg\Api\Session;
                 padding-top: 2px!important;
                 padding-bottom: 2px!important;
             }
+            .helper {
+                display: block;
+                height: 100%;
+                vertical-align: middle;
+            }
         </style>
         <script src="https://unpkg.com/@highlightjs/cdn-assets@11.9.0/highlight.min.js"></script>
 
@@ -159,13 +164,14 @@ use TreptowKolleg\Api\Session;
                     </nav>
                     <div class="col-9">
                         <p class="u-no-margin--bottom">
-                            Ein Projekt der <b>AG Informatik</b> am Treptow-Kolleg Berlin.<br>
-                            Powered by <i>Vaganca Frameworks</i>
+                            <div class="helper"><span>Ein Projekt der <b>AG Informatik</b> am Treptow-Kolleg Berlin.</span></div>
+                            <span>Powered by <i><img src="/docs/img/vf-logo.svg" width="32px" alt="Vaganca Frameworks Logo" style="vertical-align:middle">Vaganca Frameworks</i></span>
                         </p>
                     </div>
                 </div>
             </div>
         </div>
+        <div class="is-wide"><p>&nbsp;</p></div>
     </footer>
     <script src="/dist/app.js"></script>
     <script>
