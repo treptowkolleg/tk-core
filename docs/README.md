@@ -74,6 +74,8 @@ jedoch der letzte sein, der am Treptow-Kolleg das Fach Informatik belegen konnte
 welche Möglichkeiten sich für die Lernenden des am Standort des Kollegs neu gegründeten Gymnasiums auftun werden.
 In der heutigen Zeit ist zumindest sicher, dass der Informatikunterricht für die berufliche Entwicklung nur von Vorteil sein kann.
 
+<p>&nbsp;</p>
+
 ![Unterschrift](/docs/img/sign.png)
 
 Leitung, AG Informatik
