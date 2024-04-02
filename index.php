@@ -166,6 +166,7 @@ function getName(string $file): ?string
         'magic_methods' => 'Magische Methoden',
         'tables' => 'Tabellen',
         'php_ide' => 'PHP IDE',
+        'java_ide' => 'JAVA IDE',
         'relations' => 'Beziehungen',
         'object_relations' => 'Objektbeziehungen',
         'class_relations' => 'Klassenbeziehungen',
