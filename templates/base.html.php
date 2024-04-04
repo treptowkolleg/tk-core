@@ -144,6 +144,17 @@ use TreptowKolleg\Api\Session;
         // Unterseite einbinden
         include $currentPage ?? './templates/index.html.php';
         ?>
+        <div class="l-docs__subgrid">
+            <div class="l-docs__main">
+                <div class="row">
+                    <div class="col">
+                        <small>Diese Website verwendet Server von</small><br>
+                        <a style="vertical-align: middle" href="https://panel.onyxhosting.de/aff.php?aff=183" target="_blank"><img src="/docs/img/logo_onyxhosting.png" alt="Onyxhosting Logo" width="200"></a>
+                        <p>&nbsp;</p>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
     <footer class="l-footer--sticky p-strip--dark">
         <div class="l-docs__subgrid">
