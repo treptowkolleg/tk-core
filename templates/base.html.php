@@ -107,8 +107,8 @@ use TreptowKolleg\Api\Session;
                 <div class="l-docs__main">
                     <div class="row">
                         <form class="p-search-box u-no-margin--bottom" method="post" action="/?page=t-search">
-                            <input type="search" class="p-search-box__input" name="q" value="<?=$_POST["q"] ?? '' ?>" placeholder="Dokumentation durchsuchen" required="" autocomplete="on">
-                            <button type="reset" class="p-search-box__reset" name="close"><i class="p-icon--close">Schließen</i></button>
+                            <input type="search" class="p-search-box__input" name="q" id="search-input" value="<?=$_POST["q"] ?? '' ?>" placeholder="Dokumentation durchsuchen" required="" autocomplete="on">
+                            <button type="reset" class="p-search-box__reset" name="close" id="search-docs-reset"><i class="p-icon--close">Schließen</i></button>
                             <button type="submit" class="p-search-box__button" name="submitSearch"><i class="p-icon--search">Suchen</i></button>
                         </form>
                     </div>
@@ -255,6 +255,16 @@ use TreptowKolleg\Api\Session;
                 targetSelector: '.p-table-of-contents__link',
                 offset: 50
             });
+            let searchDocsReset = document.getElementById('search-docs-reset');
+            let searchBox = document.getElementById('search-input');
+
+            if (searchDocsReset) {
+                searchDocsReset.addEventListener('click', function (e) {
+                    searchBox.value = '';
+                    searchBox.focus();
+                    e.preventDefault();
+                });
+            }
         }
     </script>
     </body>

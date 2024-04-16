@@ -284,16 +284,7 @@
 
 // Docs search functions
 (function () {
-    var searchDocsReset = document.getElementById('search-docs-reset');
-    var searchBox = document.getElementById('search-docs');
 
-    if (searchDocsReset) {
-        searchDocsReset.addEventListener('click', function (e) {
-            searchBox.value = '';
-            searchBox.focus();
-            e.preventDefault();
-        });
-    }
 })();
 
 (function () {

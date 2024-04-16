@@ -179,7 +179,8 @@ function getName(string $file): ?string
         'method' => 'Methoden',
         'swing' => 'EM-Schwingkreis',
         'command' => 'Befehle',
-        'index' => 'Startseite'
+        'index' => 'Startseite',
+        'analysis' => 'Analysis',
     ];
     $fileName = substr($file,0,-3);
 
