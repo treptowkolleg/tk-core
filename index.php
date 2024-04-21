@@ -78,7 +78,13 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     }
 
     if(isset($_POST['sql'])) {
-        $response = $api->requestSQL($_POST['query']);
+        $response = null;
+        try {
+            $response = $api->requestSQL($_POST['query']);
+        } catch (Error $exception) {
+            $message = $exception->getMessage();
+        }
+
         if($response) {
             $message = $response['message'];
             $columns = array_keys($response['response'][0]);
