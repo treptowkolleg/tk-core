@@ -137,7 +137,7 @@ $tableCountry = [
                 </form>
             </div>
             <div class="col">
-                <?php if (isset($message) and $message != false): ?>
+                <?php if (isset($message)): ?>
                 <?php $messages = explode(':',$message) ?>
                     <div class="p-notification--caution">
                         <div class="p-notification__content">
