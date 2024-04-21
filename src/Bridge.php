@@ -24,7 +24,7 @@ class Bridge
 
         $escapedData = self::escapeChars($data);
 
-        $ch = curl_init("https://www.wagnerpictures.com/test-request.php");
+        $ch = curl_init("https://cdn.cinekolleg.de/test-request.php");
         return $this->extracted($ch, $escapedData);
     }
 
@@ -33,7 +33,7 @@ class Bridge
         $data['apikey'] = $this->apikey;
         $data['database'] = $this->database;
 
-        $ch = curl_init("https://www.wagnerpictures.com/sqlrequest.php");
+        $ch = curl_init("https://cdn.cinekolleg.de/sqlrequest.php");
         return $this->extracted($ch, $data);
     }
 
