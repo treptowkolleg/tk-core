@@ -63,6 +63,8 @@ if(isset($_GET['logout'])) {
 
 $result = null;
 
+$message = null;
+
 // POST verarbeiten
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // Login
