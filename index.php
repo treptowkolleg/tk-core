@@ -87,6 +87,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $response = $api->requestSQL($_POST['query']);
             if(array_key_exists('message',$response)) {
                 $message = $response['message'];
+                print_r($response['message']);
             }
             if(is_array($response['response'][0])) {
                 $columns = array_keys($response['response'][0]);
