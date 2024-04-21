@@ -10,7 +10,6 @@ use TreptowKolleg\Api\Menu\SidebarMenu;
 use TreptowKolleg\Api\Menu\TopMenu;
 use TreptowKolleg\Api\Session;
 
-opcache_reset();
 require __DIR__ . '/vendor/autoload.php';
 
 function getProtocol(): string
