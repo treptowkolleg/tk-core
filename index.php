@@ -82,17 +82,14 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     }
 
     if(isset($_POST['sql'])) {
-        $response = null;
-        try {
-            $response = $api->requestSQL($_POST['query']);
-        } catch (Error $exception) {
-            $message = $exception->getMessage();
-        }
+        $response = $api->requestSQL($_POST['query']);
 
         if($response) {
             $message = $response['message'];
             if(is_array($response['response'][0])) {
                 $columns = array_keys($response['response'][0]);
+            } else {
+                $columns = [];
             }
         } else {
             $message = "Fehler!";
