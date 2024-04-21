@@ -88,7 +88,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             if(array_key_exists('message',$response)) {
                 $message = $response['message'];
             }
-            if(is_array($response['response'][0])) {
+            if(is_array($response['response']) and is_array($response['response'][0])) {
                 $columns = array_keys($response['response'][0]);
             } else {
                 $columns = [];
