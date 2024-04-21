@@ -138,16 +138,11 @@ $tableCountry = [
             </div>
             <div class="col">
                 <?php if (isset($message)): ?>
-                <?php $messages = explode(':',$message) ?>
                     <div class="p-notification--caution">
                         <div class="p-notification__content">
                             <h5 class="p-notification__title">Rückmeldung</h5>
                             <p class="p-notification__message">
-                                <ul class="p-list">
-                                    <?php foreach ($messages ?? [] as $item): ?>
-                                         <li class="p-list__item"><?=$item?></li>
-                                    <?php endforeach; ?>
-                                </ul>
+                                <?=$message?>
                             </p>
                         </div>
                     </div>
