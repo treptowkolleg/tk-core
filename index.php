@@ -79,8 +79,14 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     if(isset($_POST['sql'])) {
         $response = $api->requestSQL($_POST['query']);
-        $message = $response['message'];
-        $columns = array_keys($response['response'][0]);
+        if($response) {
+            $message = $response['message'];
+            $columns = array_keys($response['response'][0]);
+        } else {
+            $message = "Fehler!";
+        }
+
+
     }
 
     // Kurspunkte
