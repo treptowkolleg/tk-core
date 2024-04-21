@@ -91,7 +91,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
         if($response) {
             $message = $response['message'];
-            $columns = array_keys($response['response'][0]);
+            if(is_array($response['response'][0])) {
+                $columns = array_keys($response['response'][0]);
+            }
         } else {
             $message = "Fehler!";
         }
