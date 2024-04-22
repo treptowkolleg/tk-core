@@ -91,11 +91,11 @@ $tableCountry = [
                                 <?php if(isset($_POST['db'])):?>
                                     <option value="">Datenbank wählen...</option>
                                     <option value="tk01" <?=$_POST['db'] == 'tk01' ? 'selected' : '' ?>>Schule</option>
-                                    <option value="tk04" <?=$_POST['db'] == 'tk04' ? 'selected' : '' ?>>Welt</option>
+                                    <option value="tk04" <?=$_POST['db'] == 'tk04' ? 'selected' : '' ?>>Wagner Pictures</option>
                                     <?php else: ?>
                                         <option value="">Datenbank wählen...</option>
                                         <option value="tk01">Schule</option>
-                                        <option value="tk04">Welt</option>
+                                        <option value="tk04">Wagner Pictures</option>
 
                                 <?php endif; ?>
                             </select>
