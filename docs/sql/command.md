@@ -22,7 +22,7 @@ SELECT Name FROM lehrkraft
 ````
 
 <form method="post" action="https://it.treptowkolleg.de/?page=docs-sql#result">
-<input type="hidden" name="db" value="abitraining">
+<input type="hidden" name="db" value="tk01">
 <input type="hidden" name="query" value="
 SELECT Name FROM lehrkraft
 ">
@@ -37,7 +37,7 @@ SELECT Name, Wohnort AS Ort FROM lehrkraft
 ````
 
 <form method="post" action="https://it.treptowkolleg.de/?page=docs-sql#result">
-<input type="hidden" name="db" value="abitraining">
+<input type="hidden" name="db" value="tk01">
 <input type="hidden" name="query" value="
 SELECT Name, Wohnort AS Ort FROM lehrkraft
 ">
@@ -58,7 +58,7 @@ ORDER BY Wohnort, Name
 ````
 
 <form method="post" action="https://it.treptowkolleg.de/?page=docs-sql#result">
-<input type="hidden" name="db" value="abitraining">
+<input type="hidden" name="db" value="tk01">
 <input type="hidden" name="query" value="
 SELECT Name, Wohnort AS Ort
 FROM lehrkraft
@@ -76,7 +76,7 @@ ORDER BY Name DESC
 ````
 
 <form method="post" action="https://it.treptowkolleg.de/?page=docs-sql#result">
-<input type="hidden" name="db" value="abitraining">
+<input type="hidden" name="db" value="tk01">
 <input type="hidden" name="query" value="
 SELECT Name, Wohnort AS Ort
 FROM lehrkraft
@@ -96,7 +96,7 @@ LIMIT 5
 ````
 
 <form method="post" action="https://it.treptowkolleg.de/?page=docs-sql#result">
-<input type="hidden" name="db" value="abitraining">
+<input type="hidden" name="db" value="tk01">
 <input type="hidden" name="query" value="
 SELECT Name, Wohnort AS Ort 
 FROM lehrkraft
@@ -114,7 +114,7 @@ LIMIT 5 OFFSET 5
 ````
 
 <form method="post" action="https://it.treptowkolleg.de/?page=docs-sql#result">
-<input type="hidden" name="db" value="abitraining">
+<input type="hidden" name="db" value="tk01">
 <input type="hidden" name="query" value="
 SELECT Name, Wohnort AS Ort 
 FROM lehrkraft
@@ -144,7 +144,7 @@ WHERE Geburtsjahr IS NULL
 ````
 
 <form method="post" action="https://it.treptowkolleg.de/?page=docs-sql#result">
-<input type="hidden" name="db" value="abitraining">
+<input type="hidden" name="db" value="tk01">
 <input type="hidden" name="query" value="
 SELECT Name, Geburtsjahr
 FROM lehrkraft
@@ -162,7 +162,7 @@ WHERE Geburtsjahr IS NOT NULL
 ````
 
 <form method="post" action="https://it.treptowkolleg.de/?page=docs-sql#result">
-<input type="hidden" name="db" value="abitraining">
+<input type="hidden" name="db" value="tk01">
 <input type="hidden" name="query" value="
 SELECT Name, Geburtsjahr
 FROM lehrkraft
@@ -198,7 +198,7 @@ WHERE
 ````
 
 <form method="post" action="https://it.treptowkolleg.de/?page=docs-sql#result">
-<input type="hidden" name="db" value="abitraining">
+<input type="hidden" name="db" value="tk01">
 <input type="hidden" name="query" value="
 SELECT l.Name AS Lehrkraft, f.Name AS Fach
 FROM lehrkraft l, hat_lehrbefaehigung_in lf, fach f
@@ -225,7 +225,7 @@ FROM lehrkraft l
 ````
 
 <form method="post" action="https://it.treptowkolleg.de/?page=docs-sql#result">
-<input type="hidden" name="db" value="abitraining">
+<input type="hidden" name="db" value="tk01">
 <input type="hidden" name="query" value="
 SELECT l.Name AS Lehrkraft, f.Name AS Fach
 FROM lehrkraft l
@@ -281,7 +281,7 @@ FROM lehrkraft l
 ````
 
 <form method="post" action="https://it.treptowkolleg.de/?page=docs-sql#result">
-<input type="hidden" name="db" value="abitraining">
+<input type="hidden" name="db" value="tk01">
 <input type="hidden" name="query" value="
 SELECT l.Name AS Lehrkraft, f.Name AS Fach
 FROM lehrkraft l
@@ -313,7 +313,7 @@ FROM lehrkraft l
 ````
 
 <form method="post" action="https://it.treptowkolleg.de/?page=docs-sql#result">
-<input type="hidden" name="db" value="abitraining">
+<input type="hidden" name="db" value="tk01">
 <input type="hidden" name="query" value="
 SELECT l.Name AS Lehrkraft, f.Name AS Fach
 FROM lehrkraft l
@@ -341,7 +341,7 @@ UNION
 SELECT 'Lehrkraft', Name FROM lehrkraft
 ````
 <form method="post" action="https://it.treptowkolleg.de/?page=docs-sql#result">
-<input type="hidden" name="db" value="abitraining">
+<input type="hidden" name="db" value="tk01">
 <input type="hidden" name="query" value="SELECT 'Schüler' AS Typ, Name FROM schueler
 UNION
 SELECT 'Lehrkraft', Name FROM lehrkraft">
@@ -464,7 +464,7 @@ SELECT 'Lehrkraft', Name FROM lehrkraft) ergebnis
 GROUP BY Typ
 ````
 <form method="post" action="https://it.treptowkolleg.de/?page=docs-sql#result">
-<input type="hidden" name="db" value="abitraining">
+<input type="hidden" name="db" value="tk01">
 <input type="hidden" name="query" value="
 SELECT Typ AS Personenkreis, COUNT(Name) AS 'Anzahl der Personen' FROM
 (SELECT 'Schüler' AS Typ, Name FROM schueler
