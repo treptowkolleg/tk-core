@@ -44,7 +44,7 @@ $server = getProtocol().$_SERVER['HTTP_HOST'].'/';
 
 
 $session = new Session();
-$db = $_POST['db'] ?? 'abitraining';
+$db = $_POST['db'] ?? 'tk01';
 $api = new Bridge('a38',$db);
 $mdParser = new ParsedownExtra();
 

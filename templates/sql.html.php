@@ -115,9 +115,9 @@ $tableCountry = [
                                     <option value="tk02" <?=$_POST['db'] == 'tk02' ? 'selected' : '' ?>>5.-PK-Themen</option>
                                     <?php else: ?>
                                         <option value="">Datenbank wählen...</option>
-                                        <option value="abitraining">Schule</option>
-                                        <option value="grosshandel">Großhandel</option>
-                                        <option value="world">Welt</option>
+                                        <option value="tk01">Schule</option>
+                                        <option value="tk04">Großhandel</option>
+                                        <option value="tk03">Welt</option>
                                         <option value="tk02">5.-PK-Themen</option>
                                 <?php endif; ?>
                             </select>
