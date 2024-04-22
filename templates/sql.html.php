@@ -80,25 +80,6 @@ $tableCountry = [
                     <summary>ERM (Welt)</summary>
                     <img src="/docs/img/world_erm.png" alt="ERM Welt-Datenbank">
                 </details>
-
-                <h3>Großhandel-Datenbank</h3>
-                <ul>
-                    <li><a href="/docs/img/grosshandel.pdf" target="_blank">Struktur</a> der Großhandelsdatenbank.</li>
-                    <li><a href="/docs/img/abitrainingAufgaben2.pdf" target="_blank">Aufgaben</a> zur Prüfungsvorbereitung.</li>
-                </ul>
-                <details>
-                    <summary>ERM (Großhandel)</summary>
-                    <img src="/docs/img/grosshandel_erm.png" alt="ERM Großhandel-Datenbank">
-                </details>
-
-                <h3>5.-PK-Datenbank (Q1)</h3>
-                <ul>
-                    <li><a href="/docs/img/tk02.pdf" target="_blank">Struktur</a> der 5.-PK-Datenbank.</li>
-                </ul>
-                <details>
-                    <summary>ERM (5.-PK-Datenbank)</summary>
-                    <img src="/docs/img/tk02.png" alt="ERM 5.-PK-Datenbank">
-                </details>
             </div>
             <div class="col">
                 <h2 id="formular">Formular</h2>
@@ -110,14 +91,10 @@ $tableCountry = [
                                 <?php if(isset($_POST['db'])):?>
                                     <option value="">Datenbank wählen...</option>
                                     <option value="tk01" <?=$_POST['db'] == 'tk01' ? 'selected' : '' ?>>Schule</option>
-                                    <option value="tk02" <?=$_POST['db'] == 'tk02' ? 'selected' : '' ?>>5.-PK-Themen</option>
-                                    <option value="tk03" <?=$_POST['db'] == 'tk03' ? 'selected' : '' ?>>Großhandel</option>
                                     <option value="tk04" <?=$_POST['db'] == 'tk04' ? 'selected' : '' ?>>Welt</option>
                                     <?php else: ?>
                                         <option value="">Datenbank wählen...</option>
                                         <option value="tk01">Schule</option>
-                                        <option value="tk02">5.-PK-Themen</option>
-                                        <option value="tk03">Großhandel</option>
                                         <option value="tk04">Welt</option>
 
                                 <?php endif; ?>
