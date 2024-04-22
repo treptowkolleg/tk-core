@@ -72,13 +72,13 @@ $tableCountry = [
                 </details>
 
 
-                <h3>Welt-Datenbank</h3>
+                <h3>Wagner Pictures-Datenbank</h3>
                 <ul>
-                    <li><a href="/docs/img/world.pdf" target="_blank">Struktur</a> der Welt-Datenbank.</li>
+                    <li><a href="/docs/img/tk04.pdf" target="_blank">Struktur</a> der Wagner Pictures-Datenbank.</li>
                 </ul>
                 <details>
-                    <summary>ERM (Welt)</summary>
-                    <img src="/docs/img/world_erm.png" alt="ERM Welt-Datenbank">
+                    <summary>ERM (Wagner Pictures)</summary>
+                    <img src="/docs/img/wagner_erm.png" alt="ERM Wagner Pictures">
                 </details>
             </div>
             <div class="col">
