@@ -22,10 +22,10 @@ $white = imagecolorallocate($image, 255, 255, 255);
 $textcolors = [$black, $white];
 
 $fonts = [
-    dirname(__FILE__).'\fonts\Acme.ttf',
-    dirname(__FILE__).'\fonts\ubuntu.ttf',
-    dirname(__FILE__).'\fonts\merriweather.ttf',
-    dirname(__FILE__).'\fonts\PlayfairDisplay.ttf'
+    dirname(__FILE__).'/fonts/Acme.ttf',
+    dirname(__FILE__).'/fonts/ubuntu.ttf',
+    dirname(__FILE__).'/fonts/merriweather.ttf',
+    dirname(__FILE__).'/fonts/PlayfairDisplay.ttf'
 ];
 
 $string_length = strlen($captcha_string);
