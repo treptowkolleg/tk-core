@@ -210,6 +210,7 @@ function getName(string $file): ?string
         'command' => 'Befehle',
         'index' => 'Startseite',
         'analysis' => 'Analysis',
+        'gd' => 'Bildbearbeitung',
     ];
     $fileName = substr($file,0,-3);
 

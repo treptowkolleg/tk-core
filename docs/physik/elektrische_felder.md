@@ -1,71 +1,47 @@
 # Elektrische Felder
 
-**Energien in einem Gewitter**
+## Definition
 
-## Aufgabe A
+Im Raum um eine Ladung herrscht ein elektrisches Feld. Dieses elektrische Feld überträgt die Kraftwirkung dieser Ladung auf andere Ladungen.
+Das, was im Raum um eine Ladung herrscht (nämlich die Eigenschaft, dass in dem Raum auf andere Ladungen elektrische Kräfte wirken), wird als elektrisches Feld bezeichnet.
 
-Gewitter gehören zu den eindrucksvollsten Naturphänomenen. Pro Jahr werden in Deutschland ungefähr 2 Millionen Blitze
-registriert. Immer wieder gibt es Vorschläge, die in den Blitzen enthaltenen Energien nutzbar zu machen.
+## Feldstärke
 
-In den folgenden Aufgaben wird untersucht, ob Blitzenergie sinnvoll genutzt werden kann. Für die Klärung dieser Frage
-werden einfache Modelle und typische Daten von Gewitterwolken und Blitzen genutzt.
+Die elektrische Feldstärke $\vec{E}$ ist das Maß für die Stärke und die Richtung eines elektrischen Feldes, also die Fähigkeit einer Ladung, Kraft auf andere Ladungen auszuüben.
 
-### Aufgabe 1
-Beschreiben Sie für das Modell Gewitterwolke und Erde als Plattenkondensator die Eigenschaften des elektrischen Feldes zwischen Wolke und Erde. Skizzieren Sie dazu auch ein Feldlinienbild.
-Berechnen Sie für dieses Modell die Spannung zwischen Wolke und Erde, die Kapazität des Kondensators und die elektrische Energie, die in dem Feld zwischen Erde und Wolke gespeichert ist. 
+Die elektrische Feldstärke $\vec{E}$ ist definiert als der Quotient aus der elektrischen Kraft $\vec{F_{el}}$
+auf eine Probeladung und der Ladung $q$ der Probeladung:
 
-<details> 
-<summary>Lösung aufdecken</summary>
-<p>Unter der Annahme, dass Wolke und Erde einen Plattenkondensator bilden, ist das elektrische Feld homogen, d.h. die Feldstärke ist überall gleich.</p>
-<p>Skizze des Feldlinienbildes mit parallelen und nach oben gerichteten Feldlinien</p>
-$$C=\epsilon_0 \cdot \epsilon_r \cdot \frac{A}{s}$$
-$$U=E \cdot s = 20\frac{kV}{m} \cdot 2000m$$
-$$E_{elek}= \cdot C \cdot U^2$$
-</details>
+$\vec{E} = \frac{\vec{F_{}el}}{q}$
 
-### Aufgabe 2
-Das Modell Gewitterwolke als Dipol beschreibt die Ladungsverteilung in der Wolke besser als das Modell Gewitterwolke und Erde als Plattenkondensator.
+### Richtung
 
-Begründen Sie mit Hilfe des Modells Gewitterwolke als Dipol, dass die Ergebnisse der Berechnungen in Aufgabe 1 nur sehr grobe Näherungen sind. 
+Die elektrische Feldstärke $\vec{E}$ zeigt immer in die Richtung der elektrischen Kraft auf positive Ladungen.
 
-### Aufgabe 3
-Zeichnen Sie für den im Material 3 beschriebenen Blitz ein Diagramm, in dem die Stromstärke in Abhängigkeit von der Zeit grafisch dargestellt wird. 
+### Feldlinien
 
-Schätzen Sie näherungsweise die durch diesen Blitz transportierte elektrische Ladung ab. 
+![Elektrische Feldlinien](/docs/img/f46f56ff61eb9f1939585959a1f5c6b7.png)
 
-### Aufgabe 4
-Bestimmen Sie näherungsweise die elektrische Energie eines durchschnittlichen Blitzes und die gesamte Energie, die in allen Blitzen zwischen Gewitterwolken und Erde innerhalb eines Jahres in Deutschland enthalten ist.
+Der Feldstärkevektor verläuft überall radial zur Ladung.
 
-### Aufgabe 5
-Beurteilen Sie das in der New York Times vorgestellte Konzept zur Nutzung von Blitzenergie. 
+Der Feldstärkevektor ist von einer positiven Ladung weg, bzw. zu einer negativen Ladung hin gerichtet. Er zeigt also in Richtung der elektrischen Kraft auf positive Ladungen.
 
-Formulieren Sie Argumente zur Begründung Ihres Urteils mithilfe der gegebenen und berechneten Daten.
+## Stromstärke
 
-## Materialien
-Für die Aufgabe wird der Aufbau einer Gewitterzelle eines Wärmegewitters betrachtet. Die Abmessungen und Daten von Gewitterwolken können sehr unterschiedlich sein, im Material werden typische Werte dargestellt.
+$I=Q \cdot A$
 
-### Material 1
-Für die Beschreibung von Gewitterwolken kann man verschiedene Modelle nutzen.
+## Ladung
+Formelzeichen: $Q$ (Quantity), $Q=\int_{I_1}^{I_2} I(dt)$, $f(I)$
 
-#### Modell Gewitterwolke und Erde als Plattenkondensator
+Elementarladung $e = 1,6022 \cdot 10^{-19} A \cdot s$
+Eine Ladung ist immer ein Vielfaches von $e$. Ladung ist immer ein Ausdruck dafür, dass innerhalb einer bestimmten Zeit ein Strom geflossen ist.
 
-Das Modell in Abbildung 2 zeigt, dass man sich den Raum zwischen Wolke und Erde als Plattenkondensator vorstellen kann. Die Unterseite der Wolke ist meist negativ aufgeladen, an der Erdoberfläche wird durch Influenz eine gleich große positive Ladung erzeugt. Typisch ist eine Fläche von $25 km^2$ an der Unterseite der Wolke. Während eines Gewitters werden am Erdboden elektrische Feldstärken von ca. $20\frac{kV}{m}$ gemessen.
+### Coloumbkraft (elektrische Feldstärke)
 
-![img.png](/docs/img/img.png)
-Abbildung 2
+$F=\frac{1}{4\pi \cdot \epsilon_0 \cdot e_r} \cdot \frac{Q_1 \cdot Q_2}{r^2}$; $e_r = 1$
 
-#### Modell Gewitterwolke als Dipol
+## Spannung
 
-Mithilfe von Flugzeugen hat man die Ladungsverteilung in Gewitterwolken genauer untersucht und für die Ladungsverteilung in der Wolke ein Modell entwickelt.
+$U in V$
 
-In der Abbildung 3 wird die gleiche Wolke wie in Abbildung 2 in diesem Modell dargestellt. Die Gewitterwolke wird hier als Dipol betrachtet. In diesem Dipol gibt es zwei Gebiete, die besonders stark elektrisch geladen sind. Typische Werte für die Ladungen sind im positiven Bereich $+40 C$ und im negativen Bereich $-40 C$.
-
-In Gewitterwolken hat man Feldstärken von bis zu $400\frac{kV}{m}$ gemessen.
-
-![img.png](/docs/img/img2.png)
-Abbildung 3
-
-### Material 2
-### Material 3
-### Material 4
-
+Die Spannung ist die aus zwei unterschiedlichen Ladungszahlen resultierende Differenz.
