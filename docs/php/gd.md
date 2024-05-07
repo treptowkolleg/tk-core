@@ -18,7 +18,7 @@ extension=gd
 
 Nun kannst du die **GD**-Erweiterung verwenden.
 
-## Beispiel
+#### Beispiel
 
 <img src="/captcha2.php?captcha=inf2024" alt="captcha">
 
