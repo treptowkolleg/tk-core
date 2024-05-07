@@ -26,10 +26,6 @@ foreach ($html->find('h1') as $e) {
         <div class="row">
             <div class="col-12">
                 <h1><?=$heading?></h1>
-                <img src="/image.php?t=Dies ist ein PHP-generiertes Bild.">
-                <p>Und ein Captcha</p>
-                <img src="/captcha2.php?captcha=<?=$captcha_string ?? ''?>">
-                <p><?=$captcha_string ?? ''?></p>
             </div>
         </div>
     </div>

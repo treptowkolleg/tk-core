@@ -18,6 +18,12 @@ extension=gd
 
 Nun kannst du die **GD**-Erweiterung verwenden.
 
+## Beispiel
+
+<img src="/captcha2.php?captcha=inf2024" alt="captcha">
+
+``<img src="/captcha2.php?captcha=inf2024" alt="captcha">``
+
 ## Einfache Grafik
 
 Erstelle ein neues php-Script. Der folgende Code erzeugt eine neue PNG-Bilddatei mit den Maßen
