@@ -26,6 +26,10 @@ foreach ($html->find('h1') as $e) {
         <div class="row">
             <div class="col-12">
                 <h1><?=$heading?></h1>
+                <img src="/icon.php?icon=circle" alt="Circle">
+                <img src="/icon.php?icon=cross" alt="Cross">
+                <img src="/icon.php?icon=triangle" alt="Triangle">
+                <img src="/icon.php" alt="Default">
             </div>
         </div>
     </div>
@@ -58,6 +62,28 @@ foreach ($html->find('h1') as $e) {
 
 <section class="p-section">
     <div class="row">
+        <div class="col-12">
+            <div class="p-section--shallow">
+                <h3>BVG</h3>
+                <h5>Abfahrten Mosischstr.</h5>
+                <?php foreach ($timetable['departures'] ?? [] as $trip): ?>
+                    <div class="row--25-75">
+                        <div><?=$trip['line']['productName']?> <?=$trip['line']['id']?> nach <b><?=$trip['direction']?></b></div>
+                        <div>
+                            geplante Abfahrt: <?= date("H:i",strtotime('+2 hours',strtotime($trip['plannedWhen']))) ?> Uhr<br>
+                            Aktuelle Abfahrtszeit: <?= date("H:i",strtotime('+2 hours',strtotime($trip['when']))) ?> Uhr<br>
+                            <?php if($trip['delay'] > 0) : ?>
+                            (<?= $trip['delay']/60 ?> Minuten später)
+                            <?php else: ?>
+                                (<?= $trip['delay']/60 ?> Minuten früher)
+                            <?php endif; ?>
+                            <br>
+
+                        </div>
+                    </div>
+                <?php endforeach; ?>
+            </div>
+        </div>
         <div class="col scrollspy" data-spy="scroll" data-target="#list" data-offset="0">
             <?=$html?>
         </div>

@@ -79,5 +79,30 @@ class Bridge
         return $responseData;
     }
 
+    public function getTimeTable(string $stop, bool $departure = false) {
+        if(!$departure) {
+            $ch = curl_init("https://v6.bvg.transport.rest/locations?poi=false&addresses=false&query=$stop");
+        } else {
+            $ch = curl_init("https://v6.bvg.transport.rest/stops/$stop/departures?duration15&results=3");
+        }
+
+        curl_setopt_array($ch, array(
+            CURLOPT_POST => FALSE,
+            CURLOPT_RETURNTRANSFER => TRUE,
+            CURLOPT_SSL_VERIFYPEER => FALSE,
+            CURLOPT_SSL_VERIFYHOST => FALSE
+        ));
+
+        $response = curl_exec($ch);
+
+        if ($response === FALSE) {
+            $responseData['message'] = curl_error($ch);
+        } else {
+            $responseData = json_decode($response, TRUE);
+        }
+        curl_close($ch);
+        return $responseData;
+    }
+
 
 }
