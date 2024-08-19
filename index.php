@@ -67,7 +67,7 @@ $db = $_POST['db'] ?? 'tk01';
 $api = new Bridge('a38',$db);
 $mdParser = new ParsedownExtra();
 
-$timetable = $api->getTimeTable("900191508",true);
+$timetable = []; //$api->getTimeTable("900191508",true);
 
 if (!isset($_GET['page'])) {
     header("Location: $server?page=docs-README.md", true, 302);
