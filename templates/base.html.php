@@ -149,7 +149,7 @@ use TreptowKolleg\Api\Session;
                 <div class="row">
                     <div class="col">
                         <small>Diese Website verwendet Server von</small><br>
-                        <a style="vertical-align: middle" href="https://panel.onyxhosting.de/aff.php?aff=183" target="_blank"><img src="/docs/img/logo_onyxhosting.png" alt="Onyxhosting Logo" width="200"></a>
+                        <img src="/assets/img/LOGO_IONOS_Blue_RGB-1.png" alt="IONOS Logo" width="200" style="vertical-align: middle">
                         <p>&nbsp;</p>
                     </div>
                 </div>
