@@ -56,9 +56,9 @@ foreach ($html->find('h1') as $e) {
 
 <main>
 
-<!--<section class="p-section">
+<section class="p-section">
     <div class="row">
-        <div class="col-12">
+        <!--<div class="col-12">
             <div class="p-section--shallow">
                 <h3>BVG</h3>
                 <h5>Abfahrten Mosischstr.</h5>
@@ -79,11 +79,11 @@ foreach ($html->find('h1') as $e) {
                     </div>
                 <?php /*endforeach; */?>
             </div>
-        </div>
+        </div>-->
         <div class="col scrollspy" data-spy="scroll" data-target="#list" data-offset="0">
-            <?php /*=$html*/?>
+            <?=$html?>
         </div>
     </div>
-</section>-->
+</section>
 
 </main>
