@@ -166,6 +166,12 @@ use TreptowKolleg\Api\Session;
                     <nav class="col-3" aria-label="Footer">
                         <ul class="p-list u-no-margin--bottom">
                             <li class="p-list__item">
+                                <a class="is-dark" href="https://abi.treptowkolleg.de" target="_blank">5. PK-Prüfungsthemen</a>
+                            </li>
+                            <li class="p-list__item">
+                                <a class="is-dark" href="https://wahl.wagnerpictures.com" target="_blank">Wahl-App</a>
+                            </li>
+                            <li class="p-list__item">
                                 <a class="is-dark" href="https://www.treptow-kolleg.de" target="_blank">Treptow-Kolleg Berlin</a>
                             </li>
                         </ul>
