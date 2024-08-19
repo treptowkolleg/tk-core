@@ -159,7 +159,7 @@ use TreptowKolleg\Api\Session;
     <footer class="l-footer--sticky p-strip--dark">
         <div class="l-docs__subgrid">
             <div class="l-docs__sidebar u-fixed-width">
-                <p class="u-no-margin--bottom">© 2003-<?=date("Y")?><br>Benjamin Wagner.</p>
+                <p class="u-no-margin--bottom">© 2023-<?=date("Y")?><br>Benjamin Wagner.</p>
             </div>
             <div class="l-docs__main">
                 <div class="row">
