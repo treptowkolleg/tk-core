@@ -26,7 +26,7 @@ foreach ($html->find('h1') as $e) {
         <div class="row">
             <div class="col-12">
 
-                <form action="https://www.paypal.com/donate" method="post" target="_top" style="margin-top: 48px">
+                <form action="https://www.paypal.com/donate" method="post" target="_top" style="margin-top: 48px; margin-bottom: 48px">
                     <input type="hidden" name="hosted_button_id" value="KECGFRKZM9WTE" />
                     <input type="image" src="https://www.paypalobjects.com/de_DE/DE/i/btn/btn_donate_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Spenden mit dem PayPal-Button" />
                     <img alt="" border="0" src="https://www.paypal.com/de_DE/i/scr/pixel.gif" width="1" height="1" />
