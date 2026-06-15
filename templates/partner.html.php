@@ -100,6 +100,11 @@
                     <img src="https://res.cloudinary.com/canonical/image/fetch/f_svg,q_auto,fl_sanitize,w_146/https%3A%2F%2Fassets.ubuntu.com%2Fv1%2F55f6dae7-logo-jetbrains--snapcraft-homepage.svg" alt="JetBrains" height="128" loading="eager" style="max-height:128px;">
                 </a>
             </div>
+            <div class="col-small-2 col-medium-2 col-2 u-align--center">
+                <a href="https://www.pad-berlin.de/" target="_blank">
+                    <img src="/assets/img/pad.webp" alt="pad GmbH" height="128" loading="eager" style="max-height:128px;">
+                </a>
+            </div>
         </div>
     </section>
 
