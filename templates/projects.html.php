@@ -52,6 +52,12 @@
                 <h3 class="p-text--small-caps">Informatik AG</h3>
             </div>
             <div class="col">
+                <div>
+                    <div class="p-image-container--3-2">
+                        <img class="p-image-container__image "
+                             src="/assets/pic/ttt.png" alt="Tic Tac Toe">
+                    </div>
+                </div>
                 <p>Inhalt folgt</p>
             </div>
         </div>
