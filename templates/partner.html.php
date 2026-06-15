@@ -30,7 +30,7 @@
                 <div>
                     <div class="p-image-container--3-2 is-cover">
                         <img class="p-image-container__image "
-                             src="https://assets.ubuntu.com/v1/cf1e2ddb-datacenter-wide-crop.jpeg" alt="alt-text">
+                             src="/assets/pic/ben_a.jpg" alt="Benjamin Wagner">
                     </div>
                 </div>
             </div>
