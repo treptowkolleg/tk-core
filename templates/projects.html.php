@@ -60,6 +60,12 @@
                 <h3 class="p-text--small-caps">PKI-Software für Bundes- und Landtagswahlen</h3>
             </div>
             <div class="col">
+                <div>
+                    <div class="p-image-container--3-2">
+                        <img class="p-image-container__image "
+                             src="/assets/img/pki1.png" alt="Wahlsoftware">
+                    </div>
+                </div>
                 <p>Inhalt folgt</p>
             </div>
         </div>
