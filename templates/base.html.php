@@ -22,7 +22,7 @@ use TreptowKolleg\Api\Session;
         <meta name="description" content="Wissen rund um Informatik, Mathematik und Physik">
 
 
-        <title><?= $title ?? "AG Informatik" ?></title>
+        <title><?= $title ?? "Civicsoft" ?></title>
 <!--        <link rel="stylesheet" href="https://unpkg.com/mvp.css">-->
 <!--        <link rel="stylesheet" href="https://unpkg.com/chota@latest">-->
         <link rel="stylesheet" href="/dist/style.css" />
