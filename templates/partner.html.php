@@ -86,6 +86,11 @@
         </div>
         <div class="row">
             <div class="col-small-2 col-medium-2 col-2 u-align--center">
+                <a href="https://www.alumnihub.de" target="_blank">
+                    <img src="/assets/img/android-chrome-512x512.png" alt="Treptow-Kolleg Berlin" height="96" loading="eager" style="max-height:96px;">
+                </a>
+            </div>
+            <div class="col-small-2 col-medium-2 col-2 u-align--center">
                 <a href="https://www.treptow-kolleg.de" target="_blank">
                     <img src="/assets/img/tk.png" alt="Treptow-Kolleg Berlin" height="96" loading="eager" style="max-height:96px;">
                 </a>
