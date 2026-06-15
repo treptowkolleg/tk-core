@@ -30,7 +30,7 @@
             </div>
             <div class="col">
                 <div>
-                    <div class="p-image-container--3-2 is-cover p-image--bordered">
+                    <div class="p-image-container--3-2">
                         <img class="p-image-container__image "
                              src="/assets/pic/alumniportal.png" alt="alt-text">
                     </div>
@@ -69,6 +69,12 @@
                 <a class="p-button--positive" href="/assets/pdf/Hausarbeit.pdf" target="_blank">PDF ansehen</a>
             </div>
             <div class="col">
+                <div>
+                    <div class="p-image-container--3-2">
+                        <img class="p-image-container__image "
+                             src="/assets/img/reactable-music-experience-hotel.jpg" alt="Reactable music experience">
+                    </div>
+                </div>
                 <p>Inhalt folgt</p>
             </div>
         </div>
