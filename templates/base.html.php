@@ -165,6 +165,9 @@ use TreptowKolleg\Api\Session;
     </div>
     <footer class="l-footer--sticky p-strip--highlighted">
         <nav class="row" aria-label="Footer">
+            <p>
+                <a class="" href="#">Zum Anfang <i class="p-icon--chevron-up is-dark"></i></a>
+            </p>
             <ul class="p-inline-list">
                 <li class="p-inline-list__item">
                     <a href="https://www.dpg-physik.de/" target="_blank">

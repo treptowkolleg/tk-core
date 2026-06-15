@@ -17,9 +17,34 @@
         <div class="row--50-50-on-large p-section">
             <div class="col">
                 <h3 class="p-text--small-caps">Alumni-Portal des Zweiten Bildungsweges</h3>
+                <p class="p-text--small">StayFriends ist unübersichtlich, teilweise kaputt und schaltet massiv Werbung. Außerdem sind
+                    Kommunikationsfunktionen immer an ein Abo gebunden. Genau das wollten wir ändern. Gemeinsam mit Sami
+                    habe ich das Alumni-Portal initiiert – eine kostenfreie, unabhängige Plattform, die speziell auf die
+                    Bedürfnisse von Kollegiaten und Abendgymnasiasten zugeschnitten ist. Werbefrei. Komplett kostenlos.
+                    Und ohne versteckte Kosten.</p>
+                <ul class="p-list--horizontal-section">
+                    <li class="p-list__item ">Mehr als 74 Kollegs und Abendgymnasien</li>
+                    <li class="p-list__item ">ca. 250 Besucher/Tag</li>
+                </ul>
+                <a class="p-button--positive" href="https://www.alumnihub.de" target="_blank">Online ansehen</a>
             </div>
             <div class="col">
-                <p>Inhalt folgt</p>
+                <div>
+                    <div class="p-image-container--3-2 is-cover p-image--bordered">
+                        <img class="p-image-container__image "
+                             src="/assets/pic/alumniportal.png" alt="alt-text">
+                    </div>
+                </div>
+                <p>Das Portal bietet Profile mit Abschlüssen, Leistungskursen und Lieblingsfächern, eine intelligente
+                    Suche nach ehemaligen Mitschülern, eine Pinnwand für Nachrichten und Erinnerungen sowie eine
+                    responsive Oberfläche, die auf allen Geräten funktioniert. Im Hintergrund läuft ein durchdachtes
+                    Berechtigungskonzept, das die Privatsphäre schützt, während die Bedienung intuitiv bleibt. Technisch
+                    basiert das Portal auf Symfony mit einem per SCSS stark angepassten Bootstrap-Framework –
+                    professionell, aber nicht überladen.</p>
+                <p>Inzwischen haben wir für unsere Schule bereits deutlich mehr aktive Accounts als StayFriends in
+                    diesem Segment. Unser Ziel: Das erste bundesweite, zentrale Alumni-Netzwerk speziell für den zweiten
+                    Bildungsweg zu werden. Eine Plattform, die den Gedanken des lebenslangen Lernens trägt und ehemalige
+                    Lernende, aktuelle Studierende sowie Lehrende nachhaltig vernetzt.</p>
             </div>
         </div>
         <div class="row--50-50-on-large p-section">

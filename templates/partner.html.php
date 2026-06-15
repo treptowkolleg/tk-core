@@ -77,6 +77,45 @@
         </div>
     </section>
 
-
+    <section class="p-section">
+        <hr class="p-rule is-fixed-width">
+        <div class="u-fixed-width">
+            <div class="p-block">
+                <h2 class="p-muted-heading">Official snaps from major publishers</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-small-2 col-medium-2 col-2 u-align--center">
+                <a href="/firefox">
+                    <img src="https://res.cloudinary.com/canonical/image/fetch/f_svg,q_auto,fl_sanitize,w_146/https%3A%2F%2Fassets.ubuntu.com%2Fv1%2F6eec0a35-logo_mozilla_snapcraft_homepage.svg" alt="Mozilla" width="146" height="145" loading="eager">
+                </a>
+            </div>
+            <div class="col-small-2 col-medium-2 col-2 u-align--center">
+                <a href="/publisher/kde">
+                    <img src="https://res.cloudinary.com/canonical/image/fetch/f_svg,q_auto,fl_sanitize,w_146/https%3A%2F%2Fassets.ubuntu.com%2Fv1%2F6958a93e-kde-logo-snapcraft-homepage.svg" alt="KDE" width="146" height="145" loading="eager">
+                </a>
+            </div>
+            <div class="col-small-2 col-medium-2 col-2 u-align--center">
+                <a href="/publisher/jetbrains">
+                    <img src="https://res.cloudinary.com/canonical/image/fetch/f_svg,q_auto,fl_sanitize,w_146/https%3A%2F%2Fassets.ubuntu.com%2Fv1%2F55f6dae7-logo-jetbrains--snapcraft-homepage.svg" alt="JetBrains" width="146" height="145" loading="eager">
+                </a>
+            </div>
+            <div class="col-small-2 col-medium-2 col-2 u-align--center">
+                <a href="/spotify">
+                    <img src="https://res.cloudinary.com/canonical/image/fetch/f_svg,q_auto,fl_sanitize,w_146/https%3A%2F%2Fassets.ubuntu.com%2Fv1%2F63d5fd3f-logo-spotify--snapcraft-homepage.svg" alt="Spotify" width="146" height="145" loading="eager">
+                </a>
+            </div>
+            <div class="col-small-2 col-medium-2 col-2 u-align--center">
+                <a href="/google-cloud-sdk">
+                    <img src="https://res.cloudinary.com/canonical/image/fetch/f_svg,q_auto,fl_sanitize,w_146/https%3A%2F%2Fassets.ubuntu.com%2Fv1%2F2d54fa27-logo-google--snapcraft-homepage.svg" alt="Google" width="146" height="145" loading="eager">
+                </a>
+            </div>
+            <div class="col-small-2 col-medium-2 col-2 u-align--center">
+                <a href="/code">
+                    <img src="https://res.cloudinary.com/canonical/image/fetch/f_svg,q_auto,fl_sanitize,w_146/https%3A%2F%2Fassets.ubuntu.com%2Fv1%2F7b03d4b8-logo-microsoft--snapcraft-homepage.svg" alt="Microsoft" width="146" height="145" loading="eager">
+                </a>
+            </div>
+        </div>
+    </section>
 
 </main>
