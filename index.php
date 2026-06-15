@@ -174,10 +174,10 @@ $sidebar
 
 $md = null;
 $file = './';
-if (isset($_GET['page']) and str_starts_with($_GET['page'],'docs') ) {
+if (str_starts_with($_GET['page'],'docs') ) {
     $path = str_replace('-','/',$_GET['page']);
     if(file_exists($file = './'. $path)) {
-        $md = file_get_contents($file );
+        $md = file_get_contents($file);
     }
 }
 
