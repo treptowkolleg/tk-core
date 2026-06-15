@@ -61,7 +61,7 @@
                     Einstieg, der Lust auf mehr macht und beweist, dass Informatik nicht nur aus weißem Text auf
                     schwarzer Konsole besteht.
                 </p>
-                <a class="p-button--positive" href="https://www.github.com/btinet/gamereact" target="_blank">Online ansehen</a>
+                <a class="p-button--positive" href="https://www.github.com/btinet/gamereact" target="_blank">Repository ansehen</a>
             </div>
             <div class="col">
                 <div>
