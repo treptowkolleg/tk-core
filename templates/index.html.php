@@ -19,7 +19,7 @@
                     <h4 class="p-text--small-caps">Brückenkurse</h4>
                     <p>
                         <a href="https://www.ombplus.de/ombplus/public/index.html?org=dpg" target="_blank">Online
-                            Mathematik Brückenkurs OMB+</a>
+                            Mathematik Brückenkurs</a>
                     </p>
                     <p>
                         Du willst dich auf ein Ingenieur-, Wirtschafts-, Naturwissenschafts- oder Informatikstudium
