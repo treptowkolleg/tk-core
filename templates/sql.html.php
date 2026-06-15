@@ -99,14 +99,10 @@ $tableCountry = [
                             <select class="u-text-max-width" id="db" name="db" required>
                                 <?php if (isset($_POST['db'])): ?>
                                     <option value="">Datenbank wählen...</option>
-                                    <option value="tk01" <?= $_POST['db'] == 'tk01' ? 'selected' : '' ?>>Schule</option>
-                                    <option value="tk04" <?= $_POST['db'] == 'tk04' ? 'selected' : '' ?>>Wagner
-                                        Pictures
-                                    </option>
+                                    <option value="tk01" <?= $_POST['db'] == 'tk1' ? 'selected' : '' ?>>Schule</option>
                                 <?php else: ?>
                                     <option value="">Datenbank wählen...</option>
                                     <option value="tk01">Schule</option>
-                                    <option value="tk04">Wagner Pictures</option>
 
                                 <?php endif; ?>
                             </select>

@@ -64,7 +64,8 @@
                     Einstieg, der Lust auf mehr macht und beweist, dass Informatik nicht nur aus weißem Text auf
                     schwarzer Konsole besteht.
                 </p>
-                <a class="p-button--positive" href="https://www.github.com/btinet/gamereact" target="_blank">Repository ansehen</a>
+                <a class="p-button--positive" href="https://www.github.com/btinet/gamereact" target="_blank">Repository
+                    ansehen</a>
             </div>
             <div class="col">
                 <div>
@@ -78,16 +79,26 @@
         </div>
         <div class="row--50-50-on-large p-section">
             <div class="col">
-                <h3 class="p-text--small-caps">PKI-Software für Bundes- und Landtagswahlen</h3>
+                <h3 class="p-text--small-caps">Campus Buddy</h3>
+                <p class="p-text--small">
+                    Der Campus Buddy bringt alles mit, was du für deinen Hochschulalltag brauchst: Kurszeiten, Räume,
+                    Mensa und ÖPNV, direkt auf deinem Smartphone. Während HISinOne dein Studium verwaltet, kümmert sich
+                    dein Campus Buddy um deinen mobilen Alltag. Tagesaktuelle und personalisierte Infos sind immer
+                    griffbereit. Nicht nur für Studierende, sondern auch für Lehrende.
+                </p>
             </div>
             <div class="col">
                 <div>
                     <div class="p-image-container--3-2">
                         <img class="p-image-container__image "
-                             src="/assets/img/pki1.png" alt="Wahlsoftware">
+                             src="/assets/pic/cb_01.png" alt="Campus Buddy">
                     </div>
                 </div>
-                <p>Inhalt folgt</p>
+                <p>
+                    Finde jeden Raum auf Anhieb mit dem interaktiven 3D-Campusmodell und sieh in Echtzeit alle
+                    Änderungen im Stundenplan sowie die aktuelle Auslastung der Lernräume und der Mensa. Dein Campus
+                    Buddy gibt außerdem Bescheid, wann der nächste Bus oder die nächste U-Bahn fährt.
+                </p>
             </div>
         </div>
         <div class="row--50-50-on-large p-section">
