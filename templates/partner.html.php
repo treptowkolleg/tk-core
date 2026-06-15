@@ -84,20 +84,20 @@
                 <h2 class="p-muted-heading">Unsere Favoriten</h2>
             </div>
         </div>
-        <div class="row">
+        <div class="row u-vertically-center">
             <div class="col-small-2 col-medium-2 col-2 u-align--center">
                 <a href="https://www.alumnihub.de" target="_blank">
-                    <img src="/assets/img/android-chrome-512x512.png" alt="Treptow-Kolleg Berlin" height="96" loading="eager" style="max-height:96px;">
+                    <img src="/assets/img/android-chrome-512x512.png" alt="Treptow-Kolleg Berlin" height="92" loading="eager" style="max-height:92px;">
                 </a>
             </div>
             <div class="col-small-2 col-medium-2 col-2 u-align--center">
                 <a href="https://www.treptow-kolleg.de" target="_blank">
-                    <img src="/assets/img/tk.png" alt="Treptow-Kolleg Berlin" height="96" loading="eager" style="max-height:96px;">
+                    <img src="/assets/img/tk.png" alt="Treptow-Kolleg Berlin" height="92" loading="eager" style="max-height:92px;">
                 </a>
             </div>
             <div class="col-small-2 col-medium-2 col-2 u-align--center">
                 <a href="https://www.jetbrains.com" target="_blank">
-                    <img src="https://res.cloudinary.com/canonical/image/fetch/f_svg,q_auto,fl_sanitize,w_146/https%3A%2F%2Fassets.ubuntu.com%2Fv1%2F55f6dae7-logo-jetbrains--snapcraft-homepage.svg" alt="JetBrains" height="96" loading="eager" style="max-height:96px;">
+                    <img src="https://res.cloudinary.com/canonical/image/fetch/f_svg,q_auto,fl_sanitize,w_146/https%3A%2F%2Fassets.ubuntu.com%2Fv1%2F55f6dae7-logo-jetbrains--snapcraft-homepage.svg" alt="JetBrains" height="128" loading="eager" style="max-height:128px;">
                 </a>
             </div>
         </div>
