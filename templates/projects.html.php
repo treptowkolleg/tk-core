@@ -66,6 +66,7 @@
         <div class="row--50-50-on-large p-section">
             <div class="col">
                 <h3 class="p-text--small-caps">Machine-Vision-basierte Konferenzsysteme</h3>
+                <a class="p-button--positive" href="/assets/pdf/Hausarbeit.pdf" target="_blank">PDF ansehen</a>
             </div>
             <div class="col">
                 <p>Inhalt folgt</p>
