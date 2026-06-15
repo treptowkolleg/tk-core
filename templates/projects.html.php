@@ -7,6 +7,9 @@
                     <h1>
                         Unsere Projekte
                     </h1>
+                    <p class="p-heading--2">
+                        Erleben Sie mit uns ausgewählte Erfolge.
+                    </p>
                 </div>
             </div>
             <div class="col">
