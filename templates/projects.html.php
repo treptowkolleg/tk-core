@@ -17,7 +17,8 @@
         <div class="row--50-50-on-large p-section">
             <div class="col">
                 <h3 class="p-text--small-caps">Alumni-Portal des Zweiten Bildungsweges</h3>
-                <p class="p-text--small">StayFriends ist unübersichtlich, teilweise kaputt und schaltet massiv Werbung. Außerdem sind
+                <p class="p-text--small">StayFriends ist unübersichtlich, teilweise kaputt und schaltet massiv Werbung.
+                    Außerdem sind
                     Kommunikationsfunktionen immer an ein Abo gebunden. Genau das wollten wir ändern. Gemeinsam mit Sami
                     habe ich das Alumni-Portal initiiert – eine kostenfreie, unabhängige Plattform, die speziell auf die
                     Bedürfnisse von Kollegiaten und Abendgymnasiasten zugeschnitten ist. Werbefrei. Komplett kostenlos.
@@ -50,6 +51,17 @@
         <div class="row--50-50-on-large p-section">
             <div class="col">
                 <h3 class="p-text--small-caps">Informatik AG</h3>
+                <p class="p-text--small">
+                    Konsolenanwendungen sind wichtig für die Grundlagen, aber sie begeistern keine neuen Schüler.
+                    Genau hier setzt TicTacToe an. Für die Informatik AG habe ich dieses klassische Spiel mit JavaFX
+                    umgesetzt – als perfekten Brückenschlag von der reinen Logik hin zu einer grafischen
+                    Benutzeroberfläche. Die App ist mehr als nur X und O: Sie dient als praxisnahes Lehrprojekt, um
+                    Konzepte wie Objektorientierung, Event-Handling und das MVC-Pattern greifbar zu machen. Statt
+                    trockener Theorie sehen die Schüler sofort das visuelle Ergebnis ihres Codes. Ein motivierender
+                    Einstieg, der Lust auf mehr macht und beweist, dass Informatik nicht nur aus weißem Text auf
+                    schwarzer Konsole besteht.
+                </p>
+                <a class="p-button--positive" href="https://www.github.com/btinet/gamereact" target="_blank">Online ansehen</a>
             </div>
             <div class="col">
                 <div>
