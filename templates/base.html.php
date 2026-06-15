@@ -30,7 +30,7 @@ use TreptowKolleg\Api\Session;
         <script src="/assets/cab.js" type="text/javascript"></script>
         <script src="/assets/canvas.js" type="text/javascript"></script>
 
-        <link rel="stylesheet" href="https://unpkg.com/@highlightjs/cdn-assets@11.9.0/styles/hybrid.min.css">
+        <link rel="stylesheet" href="https://unpkg.com/@highlightjs/cdn-assets@11.9.0/styles/foundation.min.css">
 
         <style>
             details{
@@ -62,20 +62,19 @@ use TreptowKolleg\Api\Session;
     <div class="l-docs">
         <div class="l-docs__header">
 
-            <header id="navigation" class="p-navigation is-dark">
+            <header id="navigation" class="p-navigation is-light">
                 <div class="l-docs__subgrid">
                     <div class="l-docs__sidebar">
                         <div class="p-navigation__banner">
                             <div class="p-navigation__tagged-logo">
                                 <a class="p-navigation__link" href="/">
                                     <div class="p-navigation__logo-tag">
-                                        <img class="p-navigation__logo-icon" src="/assets/img/tk.png"  alt="Logo">
                                     </div>
-                                    <span class="p-navigation__logo-title">AG Informatik</span>
+                                    <span class="p-navigation__logo-title">Civic<b>soft</b></span>
                                 </a>
                             </div>
-                            <a href="#navigation" class="p-navigation__toggle--open" title="menu">Menü</a>
-                            <a href="#navigation-closed" class="p-navigation__toggle--close" title="close menu">Menü schließen</a>
+                            <a href="#navigation" class="p-navigation__toggle--open" title="menu"><i class="p-icon--menu"></i></a>
+                            <a href="#navigation-closed" class="p-navigation__toggle--close" title="close menu"><i class="p-icon--close"></i></a>
                         </div>
                     </div>
                     <div class="l-docs__main">
@@ -83,10 +82,24 @@ use TreptowKolleg\Api\Session;
                             <nav class="p-navigation__nav" aria-label="Example main">
                                 <ul class="p-navigation__items">
                                     <li class="p-navigation__item <?= str_starts_with($_GET['page'], 'docs-') ? 'is-selected' : ''?>">
-                                        <a class="p-navigation__link" href="/">Unterricht</a>
+                                        <a class="p-navigation__link" href="/">Docs</a>
                                     </li>
-                                    <li class="p-navigation__item">
-                                        <a class="p-navigation__link" href="https://discord.com/channels/1435372897928483001" target="_blank">Discord (BHT-MI)</a>
+                                    <li class="p-navigation__item--dropdown-toggle  <?= str_starts_with($_GET['page'], 't-') ? 'is-selected' : ''?>" id="link-2">
+                                        <a href="#" aria-controls="link-2-menu" class="p-navigation__link">Tools</a>
+                                        <ul class="p-navigation__dropdown" id="link-2-menu" aria-hidden="true">
+                                            <li>
+                                                <a href="/?page=t-abirechner" class="p-navigation__dropdown-item">Abi-Rechner</a>
+                                            </li>
+                                            <li>
+                                                <a href="/?page=t-vp" class="p-navigation__dropdown-item">Simulationen</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="p-navigation__item <?= str_starts_with($_GET['page'], 'projects') ? 'is-selected' : ''?>">
+                                        <a class="p-navigation__link" href="/?page=projects">Projekte</a>
+                                    </li>
+                                    <li class="p-navigation__item <?= str_starts_with($_GET['page'], 'partner') ? 'is-selected' : ''?>">
+                                        <a class="p-navigation__link" href="/?page=partner">Partner</a>
                                     </li>
                                     <?php if ($session->get('login')): ?>
                                         <li class="p-navigation__item">
@@ -122,7 +135,7 @@ use TreptowKolleg\Api\Session;
                 <div class="u-hide--large p-strip is-shallow">
                     <div class="u-fixed-width">
                         <a href="#drawer" class="p-side-navigation__toggle js-drawer-toggle" aria-controls="drawer">
-                            Navigation öffnen
+                            Alle Themen
                         </a>
                     </div>
                 </div>
@@ -133,7 +146,7 @@ use TreptowKolleg\Api\Session;
                     <div class="p-strip is-shallow">
                     <div class="p-side-navigation__drawer-header">
                         <a href="#" class="p-side-navigation__toggle--in-drawer js-drawer-toggle" aria-controls="drawer">
-                            Navigation schließen
+                            schließen
                         </a>
                     </div>
                     <?php include "./templates/sidebar.html.php";?>
@@ -145,61 +158,37 @@ use TreptowKolleg\Api\Session;
         // Unterseite einbinden
         include $currentPage ?? './templates/index.html.php';
         ?>
-        <div class="l-docs__subgrid">
-            <div class="l-docs__main">
-                <div class="row">
-                    <div class="col-4 u-vertically-center">
-                        <div>
-                            <small>Mitglied in</small>
-                        </div>
-                    </div>
-                    <div class="col-4 u-vertically-center">
-                        <a href="https://www.dpg-physik.de/" target="_blank">
-                            <img src="/assets/img/dpg.svg" alt="IONOS Logo" height="75" style="vertical-align: middle; max-height: 75px!important;">
-                        </a>
 
-                    </div>
-                    <div class="col-4 u-vertically-center">
-                        <a href="https://www.gi.de" target="_blank">
-                            <img src="/assets/img/gi.svg" alt="IONOS Logo" height="75" style="vertical-align: middle; max-height: 75px!important;">
-                        </a>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-12">&nbsp;</div>
-                </div>
-            </div>
-        </div>
     </div>
-    <footer class="l-footer--sticky p-strip--dark">
-        <div class="l-docs__subgrid">
-            <div class="l-docs__sidebar u-fixed-width">
-                <p class="u-no-margin--bottom">© 2021-<?=date("Y")?><br>Benjamin Wagner</p>
-            </div>
-            <div class="l-docs__main">
-                <div class="row">
-                    <nav class="col-3" aria-label="Footer">
-                        <ul class="p-list u-no-margin--bottom">
-                            <li class="p-list__item">
-                                <a class="is-dark" href="https://abi.treptowkolleg.de" target="_blank">5. PK-Prüfungsthemen</a>
-                            </li>
-                            <li class="p-list__item">
-                                <a class="is-dark" href="https://wahl.wagnerpictures.com" target="_blank">Wahl-App</a>
-                            </li>
-                            <li class="p-list__item">
-                                <a class="is-dark" href="https://www.treptow-kolleg.de" target="_blank">Treptow-Kolleg Berlin</a>
-                            </li>
-                        </ul>
-                    </nav>
-                    <div class="col-9">
-                        <p class="u-no-margin--bottom">
-                            <div class="helper"><span>Ein Projekt der <b>AG Informatik</b> am Treptow-Kolleg Berlin.</span></div>
-                        </p>
+    <footer class="l-footer--sticky p-strip--highlighted">
+        <nav class="row" aria-label="Footer">
+            <ul class="p-inline-list">
+                <li class="p-inline-list__item">
+                    <a href="https://www.dpg-physik.de/" target="_blank">
+                        <img src="/assets/img/dpg.svg" alt="IONOS Logo" height="42" style="vertical-align: middle; max-height: 42px!important;">
+                    </a>
+                </li>
+                <li class="p-inline-list__item">
+                    <a href="https://www.gi.de" target="_blank">
+                        <img src="/assets/img/gi.svg" alt="IONOS Logo" height="42" style="vertical-align: middle; max-height: 42px!important;">
+                    </a>
+                </li>
+            </ul>
+                    <div class="row">
+                        <div class="col-12">&nbsp;</div>
                     </div>
-                </div>
+            <div class="has-cookie">
+                <p>© <?=date("Y")?> Civic<b>soft</b>. Software für öffentliche Einrichtungen, Vereine und Privatpersonen.</p>
+                <ul class="p-inline-list--middot">
+                    <li class="p-inline-list__item">
+                        <a href="#"><small>Impressum</small></a>
+                    </li>
+                    <li class="p-inline-list__item">
+                        <a href="#"><small>Datenschutz</small></a>
+                    </li>
+                </ul>
             </div>
-        </div>
-        <div class="is-wide"><p>&nbsp;</p></div>
+        </nav>
     </footer>
     <script src="/dist/app.js"></script>
     <script>
@@ -261,6 +250,54 @@ use TreptowKolleg\Api\Session;
                     e.preventDefault();
                 });
             }
+
+            function toggleDropdown(toggle, open) {
+                var parentElement = toggle.parentNode;
+                var dropdown = document.getElementById(toggle.getAttribute('aria-controls'));
+                dropdown.setAttribute('aria-hidden', !open);
+
+                if (open) {
+                    parentElement.classList.add('is-active');
+                } else {
+                    parentElement.classList.remove('is-active');
+                }
+            }
+
+            function closeAllDropdowns(toggles) {
+                toggles.forEach(function(toggle) {
+                    toggleDropdown(toggle, false);
+                });
+            }
+
+            function handleClickOutside(toggles, containerClass) {
+                document.addEventListener('click', function(event) {
+                    var target = event.target;
+
+                    if (target.closest) {
+                        if (!target.closest(containerClass)) {
+                            closeAllDropdowns(toggles);
+                        }
+                    }
+                });
+            }
+
+            function initNavDropdowns(containerClass) {
+                var toggles = [].slice.call(document.querySelectorAll(containerClass + ' [aria-controls]'));
+
+                handleClickOutside(toggles, containerClass);
+
+                toggles.forEach(function(toggle) {
+                    toggle.addEventListener('click', function(e) {
+                        e.preventDefault();
+
+                        const shouldOpen = !toggle.parentNode.classList.contains('is-active');
+                        closeAllDropdowns(toggles);
+                        toggleDropdown(toggle, shouldOpen);
+                    });
+                });
+            }
+
+            initNavDropdowns('.p-navigation__item--dropdown-toggle')
         }
     </script>
     </body>

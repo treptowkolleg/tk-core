@@ -1,21 +1,21 @@
 <?php
 
 $tableCountry = [
-    'Code',
-    'Name',
-    'Continent',
-    'Region',
-    'SurfaceArea',
-    'IndepYear',
-    'Population',
-    'LifeExpectancy',
-    'GNP',
-    'GNPOld',
-    'LocalName',
-    'GovernmentForm',
-    'HeadOfState',
-    'Capital',
-    'Code2'
+        'Code',
+        'Name',
+        'Continent',
+        'Region',
+        'SurfaceArea',
+        'IndepYear',
+        'Population',
+        'LifeExpectancy',
+        'GNP',
+        'GNPOld',
+        'LocalName',
+        'GovernmentForm',
+        'HeadOfState',
+        'Capital',
+        'Code2'
 ];
 
 ?>
@@ -37,9 +37,12 @@ $tableCountry = [
                 <h2 class="p-table-of-contents__header">Auf dieser Seite</h2>
                 <nav class="p-table-of-contents__nav" aria-label="Table of contents">
                     <ul class="p-table-of-contents__list" id="list">
-                        <li class="p-table-of-contents__item"><a class="p-table-of-contents__link is-active" href="#link3">Datenbanken</a></li>
-                        <li class="p-table-of-contents__item"><a class="p-table-of-contents__link" href="#formular">Abfrageformular</a></li>
-                        <li class="p-table-of-contents__item"><a class="p-table-of-contents__link" href="#result">Ergebnistabelle</a></li>
+                        <li class="p-table-of-contents__item"><a class="p-table-of-contents__link is-active"
+                                                                 href="#link3">Datenbanken</a></li>
+                        <li class="p-table-of-contents__item"><a class="p-table-of-contents__link" href="#formular">Abfrageformular</a>
+                        </li>
+                        <li class="p-table-of-contents__item"><a class="p-table-of-contents__link" href="#result">Ergebnistabelle</a>
+                        </li>
                     </ul>
                 </nav>
             </div>
@@ -54,7 +57,8 @@ $tableCountry = [
             <div class="col">
                 <h2 id="link3">Datenbanken</h2>
                 <p>
-                    In diesem Beispiel können SQL-Abfragen über eine API an die angeschlossene Datenbank gestellt werden.
+                    In diesem Beispiel können SQL-Abfragen über eine API an die angeschlossene Datenbank gestellt
+                    werden.
                     Als Rückmeldung erhält man ein Array, das in Tabellenform dargestellt wird.
                 </p>
                 <p>
@@ -62,9 +66,14 @@ $tableCountry = [
                 </p>
                 <h3>Schul-Datenbank</h3>
                 <ul>
-                    <li><a href="/docs/img/abitraining.pdf" target="_blank">Struktur</a> der Abitur-Training-Datenbank.</li>
-                    <li><a href="/docs/img/abitrainingAufgaben.pdf" target="_blank">Aufgaben</a> zur Prüfungsvorbereitung.</li>
-                    <li><a href="/docs/img/1_SQLAbiturvorbereitungLoesung.pdf" target="_blank">Lösungen</a> zu den Aufgaben.</li>
+                    <li><a href="/docs/img/abitraining.pdf" target="_blank">Struktur</a> der Abitur-Training-Datenbank.
+                    </li>
+                    <li><a href="/docs/img/abitrainingAufgaben.pdf" target="_blank">Aufgaben</a> zur
+                        Prüfungsvorbereitung.
+                    </li>
+                    <li><a href="/docs/img/1_SQLAbiturvorbereitungLoesung.pdf" target="_blank">Lösungen</a> zu den
+                        Aufgaben.
+                    </li>
                 </ul>
                 <details>
                     <summary>ERM (Schule)</summary>
@@ -88,14 +97,16 @@ $tableCountry = [
                         <div class="col-12">
                             <label for="db">Datenbank</label>
                             <select class="u-text-max-width" id="db" name="db" required>
-                                <?php if(isset($_POST['db'])):?>
+                                <?php if (isset($_POST['db'])): ?>
                                     <option value="">Datenbank wählen...</option>
-                                    <option value="tk01" <?=$_POST['db'] == 'tk01' ? 'selected' : '' ?>>Schule</option>
-                                    <option value="tk04" <?=$_POST['db'] == 'tk04' ? 'selected' : '' ?>>Wagner Pictures</option>
-                                    <?php else: ?>
-                                        <option value="">Datenbank wählen...</option>
-                                        <option value="tk01">Schule</option>
-                                        <option value="tk04">Wagner Pictures</option>
+                                    <option value="tk01" <?= $_POST['db'] == 'tk01' ? 'selected' : '' ?>>Schule</option>
+                                    <option value="tk04" <?= $_POST['db'] == 'tk04' ? 'selected' : '' ?>>Wagner
+                                        Pictures
+                                    </option>
+                                <?php else: ?>
+                                    <option value="">Datenbank wählen...</option>
+                                    <option value="tk01">Schule</option>
+                                    <option value="tk04">Wagner Pictures</option>
 
                                 <?php endif; ?>
                             </select>
@@ -104,7 +115,8 @@ $tableCountry = [
                     <div class="p-form__group row">
                         <div class="col-12">
                             <label for="query">SQl-Query</label>
-                            <textarea style="font-family: monospace" rows="8" class="u-text-max-width" id="query" name="query" required><?= trim($response['origin']['query'] ?? '') ?></textarea>
+                            <textarea style="font-family: monospace" rows="8" class="u-text-max-width" id="query"
+                                      name="query" required><?= trim($response['origin']['query'] ?? '') ?></textarea>
                         </div>
                     </div>
                     <div class="row">
@@ -116,16 +128,16 @@ $tableCountry = [
             </div>
             <div class="col">
                 <?php if (isset($message) and !empty($message)): ?>
-                <?php $messages = explode(':',$message) ?>
+                    <?php $messages = explode(':', $message) ?>
                     <div class="p-notification--caution">
                         <div class="p-notification__content">
                             <h5 class="p-notification__title">Rückmeldung</h5>
                             <p class="p-notification__message">
-                                <ul class="p-list">
-                                    <?php foreach ($messages ?? [] as $item): ?>
-                                         <li class="p-list__item"><?=$item?></li>
-                                    <?php endforeach; ?>
-                                </ul>
+                            <ul class="p-list">
+                                <?php foreach ($messages ?? [] as $item): ?>
+                                    <li class="p-list__item"><?= $item ?></li>
+                                <?php endforeach; ?>
+                            </ul>
                             </p>
                         </div>
                     </div>
@@ -135,17 +147,17 @@ $tableCountry = [
                 <h2 id="result">Ergebnistabelle</h2>
                 <table>
                     <thead>
-                        <tr>
+                    <tr>
                         <?php foreach ($columns ?? [] as $column): ?>
-                            <th><?=$column?></th>
+                            <th><?= $column ?></th>
                         <?php endforeach; ?>
-                        </tr>
+                    </tr>
                     </thead>
                     <tbody>
                     <?php foreach ($response['response'] ?? [] as $row): ?>
                         <tr>
                             <?php foreach ($row as $value): ?>
-                                <td><?=$value?></td>
+                                <td><?= $value ?></td>
                             <?php endforeach; ?>
                         </tr>
                     <?php endforeach; ?>

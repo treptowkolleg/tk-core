@@ -46,7 +46,7 @@ $result = $benford->analyzeForBenfordsLaw($integersToTest);
                 Der aktuelle Browser unterst&uuml;tzt kein HTML5 / canvas. Es wird empfohlen, eine neuere Version von Mozilla Firefox oder Google Chrome als Browser zu verwenden.
             </canvas>
 
-            <div id="fps" style="color: #666666;">fps = 0</div>
+
 
             <script>
                 var canvas = document.getElementById('myCanvas');

@@ -161,6 +161,8 @@ $mainMenu
     ->addMenuItem(new MenuItem('Abi-Rechner','abicalc.html','t-abirechner'))
     ->addMenuItem(new MenuItem('API','docs.html','docs-README.md'))
     ->addMenuItem(new MenuItem('Vertretungsplan','vp.html','t-vp'))
+    ->addMenuItem(new MenuItem('Partner','partner.html','partner'))
+    ->addMenuItem(new MenuItem('Projekte','projects.html','projects'))
 ;
 $sidebar = new SidebarMenu('Interaktiv');
 $sidebar

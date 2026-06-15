@@ -1,9 +1,16 @@
 # AG Informatik
 
-Aktuell findet die **AG Informatik** immer freitags 12:30 Uhr im Raum A102 statt.
+<div class="p-notification--positive">
+                                <div class="p-notification__content">
+                                    <h5 class="p-notification__title">Hinweis</h5>
+                                    <p class="p-notification__message">Dieser Bereich wird künfitg in "Projekte" verschoben.</p>
+                                </div>
+                            </div>
+
 
 Meine besondere Lernleistung
-**Machine-Vision als Grundlage zur Entwicklung innovativer Konferenzsysteme. Ein Forschungsprojekt unter dem Aspekt der technischen Informatik**,
+**Machine-Vision als Grundlage zur Entwicklung innovativer Konferenzsysteme. Ein Forschungsprojekt unter dem Aspekt der
+technischen Informatik**,
 die ich mit $\LaTeX$ verfasste, findest du <a href="/assets/pdf/Hausarbeit.pdf" target="_blank">hier als PDF</a>.
 
 Referenz- und Begleitfächer waren Informatik und Physik.
@@ -20,7 +27,7 @@ Die zur BLL entwickelten Java-Projekte sind hier zu finden:
 - Interaktive SQL-Abfragen zu zahlreichen Übungsdatenbanken ✔️
 - Abituraufgaben für Physik ✔️
 - Lerninhalte für Mathematik ✔️
-- 
+-
 
 ## Woran wir arbeiten
 
@@ -84,7 +91,8 @@ mindestens eine weitere Programmiersprache erlernen, nämlich JAVA. Insofern war
 für das Treptow-Kolleg rückblickend eine sehr gute Entscheidung. Mit Abschluss des Abiturs wird mein Jahrgang
 jedoch der letzte sein, der am Treptow-Kolleg das Fach Informatik belegen konnte. Doch wer weiß,
 welche Möglichkeiten sich für die Lernenden des am Standort des Kollegs neu gegründeten Gymnasiums auftun werden.
-In der heutigen Zeit ist zumindest sicher, dass der Informatikunterricht für die berufliche Entwicklung nur von Vorteil sein kann.
+In der heutigen Zeit ist zumindest sicher, dass der Informatikunterricht für die berufliche Entwicklung nur von Vorteil
+sein kann.
 
 ### Studium
 
