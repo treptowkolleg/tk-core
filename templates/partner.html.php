@@ -88,7 +88,7 @@
             <div class="col-small-2 col-medium-2 col-2 u-align--center">
                 <a href="https://www.alumnihub.de" target="_blank" style="text-decoration: none!important; color: #0d0d0d">
                     <img src="/assets/img/android-chrome-512x512.png" alt="Treptow-Kolleg Berlin" height="92" loading="eager" style="max-height:92px;">
-                    <div class="p-text--small">Alumni<b>Hub</b></div>
+                    <div class="p-text--small">AlumniHub</div>
                 </a>
             </div>
             <div class="col-small-2 col-medium-2 col-2 u-align--center">
