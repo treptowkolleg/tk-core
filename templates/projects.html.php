@@ -93,6 +93,10 @@
                         <img class="p-image-container__image "
                              src="/assets/pic/cb_01.png" alt="Campus Buddy">
                     </div>
+                    <div class="p-image-container--3-2">
+                        <img class="p-image-container__image "
+                             src="/assets/pic/cb_02.png" alt="Campus Buddy">
+                    </div>
                 </div>
                 <p>
                     Finde jeden Raum auf Anhieb mit dem interaktiven 3D-Campusmodell und sieh in Echtzeit alle
