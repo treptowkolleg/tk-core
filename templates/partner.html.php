@@ -67,6 +67,14 @@
                 <p>Inhalt folgt</p>
             </div>
         </div>
+        <div class="row--50-50-on-large p-section">
+            <div class="col">
+                <h3 class="p-text--small-caps">JFE am Hultschi</h3>
+            </div>
+            <div class="col">
+                <p>Inhalt folgt</p>
+            </div>
+        </div>
     </section>
 
 
