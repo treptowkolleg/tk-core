@@ -70,7 +70,7 @@ $mdParser = new ParsedownExtra();
 $timetable = []; //$api->getTimeTable("900191508",true);
 
 if (!isset($_GET['page'])) {
-    header("Location: $server?page=docs-README.md", true, 302);
+    header("Location: $server?page=docs-toc.md", true, 302);
     exit;
 }
 

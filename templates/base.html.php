@@ -81,11 +81,11 @@ use TreptowKolleg\Api\Session;
                         <div class="p-navigation__row u-fixed-width">
                             <nav class="p-navigation__nav" aria-label="Example main">
                                 <ul class="p-navigation__items">
-                                    <li class="p-navigation__item <?= str_starts_with($_GET['page'], 'docs-README.md') ? 'is-selected' : ''?>">
-                                        <a class="p-navigation__link" href="/">Home</a>
+                                    <li class="p-navigation__item <?= str_starts_with($_GET['page'], 'docs-toc.md') ? 'is-selected' : ''?>">
+                                        <a class="p-navigation__link" href="/?page=docs-toc.md">Home</a>
                                     </li>
-                                    <li class="p-navigation__item <?= !str_starts_with($_GET['page'], 'docs-README.md') && str_starts_with($_GET['page'], 'docs-') ? 'is-selected' : ''?>">
-                                        <a class="p-navigation__link" href="/?page=docs-toc.md">Docs</a>
+                                    <li class="p-navigation__item <?= !str_starts_with($_GET['page'], 'docs-toc.md') && str_starts_with($_GET['page'], 'docs-') ? 'is-selected' : ''?>">
+                                        <a class="p-navigation__link" href="/?page=docs-README.md">Docs</a>
                                     </li>
                                     <li class="p-navigation__item--dropdown-toggle  <?= str_starts_with($_GET['page'], 't-') ? 'is-selected' : ''?>" id="link-2">
                                         <a href="#" aria-controls="link-2-menu" class="p-navigation__link">Tools</a>
