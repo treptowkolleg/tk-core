@@ -1,13 +1,5 @@
 # AG Informatik
 
-<div class="p-notification--positive">
-                                <div class="p-notification__content">
-                                    <h5 class="p-notification__title">Hinweis</h5>
-                                    <p class="p-notification__message">Dieser Bereich wird künfitg in "Projekte" verschoben.</p>
-                                </div>
-                            </div>
-
-
 Meine besondere Lernleistung
 **Machine-Vision als Grundlage zur Entwicklung innovativer Konferenzsysteme. Ein Forschungsprojekt unter dem Aspekt der
 technischen Informatik**,
