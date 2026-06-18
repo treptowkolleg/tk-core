@@ -86,6 +86,7 @@
                     dein Campus Buddy um deinen mobilen Alltag. Tagesaktuelle und personalisierte Infos sind immer
                     griffbereit. Nicht nur für Studierende, sondern auch für Lehrende.
                 </p>
+                <a class="p-button--positive" href="https://campusbuddy.civicsoft.de" target="_blank">Online ansehen</a>
             </div>
             <div class="col">
                 <div>
