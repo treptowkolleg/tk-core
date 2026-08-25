@@ -1,5 +1,15 @@
 # Elektronik und Elektrotechnik
 
+Ziel ist es, dass wir in diesem Semester eine umfangreiche Ampelsteuerung entwickeln und programmieren.
+Bis wir jedoch soweit sind, schauen wir uns die Grundlagen der Elektrotechnik, der Logik und der maschinennahen
+Programmierung an.
+
+Die geplante Ampelsteuerung soll insgesamt vier bis fünf Kreuzungen enthalten (je nach Anzahl der Teilnehmenden).
+Wir entwerfen die Schaltungen anhand von LEGO-City-Straßenplatten. So, dass das Endergebnis als dauerhaftes Projekt
+in der Schule ausgestellt werden kann.
+
+Optional entwerfen wir außerdem eine Tag-/Nacht-Lichtsteuerung für die Straßenbeleuchtung.
+
 ## Bauelemente
 
 | Element     | Schaltzeichen                                             |
