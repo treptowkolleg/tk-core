@@ -179,3 +179,7 @@ Der Strom kann immer dann durch die LED fließen (Output), sobald wir mindestens
 **Logikdiagramm**
 
 ![img.png](/docs/img/or.png)
+
+## Ampel
+
+![img.png](/docs/img/circuit-a-ampel-1.png)
