@@ -40,8 +40,8 @@
 
     <section class="p-section">
         <div class="row">
-        <hr class="p-rule">
-        <h2>Erfolgsgeschichten</h2>
+            <hr class="p-rule">
+            <h2>Erfolgsgeschichten</h2>
         </div>
         <div class="row--50-50-on-large p-section">
             <div class="col">
@@ -61,7 +61,7 @@
         </div>
         <div class="row--50-50-on-large p-section">
             <div class="col">
-                <h3 class="p-text--small-caps">Gymnasium A1Y23</h3>
+                <h3 class="p-text--small-caps">Gymnasium 09Y12</h3>
             </div>
             <div class="col">
                 <p>Inhalt folgt</p>
@@ -70,14 +70,6 @@
         <div class="row--50-50-on-large p-section">
             <div class="col">
                 <h3 class="p-text--small-caps">JFE am Hultschi</h3>
-            </div>
-            <div class="col">
-                <p>Inhalt folgt</p>
-            </div>
-        </div>
-        <div class="row--50-50-on-large p-section">
-            <div class="col">
-                <h3 class="p-text--small-caps">TU Berlin</h3>
             </div>
             <div class="col">
                 <p>Inhalt folgt</p>
@@ -94,20 +86,34 @@
         </div>
         <div class="row u-vertically-center">
             <div class="col-small-2 col-medium-2 col-2 u-align--center">
-                <a href="https://www.alumnihub.de" target="_blank" style="text-decoration: none!important; color: #0d0d0d">
-                    <img src="/assets/img/android-chrome-512x512.png" alt="Treptow-Kolleg Berlin" height="92" loading="eager" style="max-height:92px;">
+                <a href="https://www.alumnihub.de" target="_blank"
+                   style="text-decoration: none!important; color: #0d0d0d">
+                    <img src="/assets/img/android-chrome-512x512.png" alt="Treptow-Kolleg Berlin" height="92"
+                         loading="eager" style="max-height:92px;">
                     <div class="p-text--small">AlumniHub</div>
                 </a>
             </div>
             <div class="col-small-2 col-medium-2 col-2 u-align--center">
-                <a href="https://www.treptow-kolleg.de" target="_blank" style="text-decoration: none!important; color: #0d0d0d">
-                    <img src="/assets/img/tk.png" alt="Treptow-Kolleg Berlin" height="92" loading="eager" style="max-height:92px;">
+                <a href="https://www.treptow-kolleg.de" target="_blank"
+                   style="text-decoration: none!important; color: #0d0d0d">
+                    <img src="/assets/img/tk.png" alt="Treptow-Kolleg Berlin" height="92" loading="eager"
+                         style="max-height:92px;">
                     <div class="p-text--small">Treptow-Kolleg</div>
                 </a>
             </div>
             <div class="col-small-2 col-medium-2 col-2 u-align--center">
-                <a href="https://www.jetbrains.com" target="_blank" style="text-decoration: none!important; color: #0d0d0d">
-                    <img src="/assets/img/jetbrains-01.svg" alt="JetBrains" height="92" loading="eager" style="max-height:92px;">
+                <a href="https://gemeinde-schoenefeld.de/mein-schoenefeld-bildung-und-erziehung-schule-und-hort/interkommunale-grundschule/" target="_blank"
+                   style="text-decoration: none!important; color: #0d0d0d">
+                    <img src="/assets/img/Schoenefeld_Logo_2024_RGB-01-01.png" alt="Interkommunale Grundschule" height="92" loading="eager"
+                         style="max-height:92px;">
+                    <div class="p-text--small">IG Schönefeld/Schulzendorf</div>
+                </a>
+            </div>
+            <div class="col-small-2 col-medium-2 col-2 u-align--center">
+                <a href="https://www.jetbrains.com" target="_blank"
+                   style="text-decoration: none!important; color: #0d0d0d">
+                    <img src="/assets/img/jetbrains-01.svg" alt="JetBrains" height="92" loading="eager"
+                         style="max-height:92px;">
                     <div class="p-text--small">JetBrains</div>
                 </a>
             </div>

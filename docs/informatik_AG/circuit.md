@@ -31,7 +31,7 @@ Damit ein Strom fließen kann, brauchen wir einen geschlossenen Stromkreis.
 1. Spannungsquelle
 2. Verbraucher (Widerstand)
 
-Ein Widerstand verbraucht Strom und wird dabei warm. Damit wir aber auch sehen, dass gerade
+Ein Widerstand begrenzt den Strom und wird dabei warm. Damit wir aber auch sehen, dass gerade
 ein Strom fließt, schalten wir hinter den Widerstand noch eine **LED**.
 
 **Schaltplan**
