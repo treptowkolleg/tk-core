@@ -183,3 +183,5 @@ Der Strom kann immer dann durch die LED fließen (Output), sobald wir mindestens
 ## Ampel
 
 ![img.png](/docs/img/circuit-a-ampel-1.png)
+![img.png](/docs/img/circuit-a-ampel-002.png)
+![img.png](/docs/img/circuit-a-double-shift.png)
