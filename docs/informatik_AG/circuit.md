@@ -160,7 +160,7 @@ Wir können sogar beide Taster gleichzeitig drücken.
 ![img.png](/docs/img/circuit-or.png)
 
 **Erklärung:**
-Der Strom kann immer dann durch die LED fließen (Output), sobald wir mindestens einen der Taster (Input A und B) drücken.
+Der Strom kann immer dann durch die LED fließen (Output), sobald wir mindestens einen der Taster (Input A oder B) drücken.
 
 **Steckbrett**
 
