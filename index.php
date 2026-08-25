@@ -188,6 +188,7 @@ function getName(string $file): ?string
         'cases' => 'Fälle',
         'co' => 'Rechnerorganisation',
         'cflow' => 'Control Flow',
+        'circuit' => 'Elektronik',
         'typsystem' => 'Typsystem',
         '_index' => 'Einleitung',
         'pl' => 'Programmiersprachen',
